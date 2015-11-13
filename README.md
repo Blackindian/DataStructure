@@ -1,13 +1,9 @@
-# DataStructure
-Data Structure Quality Course Website 
 # [DataStructure](https://xgqfrms.github.io/DataStructure)
 
-[![Version](https://github.com/xgqfrms/DataStructure/tree/gh-pages/images)](https://xgqfrms.github.io/DataStructure)
+##Data Structure Quality Course Website 
+[![Version](https://github.com/xgqfrms/DataStructure/blob/gh-pages/images/logo.svg)](https://xgqfrms.github.io/DataStructure)
+[![X](https://github.com/xgqfrms/DataStructure/blob/gh-pages/images/Windmill%20.png)](https://xgqfrms.github.io/DataStructure)
 
-/
-*
-*
+###LINK:
 *https://xgqfrms.github.io/DataStructure/
-*
-*
-/
+
