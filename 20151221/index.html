@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>mouse drag and drop</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url(images/baidu_demo.png);
+		background-repeat: no-repeat;
+		background-position: top;
+		/*top == top center*/
+		background-color: #abcdef;
+		font-size: 12px;
+		font-family: "Josefin Sans",sans-serif;
+		/*"Shadows Into Light",cursive;*/
+	}
+    .ui-dialog{
+    	width: 380px;
+    	height: auto;
+    	position: absolute;
+    	z-index: 9999;
+    	/*background-color: red;*/
+    	background-color: #ffffff;
+    	top: 100px;
+    	left: 100px;
+
+    }
+    .ui-dialog-title{
+    	background-color: #f1f1f1;
+    	height: 48px;
+    	line-height: 48px;
+    	padding-left: 20px;
+    	font-size: 16px;
+    	font-style: normal;
+		font-family: "Shadows Into Light",cursive;
+		color: #535353;
+		border-bottom: 1px solid #efefef;
+		cursor: move;
+    }
+/*    .ui-dialog-title span{
+    	background: url(images/G.png);
+    	background-repeat: no-repeat;
+    	background-color: #f1f1f1;
+    	color: #535353;
+    	background-position: left;
+    	padding-left: 25px;
+    }*/
+    .ui-dialog-title span{
+    	background: url(images/G1.png);
+    	/*background: url(images/baidu_logo.png);*/
+    	background-repeat: no-repeat;
+    	background-color: #f1f1f1;
+    	color: #535353;
+    	background-position: left;
+    	padding-left: 144px;
+    }
+    .ui-dialog-closebutton span{
+    	overflow: hidden;
+    	display: none;
+    }
+    .ui-dialog-closebutton{
+    	position: absolute;
+    	background: url(images/close_def.png);
+    	background-repeat: no-repeat;
+    	display:block;
+    	width: 16px;
+    	height: 16px;
+    	top: 12px;
+    	right: 20px;
+    	border: 1px solid red;16   }
+    .ui-dialog-closebutton:hover{
+    	position: absolute;
+    	background: url(images/close_hov.png);
+    	background-repeat: no-repeat;
+    	display:block;
+    	width: 16px;
+    	height: 16px;
+    	top: 12px;
+    	right: 20px;
+    	border: 1px solid green;
+    }
+    .ui-dialog-content{
+    	x
+    }
+    .ui-dialog-input{
+    	x
+    }
+    .ui-dialog-input input{
+    	margin-left: 30px;
+    }
+    #username{
+    	display:block;
+    	background: url(images/user.png);
+    	background-repeat: no-repeat;
+    	width: 277px;
+    	height: 29px;
+    	border-radius: 1px solid red;
+    	padding-left: 30px;
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    }
+    #username:click{
+    	/*click color 改变*/
+    }
+    #password:click{
+    	/*click color 改变*/
+    }
+    #password{
+    	display:block;
+    	background: url(images/pass.png);
+    	background-repeat: no-repeat;
+    	width: 277px;
+    	height: 29px;
+    	border-radius: 1px solid red;
+    	padding-left: 30px;
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    }
+    #autologin{
+    	display: block;
+    	/*overflow: left;*/
+    	margin-left: 50px;
+    	margin-top: -15px;
+
+    }
+    .ui-dialog-input label{
+    	/*overflow: left;*/
+    	display: none;
+    }
+    .ui-dialog-submit{
+    	margin: 10px;
+    }
+    .ui-dialog-submit input{
+    	background-color: #3f89ec;
+    	color: #ffffff;
+    	font-size: 18px;
+    	font-style: normal;
+		font-family: Arial, Helvetica, STHeiti, 宋体;
+		border-radius: 2px;
+		height: 30px;
+		width: 200px;
+		/*padding-left: 20px;*/
+		margin-left: 50px;
+
+    }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="ui-dialog">
+	<div class="ui-dialog-title">
+	<span><!-- 登陆Google账号 --></span>		
+	</div>
+	<div class="ui-dialog-closebutton">
+		<a href="https://www.google.com.hk/?hl=zh-cn&gws_rd=cr,ssl"></a>
+		<span id="tangram__PSP_2__titleText">登录Google帐号</span>
+	</div>
+	<div class="ui-dialog-content">
+	<form action="https://www.google.com.hk/search?q=xgqfrms" method="POST" autocomplete="on">
+		<div class="ui-dialog-input">
+		<p>
+			<label for="username" >手机/邮箱/用户名</label>
+			<input type="text" id="username" name="username" placeholder="手机/邮箱/用户名" autocomplete="on"/>
+			<span></span>
+		</p>
+		<p>
+			<label for="password">密码</label>
+			<input type="password" id="password" name="password" placeholder="密码"/>
+			<span></span>
+		</p>
+		<p>
+			<input type="checkbox" id="remember_pass" name="remember_pass" placeholder="下次自动登陆"/>
+			<label id="autologin" for="remember_pass">下次自动登陆</label>
+			<span></span>
+		</p>
+			
+			
+		</div>
+		<div class="ui-dialog-submit">
+		<p>
+			<input type="submit" id="submit" name="submit" value="登录"/>
+			<a href="#">忘记密码</a>
+			<a href="#">快速注册</a>
+		</p>
+			
+		</div>
+	</form>
+	</div>
+</div>
+</div>
+</body>
+</html>
