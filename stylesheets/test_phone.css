@@ -22,8 +22,9 @@ body{
 }
 #myHeader span{
     margin: 0;
-    padding-left: 12%;
-	font-size: 3rem;
+    padding-left: 0px;
+	font-size: 1rem;
+	color: green;
 }
 #myHeader a{
     margin: 0;
@@ -34,8 +35,11 @@ body{
     border-radius: 23px;
     margin:0;
     padding: 0;
+	/*
     width:56px;
-    height: 56px;
+    height: 56px;*/
+	width:10%;
+    height: 80%;
 }
 .container1{
     display: block;
@@ -52,10 +56,10 @@ body{
     padding-top: 50px;
 }
 /*
-*ÐÞ¸Ä #fp-nav ul li .fp-tooltip
-*ÐÞ¸Ä fp-controlArrow .fp-prev
-*ÐÞ¸Ä fp-controlArrow .fp-next
-*ÐÞ¸Ä fp-slidesNav.bottom
+*ä¿®æ”¹ #fp-nav ul li .fp-tooltip
+*ä¿®æ”¹ fp-controlArrow .fp-prev
+*ä¿®æ”¹ fp-controlArrow .fp-next
+*ä¿®æ”¹ fp-slidesNav.bottom
 */
 #fp-nav ul li .fp-tooltip{
     color: #ff0000;

@@ -15,6 +15,20 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullpage.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/test.css" media="screen">
+ <!--CSS3 Media Query
+    <1:link元素中的CSS媒体查询 >
+    <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+
+    <2:样式表中的CSS媒体查询 >
+    <style>
+    @media (max-width: 600px) {
+     .facet_sidebar {
+        display: none;
+       }
+    }
+    </style>
+    -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/test_phone.css" media="(max-width: 480px)">
     <!--CDN
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.css" media="screen">
     -->
@@ -24,7 +38,7 @@
 
 <div class="container1" id="fullpage">
     <header>
-        <div id="myHeader">
+        <div id="myHeader" class="myHeader">
             <a href="http://www.henau.edu.cn/index.html" target="_blank"><img src="images/icon.png" alt="logo.png"/></a>
             <span>
                 Data Structure Quality Course Website
