@@ -22,9 +22,9 @@ body{
 }
 #myHeader span{
     margin: 0;
-    padding-left: 0px;
+    padding-left: 1%;
 	font-size: 1rem;
-	color: green;
+	color: red;
 }
 #myHeader a{
     margin: 0;
@@ -34,12 +34,13 @@ body{
     border: 1px solid black;/*red test*/
     border-radius: 23px;
     margin:0;
+	margin-top: 1%;
     padding: 0;
+    width:36px;
+    height: 36px;
 	/*
-    width:56px;
-    height: 56px;*/
 	width:10%;
-    height: 80%;
+    height: 70%;*/
 }
 .container1{
     display: block;
