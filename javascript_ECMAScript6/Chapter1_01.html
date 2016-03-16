@@ -44,7 +44,7 @@
 		height: 100px;
 		/*background: url(Let’s Encrypt _HTTPS.PNG);*/
 		color: red;
-		background-color: green;
+		background-color: #000000;
 	}
 	</style>
 <!-- head script -->
@@ -179,10 +179,9 @@ function hello(){
 	</div>
 	<div class="item item4">
 		<form name="form_img_upload" class="form_php" action="html_form_action.php" method="post" enctype="multipart/from-data">
-		
-		<input type="file" accept="image/*" name="img_upload" value="upload_img" />
-		<!-- <input type="file" accept="image/*" name="img_upload" value="upload_img" class="upload_img" />	 -->
+		<input type="file" accept="image/*" name="img_upload" value="upload_img" class="upload_img" />	
 		<!-- <input type="image" src="Let’s Encrypt _HTTPS.PNG" alt="Submit">  -->
+		<input type="submit" value="submit_img">
 		<select>
 		  <option value="volvo">Volvo</option>
 		  <option value="saab">Saab</option>
