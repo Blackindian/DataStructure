@@ -1,0 +1,857 @@
+﻿**********************************************************************************************
+Acer Aspire E1-471G-53214G50Mnks 
+CPU：BGA/rPGA ？
+英特尔CPU version 查询(Processors)
+ Intel® Product Specifications:
+http://ark.intel.com/#@Processors
+
+Google Atom IDE:
+A hackable text editor for the 21st Century:
+https://atom.io/
+
+Chrome
+SafeSearch：
+https://support.google.com/websearch/answer/510?hl=en&rd=1
+SafeSearch is locked across all Google domains
+https://www.google.com/preferences/sslock?res=1&code=0&hl=en&prev=%2Fpreferences%3Fhl%3Den%26prev%3Dhttps%3A%2F%2Fwww.google.com%2F&sig=AAm6Z9sAAAAAVrR71egFzfivChuddIiMaMCWbzgswW8O
+
+http://www.cnblogs.com/front-end-ralph/p/5190442.html
+30行代码实现Javascript中的MVC
+
+
+***********************************************
+***********************************************
+diigoer_app_0.1.0_02.apk
+Test Account: Tikitoo1, password:abc123456
+https://github.com/Tikitoo/Diigoer
+
+Android_Studio_before installed:
+Android_Studio_after installed:
+
+Android Studio - No JVM Installation found?
+http://stackoverflow.com/questions/24898684/android-studio-no-jvm-installation-found
+Android_Studio error handler:
+JAVA_HOME
+H:\Program Files\Java\jdk1.8.0_25
+
+<uses-sdk>：
+http://developer.android.com/guide/topics/manifest/uses-sdk-element.html
+Platform Version,	API Level,	VERSION_CODE,	Notes
+Android 6.0,	23,	M,	API Changes
+
+Dashboards：
+http://developer.android.com/about/dashboards/index.html
+Version	Codename	API	Distribution
+2.2	Froyo	8	0.1%
+2.3.3 -
+2.3.7	Gingerbread	10	2.7%
+4.0.3 -
+4.0.4	Ice Cream Sandwich	15	2.5%
+4.1.x	Jelly Bean	16	8.8%
+4.2.x	17	11.7%
+4.3	18	3.4%
+4.4	KitKat	19	35.5%
+5.0	Lollipop	21	17.0%
+5.1	22	17.1%
+6.0	Marshmallow	23	1.2%
+
+android 常见分辨率（mdpi、hdpi 、xhdpi、xxhdpi ）及屏幕适配注意事项
+xlarge (xhdpi): 640x960
+large (hdpi): 480x800
+medium (mdpi): 320x480          mdpi?
+small (ldpi): 240x320
+
+hdpi = mdpi * 1.5
+xhdpi = mdpi * 2
+xxhdpi = mdpi *3
+
+1080p（分辨率为1920×1080像素，所谓的p就是progressive scan，意思为逐行扫描）和720p（1280×720像素）
+
+
+手机常见分辨率:
+4:3
+VGA     640*480 (Video Graphics Array)
+QVGA  320*240 (Quarter VGA)
+QCIF    176×144像素(Quarter CIF)
+QCIF     176×220像素（new）
+Common Intermediate Format：CIF
+
+HVGA  480*320 (Half-size VGA)
+SVGA  800*600 (Super VGA)
+
+XGA   1024×768像素就不再基于VGA的标准，转为XGA
+SXGA+（1400×1050像素）
+UXGA（1600×1200像素）
+QXGA（2048×1536像素）
+5:3
+WVGA  800*480 (Wide VGA)
+WSVGA（1024×600分辨率）
+WXGA（1280×800像素）
+WXGA+（1440×900像素）
+WSXGA+（1680×1050像素）
+WUXGA（1920×1200像素）
+WQXGA（2560×1600像素）
+
+16:9
+FWVGA 854*480 (Full Wide VGA)
+
+HD        1920*1080 High Definition
+QHD     960*540
+720p    1280*720  标清
+1080p  1920*1080 高清
+手机:
+iphone 4/4s    960*640 (3:2)
+iphone5         1136*640
+小米1             854*480(FWVGA)
+小米2             1280*720
+
+AndroidManifest.xml设置:
+http://blog.csdn.net/sarsscofy/article/details/9249397
+分辨率对应DPI
+"HVGA    mdpi" 48x48
+"WVGA   hdpi " 72x72 (default ？)
+"FWVGA hdpi "  72x72
+"QHD      hdpi "  72x72
+"720P     xhdpi" 96x96
+"1080P   xxhdpi " 144x144
+?
+"2K  xxxhdpi " 192x192
+"4K   xxxxhdpi "
+
+?？？？？  dpi&&ppi ？？？？？？？
+PPI vs. DPI: what’s the difference?
+https://99designs.com/designer-blog/2013/02/26/ppi-vs-dpi-whats-the-difference/
+
+Honor 4C dpi: 1280x720 Resolution 
+dpi love - Easily find the DPI/PPI of any screen .
+http://dpi.lv/  294 pixels per inch 
+
+http://www.gsmarena.com/huawei_honor_4c-7203.php
+720 x 1280 pixels (~294 ppi pixel density)
+http://gadgets.ndtv.com/huawei-honor-4c-2603
+Resolution 	720x1280 pixels
+Pixels per inch (PPI) 	294 
+
+
+Android Studio Cookbook:
+Image
+http://www.finiware.nl/
+
+****************************************************************
+EmptyThrowable: Failed to fetch URL https://dl.google.com/android/repository/addons_list-2.xml, reason: connect timed out
+***************************************************************
+1
+http://stackoverflow.com/questions/27602279/error-when-run-android-studio-ide/27606743#27606743
+2
+然后再把最后一行改成连接GOOGLE的HOSTS文件，变成
+# ::1             localhost
+# 74.125.237.1 dl-ssl.google.com
+
+H:\Android\AndroidStudio\bin
+用记事本打开idea.properties文件，最后一行添加：
+disable.android.first.run=true
+
+http://jingyan.baidu.com/article/00a07f3846983582d028dc88.html   bug
+3
+Android SDK 安装连接超时无法读取URL解决方法:
+关闭翻墙代理：Lantern？
+
+
+Android Open Source Project - Issue Tracker:
+https://code.google.com/p/android/
+
+Project Hosting on Google Code:
+https://code.google.com/hosting/
+Google Summer of Code:
+https://developers.google.com/open-source/gsoc/?csw=1
+
+https://summerofcode.withgoogle.com/
+
+
+
+BlueStacks2 ?????
+
+Etymology Dictionary:词源词典
+(培根词汇 - 英语词根词源词典)
+http://www.etymonline.com/
+
+FotoMorph:
+http://fotomorph.findmysoft.com/download/
+
+Genymotion破解
+http://www.52pojie.cn/thread-446664-1-1.html
+Genymotion shell 2.6 破解版
+http://hacker-lab.com/anonymizer/anonym-serf.php?session_new=aHR0cDovL2Rvd25sb2FkLmNzZG4ubmV0L2RldGFpbC9taW5nMTMzLzkzMjk2Nzk$?
+
+Android Developer Tools:
+http://developer.android.com/tools/help/adt.html
+Installing the Android SDK:
+http://developer.android.com/sdk/installing/index.html
+ADT Plugin Release Notes:
+https://dl-ssl.google.com/android/eclipse/
+
+Genymotion Plugin can't show in Eclipse
+解决方案：去除item 的对勾选项！
+Remove the checkmark：Group items by category.
+http://stackoverflow.com/questions/31774417/genymotion-plugin-cant-show-in-eclipse
+
+http://stackoverflow.com/questions/31898532/there-are-no-categorized-items-eclipse-genymotion
+
+
+在使用Android 4.2或更高版本的设备中
+启用开发者模式： 
+“设置”，
+“关于手机”或“关于平板电脑”
+“版本号”2次
+打开Android 彩蛋： 
+“Android 版本”3次
+  点击 字母 3次 / 长按 字母 2秒   
+
+进入手机功能测试模式：
+ 拨号输入： *#*#121314#*#*
+
+Android 开发环境搭建的Errors 处理方法：Eclipse 安装 genymotion 插件 error 的解决方案！原来安装成功了，后来不小心误删了，再也安装不上了！google 后，在官网和 stackoverflow 上，找到了解决方法：（英文的，没有图解，老费劲了！）所以，决定写一个中文图解教程：1. 错误提示！Genymotion Plugin can't show in Eclipse   解决方案：去除item 的对勾选项！
+genymotion 插件无法安装，问题所在：这个URL(http://plugins.genymotion.com/eclipse/ )被设定了访问限制，通过浏览器无法访问，只有通过eclipse 才可以正常访问！
+Remove the checkmark：Group items by category.
+http://stackoverflow.com/questions/31774417/genymotion-plugin-cant-show-in-eclipse
+http://stackoverflow.com/questions/31898532/there-are-no-categorized-items-eclipse-genymotion
+（这是Android开发者提供的一个复活节彩蛋）；
+启用USB调试：
+“开发者选项”➤“调试”➤“USB调试”。
+
+Android ：  API 指南
+https://developer.android.com/intl/zh-cn/guide/index.html
+
+*****************************************************
+bat教程：
+http://www.cnblogs.com/glaivelee/archive/2009/10/07/1578737.html
+http://andylin02.iteye.com/blog/420598
+
+Android apk 安装到genymotion 虚拟机中的方法：
+1.Android drag&drop install apk
+2.Android adb install apk
+3.Android bat install apk
+
+하광건
+马洪刚，不赌才是赢，赌王专访，柴静
+
+Genymotion 安装 apk Error：
+INSTALL_FAILED_NO_MATCHING_ABIS 
+http://stackoverflow.com/questions/24572052/install-failed-no-matching-abis-when-install-apk
+
+http://forum.xda-developers.com/showthread.php?t=2528952
+
+ARM Translation Installer v1.1
+
+ The Open GApps Team
+http://opengapps.org/
+Platform:   Android:     Variant:
+ARM          4.4                 aroma
+ARM64
+x86
+x86_64
+
+
+5.0
+5.1
+6.0
+super
+stock
+full
+mini
+micro
+nano
+pico
+
+Free Screen Recorder:FlashBack Express
+http://www.flashbackrecorder.com/express
+
+
+
+D:\luna\workspace\NDK\bin\classes
+android:id="@+id/xray" 
+
+public class GetString {
+	public static native String getStr();
+
+}
+
+H:\Program Files\Java\jdk1.8.0_72\include
+ jni.h
+
+ jni.h error Android NDK
+http://stackoverflow.com/questions/23122934/eclipse-adt-unresolved-inclusion-jni-h
+
+http://stackoverflow.com/questions/12584255/android-add-native-support-unresolved-jni-h-android-log-h-etc
+
+http://blog.csdn.net/zhubin215130/article/details/39347873
+
+Thanks for registering for your free FlashBack Express licence. 
+Here is your licence key: 
+
+X3TB-NJUF-H2Q3-DCQQ 
+
+Start FlashBack Express v5 and copy and paste this key into the application when prompted.
+
+hosts所在文件夹：
+
+    Windows 系统hosts：
+ C:\Windows\System32\drivers\etc\hosts
+    Android（安卓）系统hosts： /system/etc/hosts
+    Linux系统hosts：
+ /etc/hosts
+
+LINUX操作系统VIM的安装和配置：
+http://jingyan.baidu.com/article/046a7b3efd165bf9c27fa915.html
+
+ServerName www.xray.com
+
+DocumentRoot /wwwroot/www/
+
+Directory /wwwroot/www/
+
+http://www.vim.org/about.php
+
+数字与字符对应关系如下：
+Linux chmod：
+     r=4，w=2，x=1
+	若要rwx属性则4+2+1=7
+	若要rw-属性则4+2=6；
+	若要r-x属性则4+1=7
+
+
+如何在windows 中使用ssh 连接 virtualbox里面的linux 虚拟机
+
+
+
+https://www.google.com/work/chrome/browser/
+
+Android Studio Shortcuts !
+http://www.androiddevelopersolutions.com/2015/02/android-studio-keyboard-short-cut.html
+
+http://developer.android.com/intl/zh-cn/sdk/installing/studio-tips.html
+
+https://www.jetbrains.com/idea/help/meet-intellij-idea.html
+
+https://www.jetbrains.com/idea/help/keyboard-shortcuts-you-cannot-miss.html
+Android provides several options for you to save persistent application data.
+
+Shared Preferences:
+    Store private primitive data in key-value pairs.
+Internal Storage:
+    Store private data on the device memory.
+External Storage:
+    Store public data on the shared external storage.
+SQLite Databases:
+    Store structured data in a private database.
+Network Connection:
+    Store data on the web with your own network server. 
+
+http://www.sqlite.org/
+
+https://developer.android.com/intl/zh-cn/guide/topics/data/data-storage.html#db
+
+sublime 3快捷键： emmet 插件
+ctrl+N  新建
+
+Ctrl+Shift+P   打开命令行:
++ SSH==Set Syntax: HTML  设置当前编程语言格式
+
+Ctrl+P goto anything
+
+! tab 创建HTML5基本结构
+!  ctrl+E
+
+ctrl+]   减小缩进
+ ctrl+[ 增大 缩进
+
+alt+F3 全选所有的选择项
+
+tab===Ctrl+E 输出内容（光标要处于代码末尾}后面）
+
+Ctrl+Enter  下换行=+
+Ctrl+Shift+Enter  上换行
+
+Ctrl+Shift+V 保留源代码的缩进格式
+
+Ctrl+ = 字体放大
+Ctrl+ - 字体缩小
+Emmet 插件：
+
+> 选择下级元素
+$ 自增变量
+ #id_name
+ .class_name
+
+ul>.item$*7         
+ol>.class$#id$*3
+
+Image
+
+dual 2
+triple 3
+quad  4
+quint  5
+sextuple 6
+septuple 7
+octuple  8
+nonuple 9
+tenfold 10
+
+dime  2
+trim   3
+
+tetr 4
+pent 5
+hexa 6 sexa
+hept 7
+octa  8
+nona 9
+deca 10
+
+SDXC（Secure Digital eXtended Capacity）为SD卡的新一代标准，于2009年CES消费电子展提出，为遵循SD 3.0规范之规格。
+
+USB3.1 Type-C vs  Lightning bolt
+
+Base64
+https://zh.wikipedia.org/wiki/Base64
+
+https://cssanimation.rocks/clocks/
+css clocks
+
+https://www.w3.org/TR/dom/
+W3C DOM4
+W3C Recommendation 19 November 2015
+
+ https://events.google.com/io2016/
+
+Tiled Map Editor：
+Tiled 地图编辑器是一种用于通用目的的编辑器。
+http://www.mapeditor.org/
+涪陵区	龙潭镇	星光村委会第一组	夏光乾	男		`512301195307194899		中国邮政储蓄银行		稻麦脱粒机	5T-85A	1	荣昌县田野农机有限公司	重庆吉沃农机有限公司	涪陵区龙潭镇赵金福	340	0	5000134620-03253070	TA21747	340
+
+http://daringfireball.net/projects/markdown/
+Markdown Source:>HTML Source:>HTML Preview:
+http://daringfireball.net/projects/markdown/dingus
+Markdown：
+Markdown is a text-to-HTML conversion tool for web writers.
+http://whatismarkdown.com/
+Take action!
+Demand that your web projects be built with Markdown.
+http://daringfireball.net/projects/smartypants/
+SmartyPants is a free web publishing plug-in for Movable Type, Blosxom, and BBEdit that easily translates plain ASCII punctuation characters into “smart” typographic punctuation HTML entities.
+
+http://alternativeto.net/
+MarkdownPad
+MarkdownPad is a full-featured Markdown editor for Windows.
+http://markdownpad.com/
+Atom
+A hackable text editor for the 21st Century.
+https://atom.io/
+Notepad++
+Notepad++ is a free source code editor and Notepad replacement that supports several languages.
+https://notepad-plus-plus.org/
+
+https://atom.io/
+
+Swift online compiler
+http://swiftstub.com/
+("Swiftstub Running XCode 7.1 Swift 2")
+//Runs automatically. Just start typing.
+//See "About" for shortcutsa
+https://www.youtube.com/user/SkipCasts
+
+前端面试题分享
+http://www.imooc.com/article/5235
+
+
+411481b0384.cdb@sina.cn#26npxm33
+
+
+https://msdn.microsoft.com/zh-cn/library/ms173121.aspx
+访问修饰符（C# 编程指南）
+Visual Studio 2015
+其他版本
+ 所有类型和类型成员都具有可访问性级别，用来控制是否可以在您程序集的其他代码中或其他程序集中使用它们。可使用一下访问修饰符指定声明类型或成员时类型或成员的可访问性。
+
+public
+    同一程序集中的任何其他代码或引用该程序集的其他程序集都可以访问该类型或成员。
+private
+    只有同一类或结构中的代码可以访问该类型或成员。
+protected
+    只有同一类或结构或者此类的派生类中的代码才可以访问的类型或成员。
+internal
+    同一程序集中的任何代码都可以访问该类型或成员，但其他程序集中的代码不可以。
+protected internal
+    由其声明的程序集或另一个程序集派生的类中任何代码都可访问的类型或成员。从另一个程序集进行访问必须在类声明中发生，该类声明派生自其中声明受保护的内部元素的类，并且必须通过派生的类类型的实例发生。
+
+https://onedrive.live.com/
+有限免费商业模式：
+OneDrive 存储空间套餐和计费问题：
+在注册 OneDrive 后，你将获取 5 GB 的存储空间。
+
+
+https://www.visualstudio.com/zh-cn
+Visual Studio Dev Essentials
+免费获取您在任何平台上构建和部署应用程序所需的一切资源。
+https://www.visualstudio.com/features/node-js-vs
+针对 Visual Studio 的 Node.js 工具
+https://code.visualstudio.com/
+Visual Studio Code BETA
+Code Editing. Redefined.
+Build and debug modern web and cloud applications. VS Code is free and available on your favorite platform - Linux, Mac OSX, and Windows. 
+
+https://skydrive.live.com/
+
+https://onedrive.live.com
+
+
+
+在线数据库设计工具 WWW SQL Designer 
+http://ondras.zarovi.cz/sql/demo/?keyword=default
+
+UML 设计工具：visual paradigm
+Paradigm/vioso
+Dear xgqfrms ,
+Thank you for your interest in our product.
+Visual Paradigm Community Edition is available for free for non-commercial use. When you are prompted for an activation code, please input the following code to continue the free usage.
+Copy and paste the code below:
+Z3SKJ-53469-27NUB-6XC8H-N5YA7
+
+http://hacking.kaiyuanshe.cn/landing
+
+UAT (User Acceptance Test)：
+UAT（用户验收测试）
+
+Real Time Synchronization
+实时同步
+http://www.lego.com/en-us/mindstorms/downloads
+LEGO MINDSTORMS EV3
+：Ready to build your EV3 robot
+乐高积木
+链接：http://pan.baidu.com/s/1sk5zu9J 密码：8olq
+SAP Sybase PowerDesigner 16.5.5.2.4734 破解版
+打开浏览器的下载列表：ctrl+J
+
+动软代码生成器: database->C# 数据库操作codes
+http://www.maticsoft.com
+
+http://download.yingjiesheng.com/2016/
+《2016届应届生求职全程指南》（第十版）
+
+1.请用三个词简单概括一下自己。
+（腾讯面试题）
+2.请用英文介绍一下你的家乡。请讲一下你大学学了些什么？
+（华为面试题）
+3.你的缺点是什么？如果我们淘汰你，你认为原因是什么？
+（华为公司面试题）
+
+ＧＦW：
+1.DNS 欺骗（DNS 污染）
+“DNS 欺骗”洋文叫“DNS Spoofing”；“DNS 污染”又称为“域名缓存投毒”，洋文叫“DNS Cache Poisoning”。
+2.IP 封锁（IP 黑名单）？acl
+顾名思义，就是屏蔽某些 IP 地址。
+3.敏感词过滤（关键字过滤）
+ＧＦW 会维护一个很长很长的敏感词列表，并且该列表是经常更新的。
+
+编程随想的博客:
+https://program-think.blogspot.com
+https://ptbooks.1984.city/
+
+FLOSS Manuals 
+http://en.flossmanuals.net/
+FLOSS Manuals is more than a collection of manuals about free and open source software, it is also the community. 
+
+http://www.cmu.edu/
+Carnegie Mellon University：CMU
+卡内基梅隆大学
+《CSAPP》全称
+《Computer Systems A Programmer's perspective》
+http://csapp.cs.cmu.edu/
+《深入理解计算机系统》/
+《程序员所需要了解的计算机知识》
+http://csapp.cs.cmu.edu/3e/students.html
+http://csapp.cs.cmu.edu/3e/instructors.html
+
+《编程珠玑》
+More Programming Pearls: Confessions of a Coder 1st Edition
+Programming Pearls
+
+Code Complete (Second Edition)
+《代码大全(第2版)》
+
+《图灵程序设计丛书:挑战程序设计竞赛(第2版)》
+Programming Contest Challenge Book, the Second Edition
+
+https://www.addthis.com/
+Promote Your Site with the Best Social Tools on the Web
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56e18654c12c5578"></script>
+Sharing Buttons：
+Follow Buttons：
+Marketing Tools：
+Content Recommendations：
+
+http://www.telerik.com/fiddler
+Fiddler
+The free web debugging proxy 
+for any browser, system or platform
+http://www.telerik.com/kendo-ui
+Kendo UI ®
+The Most Complete UI Framework to Speed Up Your HTML/JS Development
+Build rich, smart HTML5 and JavaScript apps for any platform, browser, or device.
+
+https://www.microsoft.com/zh-cn/evalcenter
+TechNet 评估中心:
+
+SQL Server 2016 CTP2.1~SQL Server 2016 CTP3.3
+SQL Server 2016 Community Technology Preview 3.3 (CTP 3.3)
+SQL Server 2016 Release Candidate (RC0) 
+SQL Server 2016  ?
+https://technet.microsoft.com/zh-CN/sqlserver
+SQL Server  中文：
+https://technet.microsoft.com/zh-cn/techjourney.aspx
+在这里，您的经验会满足技术发展的需求
+开发您的潜能 我们将为您提供帮助
+借助 Microsoft 的支持，充分发掘您的职场潜能。TechNet 提供种类丰富的资源，不仅可以帮助您为公司的成功做出贡献，而且可以帮助您成为真正可信赖的 IT 专家。
+https://www.element14.com/community/docs/DOC-80899?ICID=rpimain-feature-products
+Raspberry Pi 3 Model B Technical Specifications
+http://cn.element14.com/buy-raspberry-pi?rd=Raspberry+Pi&selectedCategoryId=&categoryName=%E6%89%80%E6%9C%89%E7%B1%BB%E5%88%AB&categoryNameResp=%25E6%2589%2580%25E6%259C%2589%25E7%25B1%25BB%25E5%2588%25AB
+树莓派 3 B 型
+https://www.farnell.com/raspberrypi-consumer/approved-retailers.php?skus=2525226~1&countryCode=CN&COM=related-widget_RaspberryPi+CMPNULL
+
+河南省郑州市郑东新区龙子湖高校园区河南农业大学
+ 邮编： 450046
+Raspberry Pi "树莓派" 3B多少钱？ 
+有淘宝店面吗？ 包邮不？ 发个链接来！
+
+
+http://thehustle.co/this-website-simulates-what-it-feels-like-to-read-with-dyslexia
+阅读障碍患者
+http://geon.github.io/programming/2016/03/03/dsxyliea
+
+infotmic 平板电脑：
+平板电脑/MID 7寸赢方微 7寸infotmic 安卓2.3系统(MID-70R-R3）
+http://china.makepolo.com/product-detail/100156189434.html
+品牌/型号：MODEX
+产品类型：MID
+处理器：INFOTMIC IMAP210 处理器主频：1GHzGHz
+操作系统：Android 2.3
+内存：256MB DDRII
+存储：内置 4 GB TF 卡  ( 最大 8 GB 可选) 
+屏：尺寸 7寸 分辨率800*480 宽屏
+
+（Mobile Internet Device：MID，移动互联网设备）
+在大电脑或笔记本上显示树莓派图形界面的问题，VNC(Virtual Network Connection)是一个很不错的方案，不但省去了直接的HDMI或模拟视频显示连续，还可以用大电脑的键盘鼠标来控制树莓派。
+http://www.xrdp.org/
+xrdp: An open source remote desktop protocol(rdp) server.
+http://www.realvnc.com/products/vnc/
+https://www.realvnc.com/download/vnc/
+https://www.realvnc.com/products/vnc/raspberrypi/
+Pi Week: Raspberry Pi as Only PC
+https://www.youtube.com/watch?v=7QH6RDzllls
+
+Remote Desktop：
+https://technet.microsoft.com/en-us/library/dn473009.aspx
+
+vulkan
+https://developer.nvidia.com/Vulkan
+Vulkan is a modern cross-platform graphics and compute API currently in development by the Khronos consortium. 
+
+数据库中怎么存放图片？
+两种：
+一种是将图片转化成二进制数据流存入数据库中。（x）
+一种是保存图片的路径，然后前台读取路径去调用图片。(V)
+xgqfrms Blogger
+
+New Out of Box Software (NOOBS) 
+
+aka：(also known as的缩写)
+ 又称； 又名；又叫做；亦称； 
+n. 阿卡（人名） 
+
+（Akamai）阿卡迈技术公司：
+美国Akamai是国际上最大的CDN服务商,它巨大的网络分发能力在峰值时可达到15Gbps。Akamai公司是为数不多的旨在消除Internet瓶颈和提高下载速度的几家新公司之一,是一个致力于网络交通提速的“内容发布”公司，是波士顿高技术区最卓越的新兴企业之一。Akamai公司向全球企业提供发送互联网内容，汇流媒体和应用程序的服务(目前，该公司为15个国家的企业管理着8000多台服务器)。
+
+SeaCloud:
+Link:
+    https://seacloud.cc/f/1280d6d40b/
+Direct Download Link:
+    https://seacloud.cc/f/1280d6d40b/?raw=1 
+
+谷歌验证 (Google Authenticator) 的实现原理是什么？
+
+Sony 索尼 MDR-V150耳机
+
+https://www.eff.org/
+电子前哨基金会: Electronic Frontier Foundation( EFF)
+非盈利组织
+电子前哨基金会是一个国际知名的法律援助公益组织，旨在宣传互联网版权和监督执法机构，总部设在美国。它的使命是 参与和支持那些旨在促使公众了解更多有关计算机和通信领域发展带来的机遇与挑战的教育活动。
+
+
+ImageHTTPS:
+DigiCert Inc
+
+
+网页评论框：如何实现 js 获取 ：
+用户OS信息
+用户Browser信息
+用户IP>Address信息
+。。。
+
+c#中获取cpu序列号、网卡mac地址、ip地址、硬盘序列号、登录用户名、pc类型、计算机名称、物理内存
+
+
+http://www.imxprs.com/free/xgqfrms/xgqfrms
+
+http://localhost/datastructure/javascript_ECMAScript6/Chapter1_01.html
+
+为什么 上传文件的表单中<form>要加属性enctype="multipart/form-data"
+其实form表单在你不写enctype属性时，也默认为其添加了enctype属性值，默认值是enctype="application/x-www-form-urlencoded".这个属性管理的是表单的MIME编码，共有三个值可选：
+ ①application/x-www-form-urlencoded  (默认值)
+ ②multipart/form-data
+ ③text/plain
+常见的MIME类型
+　　超文本标记语言文本 .html,.html text/html
+　　普通文本 .txt text/plain
+　　RTF文本 .rtf application/rtf
+　　GIF图形 .gif image/gif
+　　JPEG图形 .jpeg,.jpg image/jpeg
+　　au声音文件 .au audio/basic
+　　MIDI音乐文件 mid,.midi audio/midi,audio/x-midi
+　　RealAudio音乐文件 .ra, .ram audio/x-pn-realaudio
+　　MPEG文件 .mpg,.mpeg video/mpeg
+　　AVI文件 .avi video/x-msvideo
+　　GZIP文件 .gz application/x-gzip
+　　TAR文件 .tar application/x-tar
+
+HTML转义字符：
+http://tool.oschina.net/commons?type=2
+
+Convert PX to EM:（Pixels to Ems Conversion）
+16 px  === 1em
+http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+
+<li>&#60;  &#62;</li>
+
+\DataStructure\20160301\phpvalidatecode
+
+Haml (HTML abstraction markup language)
+http://haml.info
+
+是的，还有监控代码！
+Ghostery 发现 2 个跟踪器:
+Google Analytics
+http://www.google-analytics.com/analytics.js
+SiteMeter
+http://sm3.sitemeter.com/meter.asp?site=sm3bomooc
+In Their Own Words
+"Site Meter is a free, fast, and easy way to add a web counter to your web page. Not only can it display the number of visitors to your web site, it also keeps statistics on the number of visits each hour and every day. It also provides detailed information about these visitors. These statistics are provided in real time so they are always up-to-date."
+
+1、SublimeLinter = 错误语法
+2、JsMinifier =自动压缩js文件
+3、Sublime CodeIntel =代码自动提示
+4、Bracket Highlighter =代码匹配
+5、CSScomb CSS =属性排序
+6、SublimeTmpl =快速生成文件模板
+7、SideBarEnhancements =设置sublime text2/3支持浏览器预览
+8、ColorPicker =调色盘
+9、Tag = Html格式化
+10、Clipboard History = 剪贴板历史记录
+11、SideBarEnhancements = 侧栏右键功能增强
+12、GBK to UTF8 =GBK转黄成UTF8
+13、SFTP =ftp插件
+14、WordPress = WordPress函数
+15、PHPTidy =排版PHP代码
+15、YUI Compressor =压缩JS和CSS文件
+16、Alignment =代码对齐
+17、Emmet =大名鼎鼎呀
+18、Prefixr =CSS自动添加浏览器前缀
+
+JsFormat：Js代码格式化
+Alignment： 等号对齐（Ctrl+Alt+A）
+AutoPrefixer：用于CSS后处理，补上一些浏览器前缀
+FileDiffs：这个是用来比较文件差异的。
+sidebar：右键open in broswer
+Bracket Highlighter：匹配括号
+docblockr：生成注释插件[文档]
+ConvertToUTF8：转码成utf-8，解决zh-CN乱码
+Sublime CodeIntel：代码补全```需要配置环境```
+git：git
+jQuery：jQuery
+SublimeCodeIntel 作为一个代码提示和补全插件
+ColorPicker调色盘不仅可以查看颜色值，更可以轻松调好颜色。
+Soda Theme  一款自定义编辑器主题
+Quote​HTML 把HTML拼接成js插入字符串
+FileHeader 自动更新保存时间，文件模板
+ Emmet LiveStyle 实时刷新双向修改
+
+
+
+
+Emmet来创建HTML5文档结构:
+html:5或!：HTML5文档类型
+ html:xt：XHTML过渡型文档类型
+ html:xs：XHTML严格型文档类型
+ html:4t：HTML4过渡型文档类型
+ html:4s：HTML4严格型文档类型
+
+What on Earth Am I Here For? Expanded Edition
+ (The Purpose Driven Life)
+ Hardcover – November 21, 2012
+
+
+
+AlphaGo:
+深度神经网络、加强式学习、蒙地卡罗树状搜索三种算法，
+
+free 制作gif图片工具
+
+The NPF driver isn't running.  You may have trouble
+capturing or listing interfaces.
+解决方案：Administrator
+C:\WINDOWS\system32>net start npf
+
+NPF即网络数据包过滤器（Netgroup Packet Filter）是Winpcap的核心部分。
+捕获（capture）
+发送（injection）
+分析性能（analysis capabilities）
+
+关闭服务就输入：net stop npf 即可。
+http://www.winpcap.org/
+WinPcap行业标准的窗口包捕获库
+
+https://encrypted.google.com/search?q=xgqfrms
+
+HSL和HSV色彩空间
+https://en.wikipedia.org/wiki/HSL_and_HSV
+HSV色轮
+HSV模型的圆锥表示适合于在一个单一物体中展示整个HSV色彩空间。
+HSL和HSV在数学上定义为在RGB空间中的颜色的R, G和B的坐标的变换.
+
+HSL和HSV都是一种将RGB色彩模型中的点在圆柱坐标系中的表示法。这两种表示法试图做到比RGB基于笛卡尔坐标系的几何结构更加直观。
+
+HSL即色相、饱和度、亮度（英语：Hue, Saturation, Lightness），又称HSL。HSV即色相、饱和度、明度（英语：Hue, Saturation, Value），又称HSB，其中B即英语：Brightness。
+
+    色相（H）是色彩的基本属性，就是平常所说的颜色名称，如红色、黄色等。
+    饱和度（S）是指色彩的纯度，越高色彩越纯，低则逐渐变灰，取0-100%的数值。
+    明度（V），亮度（L），取0-100%。
+
+HSL和HSV二者都把颜色描述在圆柱坐标系内的点，这个圆柱的中心轴取值为自底部的黑色到顶部的白色而在它们中间的是灰色，绕这个轴的角度对应于“色相”，到这个轴的距离对应于“饱和度”，而沿着这个轴的高度对应于“亮度”，“色调”或“明度”。
+
+http://memcached.org/
+ » memcached是一个高性能分布式的内存对象缓存系统， 通常被用于降低数据库加载压力以提高动态web应用的响应速度。
+
+此扩展使用了libmemcached库提供的api与memcached服务端进行交互。它同样提供了一个session处理器（memcached）。 它同时提供了一个session处理器（memcached）。 
+http://php.net/manual/zh/book.memcached.php
+What is Memcached?
+Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+
+Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.
+
+Memcached is simple yet powerful. Its simple design promotes quick deployment, ease of development, and solves many problems facing large data caches. Its API is available for most popular languages.
+
+
+2016-03-17 4:08 PM
+
+
