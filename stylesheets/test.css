@@ -90,17 +90,6 @@ body{
     padding: 0;
     margin: 0;
 }
-.QRcode{
-    float: right;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    /*background-color: #0000ff;*/
-    width:30%;
-    height: 100%;
-    color: #ffffff;
-    /*opacity: 0.3;*/
-}
 
 .myFooter{
     margin: 0;
@@ -112,6 +101,21 @@ body{
     bottom: 0;
     background-color: #151515;
 }
+.QRcode{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /*background-color: #0000ff;*/
+    /*width:28%;*/
+    height: 100%;
+    color: #ffffff;
+    /*opacity: 0.3;*/
+}
+.myfooter mark{
+	margin-right:5px;
+	padding:0 3px;
+}
 .myfooter{
     float: left;
     position: relative;
@@ -121,7 +125,7 @@ body{
     /*background-color: #ff0000;*/
     /*opacity: 0.3;*/
     /*background-color: #151515;*/
-    width:33%;
+    /*width:40%;*/
     height: 100%;
     /*bottom: 0;*/
     font-size: 20px;
