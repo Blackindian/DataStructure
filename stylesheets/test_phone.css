@@ -52,7 +52,7 @@ body{
 }
 .container1 img{
     width: 80%;
-    height: 70%;
+    height: 35%;
     padding-left: 10%;
     padding-top: 50px;
 }
@@ -62,38 +62,46 @@ body{
 *修改 fp-controlArrow .fp-next
 *修改 fp-slidesNav.bottom
 */
+.fp-controlArrow.fp-next {
+    right: 35px;
+	margin-top: 8px;
+    border-width: 23.5px 0 23.5px 16px;
+    border-color: transparent transparent transparent #fff
+}
+.fp-controlArrow.fp-prev {
+	left: 35px;
+	margin-top: 8px;
+    border-width: 23.5px 16px 23.5px 0;
+    border-color: transparent #fff transparent transparent;
+} 
+
 #fp-nav ul li .fp-tooltip{
     color: #ff0000;
     font-size:23px;
 }
-.fp-controlArrow.fp-prev{
-    left: 33px;
-}
-.fp-controlArrow.fp-next{
-    right: 33px;
-}
+
 .fp-slidesNav.bottom{
     bottom: 30px;
     color: #28ff4b;
 }
 #QRcode{
     visibility: visible;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 2px;
     border: 1px solid red;
     padding: 0;
-    margin: 0;
+    margin: 3px 0 0 0;
     /*transition: width 2s, height 2s, transform 2s;*/
 }
 #QRcode:hover{
     /*visibility: hidden*/
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 5px;
     border: 1px solid red;
     padding: 0;
-    margin: 0;
+    margin: 3px 0 0  0;
 }
 .QRcode{
     float: right;
@@ -101,7 +109,7 @@ body{
     margin: 0;
     padding: 0;
     /*background-color: #0000ff;*/
-    width:35%;
+    width:30%;
     height: 100%;
     color: #ffffff;
     /*opacity: 0.3;*/
@@ -129,8 +137,8 @@ body{
     /*opacity: 0.3;*/
 }
 .myFooter .QRcode img{
-	width:10px;
-    height:10px;
+	width:7px;
+    height:7px;
 }
 .myfooter mark{
 	margin-right:2px;
@@ -141,14 +149,14 @@ body{
     position: relative;
     margin: 0;
     /*padding: 0;*/
-    padding-left: 10%;
+    padding-left: 5%;
     /*background-color: #ff0000;*/
     /*opacity: 0.3;*/
     /*background-color: #151515;*/
     /*width:40%;*/
     height: 100%;
     /*bottom: 0;*/
-    font-size: 12px;
+    font-size: 10px;
     color: #ffffff;
 }
 
@@ -160,8 +168,8 @@ body{
 .github_img{
 	margin: 0;
     padding: 0;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
 }
 p{
     background: #ffffff;
