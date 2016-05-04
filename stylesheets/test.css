@@ -186,3 +186,6 @@ p::selection{
     /*background-color: #fff;*/
     border: 1px solid red;
 }
+.section_div{
+    margin-top: 69px; 
+}
