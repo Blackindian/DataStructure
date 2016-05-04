@@ -171,7 +171,7 @@ p::selection{
     border-radius: 1px;
     border: dashed red;
 }
-.color_text{
+color_text{
     width: 80%;
     height: 50%; 
     border: 1px solid red;
