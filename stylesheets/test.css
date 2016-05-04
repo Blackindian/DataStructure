@@ -179,7 +179,7 @@ p::selection{
 }
 .disqus_div{
     width: 80%;
-    height: 30%;
+    /*height: 30%;*/
     /*padding-left: 10%;*/
     margin:auto 3px;
     /*background-color: #00f;*/
