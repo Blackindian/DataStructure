@@ -184,4 +184,5 @@ p::selection{
     /*padding-left: 10%;*/
     margin:auto 10%;
     /*background-color: #fff;*/
+    border: 1px solid red;
 }
