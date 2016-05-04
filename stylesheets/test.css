@@ -171,11 +171,12 @@ p::selection{
     border-radius: 1px;
     border: dashed red;
 }
-#color_text{
+.color_text{
     width: 80%;
     /*height: 50%; */
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin:0 auto;
+    background-color: #00f;
 }
 .disqus_div{
     width: 80%;
