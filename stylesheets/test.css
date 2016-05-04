@@ -171,3 +171,9 @@ p::selection{
     border-radius: 1px;
     border: dashed red;
 }
+.disqus_div{
+    width: 80%;
+    /*height: 70%;*/
+    padding-left: 10%;
+    padding-top: 10px;
+}
