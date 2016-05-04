@@ -186,6 +186,7 @@ p::selection{
     padding: auto 10px;
     /*background-color: #fff;*/
     border: 1px solid red;
+    overflow: hidden;
 }
 .section_div{
     margin-top: 69px; 
