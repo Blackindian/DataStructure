@@ -173,14 +173,14 @@ p::selection{
 }
 #color_text{
     width: 80%;
-    height: 50%; 
+    /*height: 50%; */
     border: 1px solid red;
-    margin:auto 0;
+    margin:0 auto;
 }
 .disqus_div{
     width: 80%;
     /*height: 30%;*/
     /*padding-left: 10%;*/
-    margin:auto 3px;
+    margin:auto 10%;
     /*background-color: #00f;*/
 }
