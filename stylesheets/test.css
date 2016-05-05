@@ -246,4 +246,5 @@ p::selection{
     /*padding: 100px auto !important;*/
     /*background-color: #000 !important;*/
     /*background: url(../images/bgcolor.png) !important;*/
+    overflow: hidden;
 }
