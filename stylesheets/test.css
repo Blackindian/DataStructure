@@ -220,7 +220,7 @@ p::selection{
 }
 .color_text .cc_div .cc_text p{
     margin-top: 0;
-    padding-top: 0;
+    padding: 3px 10%;
     color: #000;
 }
 .cc_div a{
