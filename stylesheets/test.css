@@ -185,7 +185,7 @@ p::selection{
 .disqus_div{
     width: 80%;
     /*height: 30%;*/
-    padding-left: 10%;
+    padding:auto 10px;
     margin:auto 10%;
     /*background-color: #fff;*/
     border: 1px solid red;
