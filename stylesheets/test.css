@@ -182,7 +182,7 @@ p::selection{
     margin-top: 0px;
     margin-bottom: 5px;
     border-bottom: 1px solid #FF00FF;
-    padding-top: 36px;
+    /*padding-top: 36px;*/
 }
 
 .disqus_div{
