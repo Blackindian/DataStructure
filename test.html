@@ -18,10 +18,49 @@
     <title>DSQCW | xgqfrms</title>
     <style>
     .nav_paging{
+        display: block;
         background: #000;
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+    }
+    .nav_paging .pager {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+        list-style: none;
+    }
+    .nav_paging ol, ul {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    /*.nav_paging*/
+    .nav_paging .pager li {
+        display: inline;
+    }
+    .nav_paging .pager .disabled>a, .nav_paging .pager .disabled>a:focus, .nav_paging .pager .disabled>a:hover, .nav_paging .pager .disabled>span {
+        color: #777;
+        cursor: not-allowed;
+        background-color: #F0F;
+    }
+    .nav_paging .pager li>a, .nav_paging .pager li>span {
+        display: inline-block;
+        padding: 5px 14px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+    }
+    a {
+        color: #337ab7;
+        text-decoration: none;
+    }
+    a {
+        background-color: transparent;
     }
     </style>
 </head>
@@ -58,6 +97,7 @@
     </div>
     <div class="section section5">
         <img src="images/4.jpg">
+<!-- nav_paging -->
         <div class="nav_paging">
             <nav>
                 <ul class="pager">
@@ -71,6 +111,7 @@
                 </ul>
             </nav>
         </div>
+ <!-- nav_paging -->
     </div>
     <div class="section section6">
         <!--<img src="images/x.jpg">-->
