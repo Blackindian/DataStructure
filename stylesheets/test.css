@@ -182,9 +182,6 @@ p::selection{
     margin-bottom: 5px;
     border-bottom: 1px solid #FF00FF;
 }
-.color_text .cc_div{
-    margin:0 auto;
-}
 .color_text p{
     margin-top: 0;
     padding-top: 0;
@@ -203,23 +200,27 @@ p::selection{
     margin-top: -69px; 
     background-color: #fff;
 }
-.section_div img{
+.cc_div{
+    margin:0 auto;
+    padding: auto 3px;
+}
+.cc_div img{
     width: 88px;
     height: 31px;
     vertical-align: middle;
     border: 0;
-/*    margin: 0;
-    padding: 0;*/
+    margin: 0;
+    padding: 0;
 }
-.section_div a{
-    background: 0 0;
+.cc_div a{
+    /*background: 0 0;*/
     text-decoration: none;
     text-align: center;
     position: relative;
     color: #00f;
 }
-.section_div a:hover{
-    background: 0 0;
+.cc_div a:hover{
+    /*background: 0 0;*/
     text-decoration: none;
     text-align: center;
     position: relative;
