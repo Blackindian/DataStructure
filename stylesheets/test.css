@@ -203,6 +203,7 @@ p::selection{
 .cc_div{
     margin:0 auto;
     padding: auto 3px;
+    border: 1px solid #000;
 }
 .cc_div img{
     width: 88px;
