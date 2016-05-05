@@ -182,11 +182,7 @@ p::selection{
     margin-bottom: 5px;
     border-bottom: 1px solid #FF00FF;
 }
-.color_text p{
-    margin-top: 0;
-    padding-top: 0;
-    color: #000;
-}
+
 .disqus_div{
     width: 80%;
     /*height: 30%;*/
@@ -214,8 +210,16 @@ p::selection{
     padding: 0;
 }
 .cc_div .cc_text{
-    margin: 0 30%;
+    margin: 0 20%;
     padding: 0;
+}
+.cc_div .cc_text .cc_span{
+    margin: 0 30%;
+}
+.color_text .cc_div .cc_text p{
+    margin-top: 0;
+    padding-top: 0;
+    color: #000;
 }
 .cc_div a{
     /*background: 0 0;*/
