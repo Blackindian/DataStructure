@@ -199,3 +199,9 @@ p::selection{
     margin-top: -69px; 
     background-color: #fff;
 }
+.section_div img{
+    width: 88px;
+    height: 31px;
+/*    margin: 0;
+    padding: 0;*/
+}
