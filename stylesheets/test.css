@@ -176,8 +176,8 @@ p::selection{
     width: 80%;
     /*height: 50%; */
     /*border: 1px solid red;*/
-    /*margin:0 auto;*/
-    margin-top: 0px;
+    margin:0 auto;
+    /*margin-top: 0px;*/
     background-color: #00f;
 }
 .disqus_div{
