@@ -216,4 +216,12 @@ p::selection{
     text-decoration: none;
     text-align: center;
     position: relative;
+    color: #00f;
+}
+.section_div a:hover{
+    background: 0 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    color: #0f0;
 }
