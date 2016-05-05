@@ -202,6 +202,14 @@ p::selection{
 .section_div img{
     width: 88px;
     height: 31px;
+    vertical-align: middle;
+    border: 0;
 /*    margin: 0;
     padding: 0;*/
+}
+.section_div a{
+    background: 0 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
 }
