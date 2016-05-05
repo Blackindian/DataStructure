@@ -178,21 +178,20 @@ p::selection{
     /*height: 50%; */
     /*border: 1px solid red;*/
     margin:0 auto;
-    /*margin-top: 0px;*/
-    background-color: #00f;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #FF00FF;
 }
 .disqus_div{
     width: 80%;
     /*height: 30%;*/
-    /*padding-left: 10%;*/
+    padding-left: 10%;
     margin:auto 10%;
-    padding:10px;
     /*background-color: #fff;*/
     border: 1px solid red;
     overflow: hidden;
 }
 .section_div{
     margin-top: -69px; 
-    margin-bottom: 5px;
-    border-bottom: 1px solid #FF00FF;
+    background-color: #fff;
 }
