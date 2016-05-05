@@ -186,7 +186,7 @@ p::selection{
     /*height: 30%;*/
     /*padding-left: 10%;*/
     margin:auto 10%;
-    padding: auto 10px;
+    padding:auto 10%;
     /*background-color: #fff;*/
     border: 1px solid red;
     overflow: hidden;
