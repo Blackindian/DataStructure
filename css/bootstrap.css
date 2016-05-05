@@ -1,0 +1,114 @@
+/*css for bootstrap testing!*/
+
+body{
+	/*background: url(../images/favicon.png);*/
+	/*background: url(../images/favicon.png) no-repeat;*/
+	background-color: #fff;
+}
+.col-bg{
+	background-color: #abc;
+	border: 1px solid #f00;
+}
+.img-table{
+	width: 100%;
+	height: 100%;
+}
+.color_azure{
+	color:#F0FFFF;
+	/*background-color: #fff;*/
+	/*background-color: #000;*/
+	background-color: #0f0;
+	/* 天蓝色 azure　：#F0FFFF*/
+}
+.color_azurex{
+	/*color: azure;*/
+	color: red;
+	background-color: #0f0;
+	/* 天蓝色 azure　：#F0FFFF*/
+}
+.my_header{
+	/*background: url(../images/favicon.ico);*/
+	/*background: url(../images/favicon-icon.png);*/
+	background-color: #000;
+	border: 1px solid #0f0;
+	width: 100%;
+	height: 100px;
+	/*
+	自动居中：
+	height: 100px;
+    line-height: 100px;
+    margin: 3px auto;
+	*/
+    float: none;
+}
+.my_header .logo_1{
+	/*
+	无法自动调整img的大小| 可以防止鼠标直接选择复制图片
+	background: url(../images/logo/logo-me.png);
+	*/
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+}
+.logo_img{
+    width: 100%;
+ 	height: 100%;
+ }
+
+.my_footer{
+	background-color: #000;
+	border: 1px solid #0f0;
+	width: 100%;
+	height: 100px;
+    float: none;
+    overflow: hidden;
+}
+
+.my_footer .icons>li{
+	float: left;
+}
+
+/* CSS3 Media Query: */
+@media (max-width: 600px) {
+ .my_header{
+ 	background-color: #000;
+ 	border: 1px solid #0f0;
+ 	width: 100%;
+ 	height: 50px;
+    float: none;
+ }
+ .my_header .logo_1{
+ 	width: 50%;
+ 	height: 50%;
+ 	line-height: 50%;
+ 	float: left;
+ }
+ .logo_img{
+    width: 150px;
+ 	height: 50px;
+ }
+}
+
+/*
+	CSS3 弹性盒子(Flexible Box)
+	http://www.cnblogs.com/xgqfrms/p/5450245.html
+*/
+
+/*
+	<!--
+	    CSS3 Media Query:
+
+	    1:link元素中的CSS媒体查询
+	    <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+
+	    2:样式表中的CSS媒体查询
+	    <style>
+	    @media (max-width: 600px) {
+	     .facet_sidebar {
+	        display: none;
+	       }
+	    }
+	    </style>
+    -->
+*/
