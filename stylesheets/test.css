@@ -241,6 +241,6 @@ p::selection{
 }
 /* 改写fullpage section css + margin-top: 69px; (header_logo 大小/height)*/
 .section{
-    margin-top: 69px;
-    padding: 0 auto;
+    margin-top: -69px;
+    padding: 0px auto;
 }
