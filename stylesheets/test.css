@@ -53,10 +53,10 @@ body{
     padding-top: 50px;
 }
 /*
-*�޸� #fp-nav ul li .fp-tooltip
-*�޸� fp-controlArrow .fp-prev
-*�޸� fp-controlArrow .fp-next
-*�޸� fp-slidesNav.bottom
+*修改 #fp-nav ul li .fp-tooltip
+*修改 fp-controlArrow .fp-prev
+*修改 fp-controlArrow .fp-next
+*修改 fp-slidesNav.bottom
 */
 #fp-nav ul li .fp-tooltip{
     color: #ff0000;
@@ -216,7 +216,7 @@ p::selection{
     color: #000; 
 }
 .cc_div .cc_text .cc_span{
-    margin: 0 16%%;
+    margin: 0 16%;
     padding: 0;
     color: #000; 
 }
@@ -238,4 +238,9 @@ p::selection{
     text-align: center;
     position: relative;
     color: #0f0;
+}
+/* 改写fullpage section css + margin-top: 69px; (header_logo 大小/height)*/
+.section{
+    margin-top: 69px;
+    padding: 0 auto;
 }
