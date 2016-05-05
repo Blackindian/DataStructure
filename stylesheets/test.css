@@ -192,5 +192,5 @@ p::selection{
     overflow: hidden;
 }
 .section_div{
-    margin-top: 69px; 
+    margin-top: -69px; 
 }
