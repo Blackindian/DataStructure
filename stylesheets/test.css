@@ -194,10 +194,7 @@ p::selection{
     border: 1px solid red;
     overflow: hidden;
 }
-.section_div{
-    margin-top: -69px; 
-    background-color: #fff;
-}
+
 .cc_div{
     margin:0 auto;
     padding: auto 3px;
@@ -242,9 +239,14 @@ p::selection{
 }
 /* 改写fullpage section css + margin-top: 69px; (header_logo 大小/height)*/
 .section{
-    margin-top: -69px !important;
+    margin-top: -81px !important;
+    /*margin-top: -69px !important;*/
     /*padding: 100px auto !important;*/
     /*background-color: #000 !important;*/
     /*background: url(../images/bgcolor.png) !important;*/
     overflow: hidden;
+}
+.section_div{
+    /*margin-top: -69px; */
+    background-color: #fff;
 }
