@@ -186,11 +186,13 @@ p::selection{
     /*height: 30%;*/
     /*padding-left: 10%;*/
     margin:auto 10%;
-    padding:auto 10%;
+    padding:10px;
     /*background-color: #fff;*/
     border: 1px solid red;
     overflow: hidden;
 }
 .section_div{
     margin-top: -69px; 
+    margin-bottom: 5px;
+    border-bottom: 1px solid #FF00FF;
 }
