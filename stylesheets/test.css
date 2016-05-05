@@ -242,7 +242,8 @@ p::selection{
 /* 改写fullpage section css + margin-top: 69px; (header_logo 大小/height)*/
 .section{
     margin-top: -69px !important;
-    padding: 100px auto !important;
+    /*padding: 100px auto !important;*/
+    padding: 10px !important;
     /*background-color: #000 !important;*/
     /*background: url(../images/bgcolor.png) !important;*/
 }
