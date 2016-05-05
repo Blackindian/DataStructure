@@ -173,6 +173,7 @@ p::selection{
     border: dashed red;
 }
 .color_text{
+    display: block;
     width: 80%;
     /*height: 50%; */
     /*border: 1px solid red;*/
