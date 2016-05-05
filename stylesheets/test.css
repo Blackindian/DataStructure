@@ -243,4 +243,6 @@ p::selection{
 .section{
     margin-top: -69px !important;
     padding: 0px auto !important;
+    /*background-color: #000 !important;*/
+    background: url(../images/bgcolor.png) !important;
 }
