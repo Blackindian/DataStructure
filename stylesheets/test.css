@@ -182,6 +182,10 @@ p::selection{
     margin-bottom: 5px;
     border-bottom: 1px solid #FF00FF;
 }
+.color_text p{
+    margin-top: 0;
+    padding-top: 0;
+}
 .disqus_div{
     width: 80%;
     /*height: 30%;*/
