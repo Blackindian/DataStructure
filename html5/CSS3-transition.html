@@ -4,13 +4,45 @@
 	<meta charset="UTF-8">
 	<title>CSS3 过渡</title>
 	<!-- http://www.runoob.com/css3/css3-transitions.html -->
+	<style> 
+		.div1
+		{
+			width:100px;
+			height:100px;
+			background:red;
+			transition:width 2s;
+			/*transition:background 3s;*/
+			/*transition:height 2s;*/
+			-webkit-transition:width 2s; /* Safari */
+		}
+
+		.div1:hover
+		{
+			width:300px;
+			/*height:300px;*/
+			background:green;
+		}
+	</style>
 </head>
 <body>
+	<div class="class0">
+		<h1>CSS3 过渡</h1>
+		<p>CSS3中，我们为了添加某种效果可以从一种样式转变到另一个的时候，无需使用Flash动画或JavaScript。</p>
+		<section>
+			它是如何工作？<p>CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。</p>
+			要实现这一点，必须规定两项内容：<br>
+			1.指定要添加效果的CSS属性<br>
+			2.指定效果的持续时间。
+		</section>
+	</div>
 	<div class="class1">
-		<h1></h1>
+		<h3>注意： 如果未指定的期限，transition将没有任何效果，因为默认值是0。</h3>
+		<p><b>注意：</b>该实例无法在 Internet Explorer 9 及更早 IE 版本上工作。</p>
+		<div class="div1"></div>
+		<p>鼠标移动到 div 元素上，查看过渡效果。</p>
 	</div>
 	<div class="class2">
-		<h1></h1>
+		<h3>要添加多个样式的变换效果，添加的属性由逗号分隔：</h3>
 	</div>
 	<div class="class3">
 		<h1></h1>
@@ -23,6 +55,47 @@
 	</div>
 	<div class="class6">
 		<h1></h1>
+	</div>
+	<div class="classT">
+		<table>
+			<tr>				
+				<td>
+					<th>
+						过渡属性<br>下表列出了所有的过渡属性:
+					</th>
+				</td>				
+			</tr>
+			<tr>
+				<td>属性</td>
+				<td>描述</td>
+				<td>CSS</td>
+			</tr>
+			<tr>
+				<td>transition</td>
+				<td>复合属性/简写属性，用于在一个属性中设置四个过渡属性。</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>transition-property</td>
+				<td>规定应用过渡的 CSS 属性的名称。</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>transition-duration</td>
+				<td>定义过渡效果花费的时间。默认是 0。</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>ransition-timing-function</td>
+				<td>规定过渡效果的时间曲线。默认是 "ease"。</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>transition-delay</td>
+				<td>规定过渡效果何时开始。默认是 0。</td>
+				<td>3</td>
+			</tr>
+		</table>		
 	</div>
 </body>
 </html>
