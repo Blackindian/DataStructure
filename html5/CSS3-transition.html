@@ -23,6 +23,35 @@
 			background:green;
 		}
 	</style>
+	<style> 
+	.div2
+	{
+		width:100px;
+		height:100px;
+		background:red;
+		transition:width 1s linear 2s;
+		-webkit-transition:width 1s linear 2s;
+		/*
+		transition-property:width;
+		transition-duration:1s;
+		transition-timing-function:linear;
+		transition-delay:2s;
+		
+		-webkit-transition-property:width;
+		-webkit-transition-duration:1s;
+		-webkit-transition-timing-function:linear;
+		-webkit-transition-delay:2s;
+		*/
+	}
+
+	.div2:hover
+	{
+		width:200px;
+	}
+	.more{
+		display: none;
+	}
+	</style>
 </head>
 <body>
 	<div class="class0">
@@ -34,6 +63,35 @@
 			1.指定要添加效果的CSS属性<br>
 			2.指定效果的持续时间。
 		</section>
+		<!-- &lt; &gt; -->
+		<section>
+			https://www.w3.org/TR/css3-transitions/#transition-timing-function <br>
+			&lt;single-transition-timing-function&gt; = ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | steps(&lt;integer&gt;[, [ start | end ] ]?) | cubic-bezier(&lt; number&gt;, &lt; number&gt;, &lt; number&gt;, &lt; number&gt;)
+		</section>
+		<div class="more">
+			<pre>
+				 The timing functions have the following definitions.
+
+				ease
+				    The ease function is equivalent to cubic-bezier(0.25, 0.1, 0.25, 1). 
+				linear
+				    The linear function is equivalent to cubic-bezier(0, 0, 1, 1). 
+				ease-in
+				    The ease-in function is equivalent to cubic-bezier(0.42, 0, 1, 1). 
+				ease-out
+				    The ease-out function is equivalent to cubic-bezier(0, 0, 0.58, 1). 
+				ease-in-out
+				    The ease-in-out function is equivalent to cubic-bezier(0.42, 0, 0.58, 1) 
+				step-start
+				    The step-start function is equivalent to steps(1, start). 
+				step-end
+				    The step-end function is equivalent to steps(1, end). 
+				steps(&lt;integer&gt;[, [ start | end ] ]?)
+				    Specifies a stepping function, described above, taking two parameters. The first parameter specifies the number of intervals in the function. It must be a positive integer (greater than 0). The second parameter, which is optional, is either the value ‘start’ or ‘end’, and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value ‘end’. 
+				cubic-bezier(&lt; number&gt;, &lt; number&gt;, &lt; number&gt;, &lt; number&gt;)
+				    Specifies a cubic-bezier curve. The four values specify points P1 and P2 of the curve as (x1, y1, x2, y2). Both x values must be in the range [0, 1] or the definition is invalid. The y values can exceed this range. 
+			</pre>
+		</div>
 	</div>
 	<div class="class1">
 		<h3>注意： 如果未指定的期限，transition将没有任何效果，因为默认值是0。</h3>
@@ -43,9 +101,35 @@
 	</div>
 	<div class="class2">
 		<h3>要添加多个样式的变换效果，添加的属性由逗号分隔：</h3>
+
 	</div>
 	<div class="class3">
-		<h1></h1>
+		<h3>CSS3 transition-timing-function 属性</h3>
+		<pre>
+			值 	描述
+			linear 	规定以相同速度开始至结束的过渡效果（等于 cubic-bezier(0,0,1,1)）。
+			ease 	规定慢速开始，然后变快，然后慢速结束的过渡效果（cubic-bezier(0.25,0.1,0.25,1)）。
+			ease-in 	规定以慢速开始的过渡效果（等于 cubic-bezier(0.42,0,1,1)）。
+			ease-out 	规定以慢速结束的过渡效果（等于 cubic-bezier(0,0,0.58,1)）。
+			ease-in-out 	规定以慢速开始和结束的过渡效果（等于 cubic-bezier(0.42,0,0.58,1)）。
+			cubic-bezier(n,n,n,n) 	在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。
+		</pre>
+		<h3>CSS3 transition-duration 属性</h3>
+		<pre>
+			属性定义及使用说明
+
+			transition-duration 属性规定完成过渡效果需要花费的时间（以秒或毫秒计）。
+			默认值： 	0
+			继承： 	no
+			版本： 	CSS3
+			JavaScript 语法： 	object.style.transitionDuration="5s"
+
+			语法
+			transition-duration: time;
+
+			值 	描述
+			time 	规定完成过渡效果需要花费的时间（以秒或毫秒计）。 默认值是 0，意味着不会有效果
+		</pre>
 	</div>
 	<div class="class4">
 		<h1></h1>
