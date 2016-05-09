@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>php paging</title>
+	<!-- 面包屑导航 -->
+	<style>
+		.nav .breadcrumb {
+		    padding: 8px 16px;
+		    list-style: none;
+		    background-color: #eee;
+		}
+		.nav .breadcrumb li {display: inline;}
+		
+		.nav .breadcrumb li+li:before {
+		    padding: 8px;
+		    color: black;
+		    /*content: "/\00a0";*/ /* / 转义符符号 */
+		    /*content: "\003E";*/
+		}
+		.nav .breadcrumb2 li+li:before {
+		    content: "/\00a0";
+		    /* 
+		    	&nbsp; 160	00A0		不换行空格（NO-BREAK SPACE）  
+		    	/	  47	002F	 	斜线（SOLIDUS）
+		    	\	  92	005C	 	反斜线（REVERSE SOLIDUS）
+		    */
+
+		    /* 
+		    	http://www.runoob.com/charsets/ref-utf-basic-latin.html
+		    	UTF-8 C0 控制与基本的 Latin(拉丁字母):
+	 
+		    	ASCII 美国信息交换标准码,
+		    	ANSI (Windows-1252) 美国国家标准学会,
+		    */
+		}
+		.nav .breadcrumb1 li+li:before {
+		    content: "\003E";
+		}
+		
+		.nav .breadcrumb li a {color: green;}
+	</style>
+	<style>
+		.paging .pagination {
+		    display: inline-block;
+		    padding: 0;
+		    margin: 0;
+		}
+		.paging .pagination li {display: inline;}
+		.paging .pagination li a {
+		    color: black;
+		    float: left;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		    transition: background-color .3s;
+		    border: 1px solid #ddd;
+		    /* radius-border */
+		    border-radius: 3px;
+		    /* border */
+		    border: 1px solid #ddd;
+		    /* font-size */
+		    font-size: 16px;
+		    /* margin */
+		    margin: 0 1px;
+		}
+		.paging .pagination li a.active {
+		    background-color: #4CAF50;
+		    color: white;
+		    border: 1px solid #4CAF50;
+		    /* radius-border */
+		    border-radius: 3px;
+		    /**/
+		    border: 1px solid #4CAF50;
+		}
+		.paging .pagination li a:hover:not(.active) {background-color: #ddd;}
+		/* div center 分页居中 */
+		.paging .div_center {text-align: center;}
+		/* div center paging*/
+		.div_center {text-align: center;}
+		/* radius-border */
+		.paging .pagination li:first-child a {
+		    border-top-left-radius: 7px;
+		    border-bottom-left-radius: 7px;
+		    background-color: blue;
+		}
+		.paging .pagination li:last-child a {
+		    border-top-right-radius: 7px;
+		    border-bottom-right-radius: 7px;
+		    background-color: blue;
+		}
+		/*  */
+	</style>
+	<style>
+		ul.pagination8 {
+		    display: inline-block;
+		    padding: 0;
+		    margin: 0;
+		}
+
+		ul.pagination8 li {display: inline;}
+
+		ul.pagination8 li a {
+		    color: black;
+		    float: left;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		    transition: background-color .3s;
+		    border: 1px solid #ddd;
+		    font-size: 18px;
+		}
+
+		ul.pagination8 li a.active {
+		    background-color: #eee;
+		    color: black;
+		    border: 1px solid #ddd;
+		}
+
+		ul.pagination8 li a:hover:not(.active) {background-color: #ddd;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- nav -->
+		<div class="nav">
+			<h2>面包屑导航</h2>
+			<ul class="breadcrumb breadcrumb1">
+			  <li><a href="#">首页 </a></li>
+			  <li><a href="#">前端 </a></li>
+			  <li><a href="#">HTML 教程 </a></li>
+			  <li>HTML 段落</li>
+			</ul>
+		</div>
+		<!-- paging -->
+		<div class="paging">
+			<div class="div_center">
+				<h2>点击及鼠标悬停分页样式</h2>
+				<ul class="pagination">
+				  <li><a href="#">«</a></li>
+				  <li><a href="#">1</a></li>
+				  <li><a class="active" href="#">2</a></li>
+				  <li><a href="#">3</a></li>
+				  <li><a href="#">4</a></li>
+				  <li><a href="#">5</a></li>
+				  <li><a href="#">6</a></li>
+				  <li><a href="#">7</a></li>
+				  <li><a href="#">»</a></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="paging div_center">
+			<h2>点击及鼠标悬停分页样式</h2>
+			<ul class="pagination">
+			  <li><a href="#">«</a></li>
+			  <li><a href="#">1</a></li>
+			  <li><a class="active" href="#">2</a></li>
+			  <li><a href="#">3</a></li>
+			  <li><a href="#">4</a></li>
+			  <li><a href="#">5</a></li>
+			  <li><a href="#">6</a></li>
+			  <li><a href="#">7</a></li>
+			  <li><a href="#">»</a></li>
+			</ul>			
+		</div>
+		<div class="paging_nav">
+			<h2>带分页导航分页</h2>
+		    <hr>
+			<p>上一页，下一页按钮:</p>
+			<ul class="pagination">
+			  <li><a href="#" class="active">&lt;</a></li>
+			  <li><a href="#">&gt;</a></li>
+			</ul>
+			<hr>
+			<p>分页导航:</p>
+			<ul class="pagination">
+			  <li><a href="#" class="active">Home</a></li>
+			  <li><a href="#">Link 1</a></li>
+			  <li><a href="#">Link 2</a></li>
+			  <li><a href="#">Link 3</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
