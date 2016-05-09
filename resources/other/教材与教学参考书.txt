@@ -1,0 +1,48 @@
+使用教材：
+
+      严蔚敏，吴伟民，数据结构（C语言版），清华大学出版社，2011.5
+
+教学参考书：
+
+1.数据结构刘振鹏张晓莉郝杰，中国铁道出版社
+
+2.数据结构习题集》（Ｃ语言版）严蔚敏等，清华大学出版社
+
+3.黄扬铭，数据结构，科学出版社出版，2001
+
+4.黄刘生，唐策善，数据结构（第二版），中国科学技术大学出版社，2000年
+
+5.刘大有，数据结构，高等教育出版社，2002.12
+
+6.朱振元等数据结构（面向对象语言描述），清华大学出版社，2004.2
+
+7.耿国华等编，数据结构，西安电子科技大学
+
+8.殷人昆等，数据结构 用面向对象方法与C++描述，清华大学出版社
+
+9.高一凡 编著，数据结构算法实现及解析，西安电子科技大学  2002.10
+
+10.蒋盛益等，数据结构学习指导与训练，中国水利水电出版社
+
+11. 张乃考编著，算法与数据结构 —C语言描述，高等教育出版社
+
+12.胡元义等，数据结构（C语言版）实践教程，西安电子科技大学出版社
+
+13.徐孝凯，数据结构实用教程（C/C++描述），清华大学出版社
+
+英文参考文献：
+
+1．Williaw Ford et al.Data Structures with C++.Prentice Hall Inc.,1996
+
+2．Robert Kruse et al.Data Structures & Program Design in C.2nd Ed.Prentice Hall,1997
+
+3．Data Structure  with C++，1998/William Ford,William Topp 清华大学出版社
+
+      4．DATA  STRUCTURES & PROGRAM  DESIGN IN C，Second  Edition  Robert Kruse，C.L. Tondo,Bruce P. Leung 清华大学出版社,Prentice Hall International,Inc.
+
+ 
+
+ 
+
+ 
+
