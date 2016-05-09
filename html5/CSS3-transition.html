@@ -24,33 +24,54 @@
 		}
 	</style>
 	<style> 
-	.div2
-	{
-		width:100px;
-		height:100px;
-		background:red;
-		transition:width 1s linear 2s;
-		-webkit-transition:width 1s linear 2s;
-		/*
-		transition-property:width;
-		transition-duration:1s;
-		transition-timing-function:linear;
-		transition-delay:2s;
-		
-		-webkit-transition-property:width;
-		-webkit-transition-duration:1s;
-		-webkit-transition-timing-function:linear;
-		-webkit-transition-delay:2s;
-		*/
-	}
+		.div0
+		{
+			width:100px;
+			height:100px;
+			background:red;
+			transition:width 1s linear 2s;
+			-webkit-transition:width 1s linear 2s;
+			/*
+			transition-property:width;
+			transition-duration:1s;
+			transition-timing-function:linear;
+			transition-delay:2s;
+			
+			-webkit-transition-property:width;
+			-webkit-transition-duration:1s;
+			-webkit-transition-timing-function:linear;
+			-webkit-transition-delay:2s;
+			*/
+		}
 
-	.div2:hover
-	{
-		width:200px;
-	}
-	.more{
-		display: none;
-	}
+		.div0:hover
+		{
+			width:200px;
+		}
+		.more{
+			display: none;
+		}
+	</style>
+	<style> 
+		.div2
+		{
+			width:100px;
+			height:100px;
+			background:red;
+
+			transition-property:width,height;
+			transition-duration:2s;
+
+			/* Safari */
+			-webkit-transition-property:width,height;
+			-webkit-transition-duration:2s;
+		}
+
+		.div2:hover
+		{
+			width:300px;
+			height:300px;
+		}
 	</style>
 </head>
 <body>
@@ -101,7 +122,9 @@
 	</div>
 	<div class="class2">
 		<h3>要添加多个样式的变换效果，添加的属性由逗号分隔：</h3>
-
+		<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+		<div class="div2"></div>
+		<p>Hover over the div element above, to see the transition effect.</p>
 	</div>
 	<div class="class3">
 		<h3>CSS3 transition-timing-function 属性</h3>
@@ -131,7 +154,27 @@
 			time 	规定完成过渡效果需要花费的时间（以秒或毫秒计）。 默认值是 0，意味着不会有效果
 		</pre>
 		<h3>CSS3 transition-property 属性</h3>
-		
+		<pre>
+			属性定义及使用说明
+
+			transition-property属性指定CSS属性的nametransition效果（transition效果时将会启动指定的CSS属性的变化）。
+
+			提示:一个转场效果，通常会出现在当用户将鼠标悬停在一个元素上时。
+
+			注意：始终指定transition-duration属性，否则持续时间为0，transition不会有任何效果。
+			默认值： 	all
+			继承： 	no
+			版本： 	CSS3
+			JavaScript 语法： 	object.style.transitionProperty="width,height"
+
+			语法
+			transition-property: none|all|property;
+
+			值 	描述
+			none 	没有属性会获得过渡效果。
+			all 	所有属性都将获得过渡效果。
+			property 	定义应用过渡效果的 CSS 属性名称列表，列表以逗号分隔。
+		</pre>
 	</div>
 	<div class="class4">
 		<h1></h1>
