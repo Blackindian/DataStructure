@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css3 @fontface</title>
+    <!-- 日活跃用户（DAU）超过4亿，日均PV超100亿 -->
+    <!-- PV（page view）即页面浏览量 -->
+<style> 
+/*http://www.runoob.com/try/demo_source/sansation_bold.woff*/
+/*http://www.runoob.com/try/demo_source/sansation_light.woff*/
+
+/*http://fontsforweb.com/font/show?id=425*/
+/*http://fontsforweb.com/search?q=Sansation*/
+
+@font-face {
+    font-family: 'SansationBold';
+    src: url('./SansationBold.eot');
+    src: local('SansationBold'), url('./SansationBold.woff') format('woff'), url('./SansationBold.ttf') format('truetype');
+}
+.fontsforweb_fontid_425 {
+    font-family: 'SansationBold' !important;
+}
+.fontsforweb_fontid_x {
+    font-family: 'SansationBold' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(sansation_light.woff);
+font-weight:bold;
+font-stretch :semi-condensed;   
+}
+
+@font-face
+{
+font-family: myFirstFont1;
+src: url(sansation_bold.woff);
+font-weight:bold;
+font-stretch :condensed;	
+}
+
+@font-face
+{
+font-family: myFirstFont2;
+src: url(sansation_bold.woff);
+font-weight:bold;
+font-stretch :ultra-condensed;	
+}
+
+@font-face
+{
+font-family: myFirstFont3;
+src: url(sansation_bold.woff);
+font-weight:bold;
+font-stretch :extra-condensed;	
+}
+
+@font-face
+{
+font-family: myFirstFont4;
+src: url(sansation_bold.woff);
+font-weight:bold;
+font-stretch :expanded;	
+}
+
+/*   
+
+font-family 	name 	必需。规定字体的名称。
+src 	URL 	必需。定义字体文件的 URL。
+font-stretch 	
+
+    normal
+    condensed
+    ultra-condensed
+    extra-condensed
+    semi-condensed
+    expanded
+    semi-expanded
+    extra-expanded
+    ultra-expanded
+
+	可选。定义如何拉伸字体。默认是 "normal"。
+font-style 	
+
+    normal
+    italic
+    oblique
+
+	可选。定义字体的样式。默认是 "normal"。
+font-weight 	
+
+    normal
+    bold
+    100
+    200
+    300
+    400
+    500
+    600
+    700
+    800
+    900
+
+	可选。定义字体的粗细。默认是 "normal"。
+unicode-range 	unicode-range 	可选。定义字体支持的 UNICODE 字符范围。默认是 "U+0-10FFFF"。
+*/
+}
+	
+.div0
+{
+font-family:myFirstFont;
+}
+
+.div1
+{
+font-family:myFirstFont1;
+}
+
+.div2
+{
+font-family:myFirstFont2;
+}
+
+.div3
+{
+font-family:myFirstFont3;
+}
+
+.div4
+{
+font-family:myFirstFont4;
+}
+
+</style>
+</head>
+<body>
+<hr>
+<!-- fontsforweb_fontid_425 -->
+<p class="fontsforweb_fontid_425">Text with this font applied</p>
+<p>[http://fontsforweb.com/font/show?id=425](http://fontsforweb.com/)</p>
+
+<p class="fontsforweb_fontid_x">Text with this font applied</p>	
+<p>[http://fontsforweb.com/search?q=Sansation](http://fontsforweb.com/)</p>
+<hr>
+<div class="div0">
+With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.
+</div>
+<div class="div1">
+With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.
+</div>
+<div class="div2">
+With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.
+</div>
+<div class="div3">
+With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.
+</div>
+<div class="div4">
+With CSS3, websites can <b>finally</b> use fonts other than the pre-selected "web-safe" fonts.
+</div>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule.</p>
+<div>
+    <h1>如何清楚易懂的解释“UV和PV＂的定义？</h1>
+    <pre>
+        UV（Unique visitor）
+        是指通过互联网访问、浏览这个网页的自然人。访问您网站的一台电脑客户端为一个访客。00:00-24:00内相同的客户端只被计算一次。
+
+        一天内同个访客多次访问仅计算一个UV。
+
+        IP（Internet Protocol）
+        独立IP是指访问过某站点的IP总数，以用户的IP地址作为统计依据。00:00-24:00内相同IP地址之被计算一次。
+
+        UV与IP区别：
+        如：你和你的家人用各自的账号在同一台电脑上登录新浪微博，则IP数+1，UV数+2。由于使用的是同一台电脑，所以IP不变，但使用的不同账号，所以UV+2
+
+
+        PV（Page View）
+        即页面浏览量或点击量，用户每1次对网站中的每个网页访问均被记录1个PV。用户对同一页面的多次访问，访问量累计，用以衡量网站用户访问的网页数量。
+
+        VV（Visit View）
+        用以统计所有访客1天内访问网站的次数。当访客完成所有浏览并最终关掉该网站的所有页面时便完成了一次访问，同一访客1天内可能有多次访问行为，访问次数累计。
+
+        PV与VV区别：
+        如：你今天10点钟打开了百度，访问了它的三个页面；11点钟又打开了百度，访问了它的两个页面，则PV数+5，VV数+2.
+        PV是指页面的浏览次数，VV是指你访问网站的次数。
+    </pre>
+    <hr>
+    <pre>
+        UV（独立访客）：即Unique Visitor，访问您网站的一台电脑客户端为一个访客。
+        PV(page view)，即页面浏览量，或点击量；用户每1次对网站中的每个网页访问均被记录1次。用户对同一页面的多次访问，访问量累计。
+        以上来自百度百科。
+
+        简单来说：
+        UV = 一个人（记录身份证号）
+        PV = 人次（只认次数，不认人）
+
+        作者：司马盆栽
+        链接：https://www.zhihu.com/question/20448467/answer/15162278
+        来源：知乎
+        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    </pre>
+</div>
+</body>
+</html>
