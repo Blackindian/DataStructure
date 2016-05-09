@@ -127,31 +127,26 @@
 		<p>Hover over the div element above, to see the transition effect.</p>
 	</div>
 	<div class="class3">
-		<h3>CSS3 transition-timing-function 属性</h3>
-		<pre>
-			值 	描述
-			linear 	规定以相同速度开始至结束的过渡效果（等于 cubic-bezier(0,0,1,1)）。
-			ease 	规定慢速开始，然后变快，然后慢速结束的过渡效果（cubic-bezier(0.25,0.1,0.25,1)）。
-			ease-in 	规定以慢速开始的过渡效果（等于 cubic-bezier(0.42,0,1,1)）。
-			ease-out 	规定以慢速结束的过渡效果（等于 cubic-bezier(0,0,0.58,1)）。
-			ease-in-out 	规定以慢速开始和结束的过渡效果（等于 cubic-bezier(0.42,0,0.58,1)）。
-			cubic-bezier(n,n,n,n) 	在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。
-		</pre>
-		<h3>CSS3 transition-duration 属性</h3>
+		<h3>CSS3 transition 属性</h3>
 		<pre>
 			属性定义及使用说明
 
-			transition-duration 属性规定完成过渡效果需要花费的时间（以秒或毫秒计）。
-			默认值： 	0
+			transition属性是一个速记属性有四个属性：transition-property, transition-duration, transition-timing-function, and transition-delay。
+
+			注意： 始终指定transition-duration属性，否则持续时间为0，transition不会有任何效果。
+			默认值： 	all 0 ease 0
 			继承： 	no
 			版本： 	CSS3
-			JavaScript 语法： 	object.style.transitionDuration="5s"
+			JavaScript 语法： 	object.style.transition="width 2s"
 
 			语法
-			transition-duration: time;
+			transition: property duration timing-function delay;
 
 			值 	描述
-			time 	规定完成过渡效果需要花费的时间（以秒或毫秒计）。 默认值是 0，意味着不会有效果
+			transition-property 	指定CSS属性的name，transition效果
+			transition-duration 	transition效果需要指定多少秒或毫秒才能完成
+			transition-timing-function 	指定transition效果的转速曲线
+			transition-delay 	定义transition效果开始的时候
 		</pre>
 		<h3>CSS3 transition-property 属性</h3>
 		<pre>
@@ -175,6 +170,50 @@
 			all 	所有属性都将获得过渡效果。
 			property 	定义应用过渡效果的 CSS 属性名称列表，列表以逗号分隔。
 		</pre>
+		<h3>CSS3 transition-duration 属性</h3>
+		<pre>
+			属性定义及使用说明
+
+			transition-duration 属性规定完成过渡效果需要花费的时间（以秒或毫秒计）。
+			默认值： 	0
+			继承： 	no
+			版本： 	CSS3
+			JavaScript 语法： 	object.style.transitionDuration="5s"
+
+			语法
+			transition-duration: time;
+
+			值 	描述
+			time 	规定完成过渡效果需要花费的时间（以秒或毫秒计）。 默认值是 0，意味着不会有效果
+		</pre>
+		<h3>CSS3 transition-timing-function 属性</h3>
+		<pre>
+			值 	描述
+			linear 	规定以相同速度开始至结束的过渡效果（等于 cubic-bezier(0,0,1,1)）。
+			ease 	规定慢速开始，然后变快，然后慢速结束的过渡效果（cubic-bezier(0.25,0.1,0.25,1)）。
+			ease-in 	规定以慢速开始的过渡效果（等于 cubic-bezier(0.42,0,1,1)）。
+			ease-out 	规定以慢速结束的过渡效果（等于 cubic-bezier(0,0,0.58,1)）。
+			ease-in-out 	规定以慢速开始和结束的过渡效果（等于 cubic-bezier(0.42,0,0.58,1)）。
+			cubic-bezier(n,n,n,n) 	在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。
+		</pre>	
+		<h3>CSS3 transition-delay 属性</h3>
+		<pre>
+			属性定义及使用说明
+
+			transition-delay 属性指定何时将开始切换效果。
+
+			transition-delay值是指以秒为单位（S）或毫秒（ms）。
+			默认值： 	0
+			继承： 	no
+			版本： 	CSS3
+			JavaScript 语法： 	object.style.transitionDelay="2s"
+
+			语法
+			transition-delay: time;
+
+			值 	描述
+			time 	指定秒或毫秒数之前要等待切换效果开始
+		</pre>					
 	</div>
 	<div class="class4">
 		<h1></h1>
@@ -206,7 +245,7 @@
 			</tr>
 			<tr>
 				<td>transition-property</td>
-				<td>规定应用过渡的 CSS 属性的名称。</td>
+				<td>规定应用过渡的 CSS 属性的名称。默认是 all。</td>
 				<td>3</td>
 			</tr>
 			<tr>
