@@ -64,14 +64,13 @@ body{
 	/**/
 }
 
-/*<!-- 面包屑导航 -->*/
+/* dropdown-list-menu */
 .header .my_header .nav .nav_links{
 	width: 70%;;
 	height: 100px;
-	/*background-color: #0ff;*/
+	/*background-color: #f0f;*/
 	float: left;
 	display: inline-block;
-	/*overflow: unset;*/
 	overflow: hidden;
 }
 .header .my_header .nav .nav_links ul {
@@ -79,21 +78,29 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(204,0,204,1);
+    /**/
+    /*height: 50px;
+    line-height: 50px;*/
+    /*margin: 40px 0 0 10px;*/
+    /*border-radius: 5px;*/
 }
 .header .my_header .nav .nav_links li {
     float: left;
-    /**/
+    /*width: 100px;*/
 }
 .header .my_header .nav .nav_links li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   /* height: 43px;
+    line-height: 43px;*/
+    margin-left: 10px;
 }
-.header .my_header .nav .nav_links li a:hover, .dropdown:hover .dropbtn {
-    background-color: #111;
+.header .my_header .nav .nav_links li a:hover,.header .my_header .nav .nav_links .dropdown:hover .dropbtn {
+    background-color: #f00;
 }
 .header .my_header .nav .nav_links .dropdown {
     display: inline-block;
@@ -101,23 +108,28 @@ body{
 .header .my_header .nav .nav_links .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*background-color: #c0c;*/
+    background-color:rgba(0,0,0,0.8);
+    /*min-width: 160px;*/
+    min-width: 100px;
+    box-shadow: 0px 2px 4px 0px rgba(0,255,0,0.5);
 }
 .header .my_header .nav .nav_links .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: #fff;
+    padding: 10px;
     text-decoration: none;
     display: block;
 }
 .header .my_header .nav .nav_links .dropdown-content a:hover {
-	background-color: #f1f1f1;
+	background-color: #0f0;
 }
 .header .my_header .nav .nav_links .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.header .my_header .nav .nav_links .dropdown:hover .dropdown-content li{
+	clear: both;
+	/*width: 100px;*/
+}
 
 
 /* footer */
