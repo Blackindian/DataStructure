@@ -1,0 +1,113 @@
+/*carousel css*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.banner{
+	margin: 100px auto;
+	border: 3px solid #f00;
+	width: 1021px;
+	height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.banner .img{
+	/*width: 1021px; *6+1 同一行*/
+	width: 7147px;
+	height: 385px;
+	position: absolute;
+	top: 0;
+	/*left: -1021px; js 实现平移img*/
+	left: 0;
+}
+.banner .img li{
+	float: left;
+}
+.banner .num{
+	position: absolute;
+	width: 100%;
+	/*top: 0;*/
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+}
+.banner .num li{
+	width: 10px;
+	height: 10px;
+	background-color: #777;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.banner .num li.actived{
+	background-color: #0f0;
+}
+.banner:hover .btn{
+	display: block !important;
+	background: rgba(255,255,255,1);
+	/*animation: ease;*/
+	transition: all 1s ease 0;
+	-webkit-transition:all 1s ease 0;
+	-moz-transition: all 1s ease 1s;
+	-ms-transition: all 1s ease 1s;
+	-o-transition: all 1s ease 1s;
+}
+.banner .btn{
+	display: none;
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	line-height: 50px;/*垂直居中*/
+	text-align: center;/*水平居中*/
+	background: rgba(0,0,0,0.5);
+	top: 50%;
+	margin-top: -25px;
+	color: #0f0;
+	font-size: 32px;
+	font-family: serif;
+}
+.banner .btn a{
+	text-decoration: none;
+	color: #0f0;
+}
+.banner .btn_l{
+	left: 0;
+}
+.banner .btn_r{
+	right: 0;
+}
+
+
+
+
+
+/*css 级联 error*/
+/*
+	<div class="btn btn_l">&lt;</div>
+	<div class="btn btn_r">&gt;</div>
+
+	.banner .btn .btn_l{
+		float: left;
+		margin-left: 30px;
+		color: #f00;
+	}
+	.banner .btn .btn_r{
+		float: right;
+		margin-right: 30px;
+	}
+*/
+/*css 级联 right*/
+/*
+	<div class="btn btn_l">&lt;</div>
+	<div class="btn btn_r">&gt;</div>
+	.banner .btn_l{
+		float: left;
+		margin-left: 30px;
+	}
+	.banner .btn_r{
+		float: right;
+		margin-right: 30px;
+	}
+*/

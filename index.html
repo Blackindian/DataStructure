@@ -10,46 +10,24 @@
     <!-- <meta http-equiv="refresh" content="3; url=https://xgqfrms.github.io/DataStructure/"> -->
     <!-- 自动刷新 $ 重定向 -->
 
-
-
 	<!-- Browser Compatiable -->
     <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <link href="images/icon.png" rel="shortcut icon" type="image/x-icon">
-    <!--media query-->
+    <!-- CSS3 Media Query -->
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-    <!--
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-        -->
-
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullpage.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/test.css" media="screen">
- <!--CSS3 Media Query
-    <1:link元素中的CSS媒体查询 >
-    <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
-
-    <2:样式表中的CSS媒体查询 >
-    <style>
-    @media (max-width: 600px) {
-     .facet_sidebar {
-        display: none;
-       }
-    }
-    </style>    
-    <link rel="stylesheet" type="text/css" href="stylesheets/test_phone.css" media="(max-width: 720px)and (device-aspect-ratio: 16/9)">
-	<link rel="stylesheet" type="text/css" href="stylesheets/test_phone _small.css" media="(max-width: 480px)and (device-aspect-ratio: 15/9)">
-	-->
 	<link rel="stylesheet" type="text/css" href="stylesheets/test_phone.css" media="(max-width: 480px)">
 	<link rel="stylesheet" type="text/css" href="stylesheets/test_phone _small.css" media="screen and (max-device-width: 480px) and (min-width: 320px)">
-	<!-- 
-	华为C8812: 800x480像素;
-	荣耀畅玩4C（CHM-CL00/标准版/电信4G）参数:1280x720像素
-	-->
-    <!--CDN
+    <!--CDN-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.css" media="screen">
-    -->
+    
+    <!-- jQuery 制作无缝轮播的焦点图 -->
+    <link rel="stylesheet" type="text/css" href="../stylesheets/carousel.css">
+    <script src="../javascripts/jquery-2.2.3.min.js"></script>
+    <script src="../javascripts/carousel.js"></script>
+    <!--  -->
     <title>DSQCW | xgqfrms</title>
 </head>
 <body>
@@ -65,6 +43,28 @@
     </header>
     <div class="section section1 active">
         <img src="images/header/bg1.jpg">
+        <!-- <div class="container">
+                <div class="banner">
+                    <ul class="img">
+                        <li><a href="#"><img src="images/bg1.jpg" alt="images/bg1.jpg" title="img_1"></a></li>
+                        <li><a href="#"><img src="images/bg2.jpg" alt="images/bg2.jpg" title="img_2"></a></li>
+                        <li><a href="#"><img src="images/bg3.jpg" alt="images/bg3.jpg" title="img_3"></a></li>
+                        <li><a href="#"><img src="images/bg4.jpg" alt="images/bg4.jpg" title="img_4"></a></li>
+                        <li><a href="#"><img src="images/bg5.jpg" alt="images/bg5.jpg" title="img_5"></a></li>
+                        <li><a href="#"><img src="images/bg6.jpg" alt="images/bg6.jpg" title="img_6"></a></li>
+                    </ul>
+                    <ul class="num">                                               
+                        <li title="img1"></li>
+                        <li title="img2"></li>
+                        <li title="img3"></li>
+                        <li title="img4"></li>
+                        <li title="img5"></li>
+                        <li title="img6"></li>                         
+                    </ul>
+                    <div class="btn btn_l"><a href="#">&lt;</a></div>
+                    <div class="btn btn_r"><a href="#">&gt;</a></div>
+                </div>
+            </div> -->
     </div>
     <div class="section section2">
         <div class="slide">
@@ -113,17 +113,7 @@
             <!--disqus universal code-->
             <!-- <div id="disqus_thread" class="disqus_div"></div> -->
             <div id="disqus_thread" class="disqus_div"></div>
-            <script>
-                /**
-                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-                */
-                /*
-                var disqus_config = function () {
-                this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-                */
+            <script>                
                 (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
 
