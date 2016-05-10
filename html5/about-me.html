@@ -85,7 +85,7 @@
 	<div class="container">
 		<div class="my_container">
 			<div class="dc-1">
-				<img src="../images/icon-me.jpg" alt="icon-me.jpg" title="icon-me.jpg">
+				<!-- <img src="../images/icon-me.jpg" alt="icon-me.jpg" title="icon-me.jpg">
 				<div class="nav_links">
 					<ul class="breadcrumb">
 					  <li><a href="#">首页</a></li>
@@ -93,17 +93,80 @@
 					  <li><a href="#">HTML5</a></li>
 					  <li>个人简介:</li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 			<div class="dc-2">
 				<h1>xxxx</h1>
-				<li><a href="#">下载资料</a></li>
+				<div class="t">
+					<li><a href="#">下载资料</a></li>
+				</div>
 				<div class="t_list">
 					<li><a href="">课程习题</a></li>
 					<li><a href="">考研资料</a></li>
 					<li><a href="">课外作业</a></li>
 					<li><a href="">电子书籍</a></li>
 					<li><a href="">开发工具</a></li>
+				</div>
+				<div class="list">
+					<form action="">
+						<select name="cars">
+							<option value="volvo">Volvo</option>
+							<option value="saab" selected="selected">Saab</option>
+							<option value="fiat">Fiat</option>
+							<option value="audi">Audi</option>
+						</select>
+					</form>
+					<form action="demo-form.php" method="get">
+						<input list="browsers" name="browser">
+						<datalist id="browsers">
+						  <option value="Internet Explorer"></option>
+						  <option value="Firefox"></option>
+						  <option value="Chrome"></option>
+						  <option value="Opera"></option>
+						  <option value="Safari"></option>
+						  <option value="xgqfrms"></option>
+						</datalist>
+						<input type="submit">
+					</form>
+					<script>
+					function displayResult()
+					{
+					var x=document.getElementById("mySelect");
+					var txt="All options: ";
+					var i;
+					for (i=0;i<x.length;i++)
+					  {
+					  txt=txt + "\n" + x.options[i].text;
+					  }
+					alert(txt);
+					}
+					</script>
+					<form>
+						Select your favorite fruit:
+						<select id="mySelect">
+						  <option>Apple</option>
+						  <option>Orange</option>
+						  <option>Pineapple</option>
+						  <option>Banana</option>
+						</select>
+					</form>
+					<button type="button" onclick="displayResult()">Display text of all options</button>
+					<menu type="toolbar">
+						 <li>
+						  <menu label="File">
+						   <button type="button" onclick="file_new()">New...</button>
+						   <button type="button" onclick="file_open()">Open...</button>
+						   <button type="button" onclick="file_save()">Save</button>
+						  </menu>
+						 </li>
+						 <li>
+						  <menu label="Edit">
+						   <button type="button" onclick="edit_cut()">Cut</button>
+						   <button type="button" onclick="edit_copy()">Copy</button>
+						   <button type="button" onclick="edit_paste()">Paste</button>
+						  </menu>
+						 </li>
+					</menu>
 				</div>
 			</div>
 			<div class="dc-3">
