@@ -5,18 +5,20 @@
 }
 body{
 	width: 100%;
-	height: 1150px;
-	overflow: hidden;
+	height: 100%;
+	/*overflow: hidden;*/
 }
 /* header */
 .header{
-	/*position: fixed;*/
+	position: fixed;
 	width: 100%;
 	height: 100px;
-	top: 0;
+	/*background: rgba(0,0,0,1);*/
+	background: rgba(0,0,0,0.5);
+	z-index: 9999;
 }
 .header .my_header {
-	background-color: rgba(0,0,0,0.5); !important;
+	/*background-color: rgba(0,0,0,0.5); !important;*/
 	width: 80%;
 	height: 100%;
 	margin: 0 10%;
@@ -60,19 +62,25 @@ body{
 }
 /* container */
 .container{
-	/*position: relative;*/
+	position: absolute;
+	clear: both;
+	float: left;
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: 1000px;
+	top: 100px;
+	/*margin-top: 100px;*/
+	/*border: 1px solid red;*/
+}
+.container .my_container{
+	background: rgba(0,255,0,1);
+	width: 80%;
+	height: 1000px;
+	margin: 0 10%;
+}
+.container .my_container .dc-1{
 	clear: both;
 	/*background: rgba(0,255,0,0.8);*/
-	width: 80%;
-	height: 800px;
-	margin: 0 10%;
-	/*top: 100px;*/
-	/*margin-top: 100px;*/
-	border: 1px solid red;
-}
-.container .dc-1{
-	clear: both;
-	background: rgba(0,255,0,0.8);
 	width: 80%;
 	height: 100px;
 }
@@ -80,15 +88,30 @@ body{
 
 
 
-
-/* container */
+/* footer */
 .footer {
 	clear: both;
-	/*position: relative;*/
-	/*top: 900px;*/
-	background: rgba(0,0,0,0.8);
+	float: left;
+	position: relative;
+	bottom: -1100px;
+	background: rgba(0,0,0,1);
+	width: 100%;
+	height: 50px;
+}
+.footer .my_footer {
+	/*background: rgba(255,255,255,1);*/
 	width: 80%;
 	height: 50px;
 	margin: 0 10%;
-	/**/
+}
+.footer .my_footer .footer_link a:link,.footer .my_footer .footer_link a:visited,.footer .my_footer .footer_link a:active {
+    color: #c8cdd2;
+}
+html, body {
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    color: #14191e;
+}
+body {
+    color: #5e5e5e;
+    font: 14px/2em Microsoft YaHei,SimSun,Arial;
 }
