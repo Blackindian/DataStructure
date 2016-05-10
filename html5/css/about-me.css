@@ -8,7 +8,7 @@ body{
 	height: 100%;
 	/*overflow: hidden;*/
 	font: 14px/1.5 "Microsoft Yahei", Helvetica, SimSun, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
-    color: #14191e;
+    color: #999999;
 }
 /* header */
 .header{
@@ -98,7 +98,7 @@ body{
 	float: left;
 	position: relative;
 	bottom: -1100px;
-	background: rgba(0,0,0,1);
+	background: rgba(0,0,0,0.9);
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
@@ -108,15 +108,104 @@ body{
 	width: 80%;
 	height: 100px;
 	margin: 0 10%;
+	float: left;
+}
+.footer .my_footer .df-1 {
+	width: 80%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	/*background-color: #fff;*/
+}
+.footer .my_footer .df-1 .link_list{
+	margin-left: 10%;
 }
 .footer .my_footer .df-1 .link_list li{
 	color: rgba(255,255,255,1);
 	float: left;
 	width: 100px;
-	margin-left: 3px;
+	/*padding: 0;*/
+	margin:10px 1px;
+	text-align: center;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	list-style-type: none;
+	background-color: red;
+
+}
+.footer .my_footer .df-1 .link_list li a{
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+.footer .my_footer .df-1 .link_list li a:hover{
+	color: rgba(0,255,0,0.7);
+}
+.footer .my_footer .df-2 {
+	width: 80%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	/*background-color: #f0f;*/
+}
+.footer .my_footer .df-2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer .my_footer .df-2 a:hover{
+	text-decoration: none;
+	color: #0f0;
+}
+
+.footer .my_footer .df-3 {
+	width: 20%;
+	height:100px;
+	text-align: center;
+	line-height: 100px;
+	margin: -100px 0 0 0;
+	/*background-color: #0ff;*/
+	float: right;
+}
+.footer .my_footer .df-3 .QR_code{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0px;
+	/*background-color: #ff0;*/
+	float: left;
+}
+.footer .my_footer .df-3 .QR_text{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 10px;
+	/*background-color: #000;*/
+	float: left;
+	font-size: 12px;
+	color: rgba(0,255,0,0.7);
+}
+.footer .my_footer .df-3 .QR_code a img{
+	float: left;
+	width: 64px;
+	height: 64px;
+	line-height: 64px;
+	margin: 18px;
+	text-align: center;
+}
+.footer .my_footer .df-3 .QR_code a img:hover{
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 0;
 }
 
 /**/
-.footer .my_footer .footer_link a:link,.footer .my_footer .footer_link a:visited,.footer .my_footer .footer_link a:active {
-    color: #c8cdd2;
+.footer a:link,.footer a:visited,.footer a:active {
+    color: #fff;
 }
