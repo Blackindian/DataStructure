@@ -21,7 +21,7 @@ body{
 	background: rgba(0,0,0,1);
 	/*background: url(../../images/logo-me.png);*/
 	z-index: 9999;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 .header .my_header {
 	/*background-color: rgba(0,0,0,0.5); !important;*/
@@ -71,26 +71,9 @@ body{
 	/*background-color: #0ff;*/
 	float: left;
 	display: inline-block;
-	/*overflow: unset;*/
-	overflow: hidden;
 }
-.header .my_header .nav .nav_links .links_list .i_list .c_list, .t_list, .r_list, .d_list{
+.header .my_header .nav .nav_links .links_list .c_list, .t_list, .r_list, .d_list{
 	display: none;
-}
-.header .my_header .nav .nav_links .links_list .li1:hover, .i_list{
-	display: inline-block;
-}
-.header .my_header .nav .nav_links .links_list .li2:hover, .c_list{
-	display: inline-block;
-}
-.header .my_header .nav .nav_links .links_list .li3:hover, .t_list{
-	display: inline-block;
-}
-.header .my_header .nav .nav_links .links_list .li4:hover, .r_list{
-	display: inline-block;
-}
-.header .my_header .nav .nav_links .links_list .li5:hover, .d_list{
-	display: inline-block;
 }
 .header .my_header .nav .nav_links .links_list {
     padding: 5px 5px;
@@ -110,12 +93,12 @@ body{
 	text-align: center;
 	/**/
 }
-/*.header .my_header .nav .nav_links .links_list li+li:before {
+.header .my_header .nav .nav_links .links_list li+li:before {
     padding: 8px;
     color: #0f0;
     content: "\007C";
-    font-size: 16px;
-}*/
+    font-size: 18px;
+}
 .header .my_header .nav .nav_links .links_list li a {
 	color: rgba(255, 165, 0,1);
 	text-decoration: none;
@@ -341,6 +324,7 @@ body{
 }
 
 
+
 .container .my_container .dc-2 {
 	clear: both;
 	float: left;
@@ -349,7 +333,6 @@ body{
 	height: 500px;
 	overflow: hidden;
 }
-
 
 .container .my_container .dc-3 {
 	clear: both;
