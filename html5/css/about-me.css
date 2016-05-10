@@ -37,29 +37,62 @@ body{
 	height: 100px;
 	float: left;
 }
+.header .my_header .nav .login_register{
+	width: 30%;
+	height: 100px;
+	background-color: #f00;
+	display: inline-block;
+}
+.header .my_header .nav .login_register .lr_links li{
+	float: right;
+	list-style-type: none;
+}
+.header .my_header .nav .login_register .lr_links span{
+	float: right;
+	margin: 0 10px;
+}
+.header .my_header .nav .login_register .lr_links li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header .my_header .nav .login_register .lr_links li a:hover{
+	color: #0f0;
+}
+
 /*<!-- 面包屑导航 -->*/
-.header .my_header .nav .links .breadcrumb {
+.header .my_header .nav .nav_links{
+	width: 70%;;
+	height: 100px;
+	background-color: #0ff;
+	float: left;
+	display: inline-block;
+}
+.header .my_header .nav .nav_links .breadcrumb {
     padding: 8px 16px;
     list-style: none;
     background-color: #eee;
 }
-.header .my_header .nav .links .breadcrumb li {
+.header .my_header .nav .nav_links .breadcrumb li {
 	display: inline;
 	/**/
 }
-.header .my_header .nav .links .breadcrumb li+li:before {
+.header .my_header .nav .nav_links .breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: "\003E";
     font-size: 18px;
 }
-.header .my_header .nav .links .breadcrumb li a {
+.header .my_header .nav .nav_links .breadcrumb li a {
 	color: rgba(255, 165, 0,1);
 	text-decoration: none;
 }
-.header .my_header .nav .links .breadcrumb li a:hover {
+.header .my_header .nav .nav_links .breadcrumb li a:hover {
 	color: rgba(0, 153, 0,1);
+	/**/
 }
+
+
+
 /* container */
 .container{
 	position: absolute;
@@ -85,7 +118,6 @@ body{
 	width: 80%;
 	height: 100px;
 }
-
 
 
 
