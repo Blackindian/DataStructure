@@ -7,6 +7,8 @@ body{
 	width: 100%;
 	height: 100%;
 	/*overflow: hidden;*/
+	font: 14px/1.5 "Microsoft Yahei", Helvetica, SimSun, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    color: #14191e;
 }
 /* header */
 .header{
@@ -16,6 +18,7 @@ body{
 	/*background: rgba(0,0,0,1);*/
 	background: rgba(0,0,0,0.5);
 	z-index: 9999;
+	overflow: hidden;
 }
 .header .my_header {
 	/*background-color: rgba(0,0,0,0.5); !important;*/
@@ -69,6 +72,7 @@ body{
 	width: 100%;
 	height: 1000px;
 	top: 100px;
+	overflow: hidden;
 	/*margin-top: 100px;*/
 	/*border: 1px solid red;*/
 }
@@ -96,22 +100,23 @@ body{
 	bottom: -1100px;
 	background: rgba(0,0,0,1);
 	width: 100%;
-	height: 50px;
+	height: 100px;
+	overflow: hidden;
 }
 .footer .my_footer {
 	/*background: rgba(255,255,255,1);*/
 	width: 80%;
-	height: 50px;
+	height: 100px;
 	margin: 0 10%;
 }
+.footer .my_footer .df-1 .link_list li{
+	color: rgba(255,255,255,1);
+	float: left;
+	width: 100px;
+	margin-left: 3px;
+}
+
+/**/
 .footer .my_footer .footer_link a:link,.footer .my_footer .footer_link a:visited,.footer .my_footer .footer_link a:active {
     color: #c8cdd2;
-}
-html, body {
-    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
-    color: #14191e;
-}
-body {
-    color: #5e5e5e;
-    font: 14px/2em Microsoft YaHei,SimSun,Arial;
 }
