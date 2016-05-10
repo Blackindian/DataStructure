@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<!-- not necessary -->
+	<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<!-- progressbar -->
+	<link rel="stylesheet" href="css/smoothness-jquery-ui.css">
+	<title>jquuery UI</title>
+	<style>
+	body {
+		font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+		font-size: 62.5%;
+	}
+	 .ui-progressbar {
+	    position: relative;
+	 }
+	 .progress-label {
+	    position: absolute;
+	    left: 50%;
+	    top: 4px;
+	    font-weight: bold;
+	    text-shadow: 1px 1px 0 #2efb00;
+	 }
+	</style>
+</head>
+<body>
+	<div class="c1">
+		<input type="text" name="date" id="date" />
+	</div>
+	<div class="c2">
+		<input type="range" name="myrange" id="myrange" />
+		
+	</div>
+	<div id="progressbar">
+		<div class="progress-label">加载...</div>
+	</div>
+	<div class="c3" id="mySliderDiv">
+		<!-- x -->
+	</div>
+	<div class="scripts">
+	<!-- conditional comments: -->
+    <!--[if lt IE 9]>
+        <script src="jquery/jquery-1.12.3.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+        <script src="jquery/jquery-2.2.3.min.js"></script>
+    <!--[endif]-->
+
+		<script src="jquery/jquery-1.12.3.min.js"></script>
+		<!-- newer version -->
+		<script src="jquery/jquery-2.2.3.min.js"></script>
+		<script src="jquery/jquery-ui.min.js"></script>
+		<script>
+			$( "#date" ).datepicker();
+			$( "#mySliderDiv" ).slider({
+			    orientation: "vertical",
+			    min: 0,
+			    max: 150,
+			    value: 50
+			});
+			// progressbar
+			$(function() {
+			  var progressbar = $( "#progressbar" ),
+			    progressLabel = $( ".progress-label" );
+			
+			  progressbar.progressbar({
+			    value: false,
+			    change: function() {
+			      progressLabel.text( progressbar.progressbar( "value" ) + "%" );
+			    },
+			    complete: function() {
+			      progressLabel.text( "完成！" );
+			    }
+			  });
+			
+			  function progress() {
+			    var val = progressbar.progressbar( "value" ) || 0;
+			
+			    progressbar.progressbar( "value", val + 1 );
+			
+			    if ( val < 99 ) {
+			      setTimeout( progress, 100 );
+			    }
+			  }
+			
+			  setTimeout( progress, 3000 );
+			});
+		</script>
+	</div>
+</body>
+</html>
