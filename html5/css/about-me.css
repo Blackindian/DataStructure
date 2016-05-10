@@ -15,8 +15,8 @@ body{
 	position: fixed;
 	width: 100%;
 	height: 100px;
-	/*background: rgba(0,0,0,1);*/
 	background: rgba(0,0,0,1);
+	/*background: url(../../images/logo-me.png);*/
 	z-index: 9999;
 	overflow: hidden;
 }
@@ -29,13 +29,8 @@ body{
 .header .my_header .logo{
 	width: 300px;
 	height: 100px;
-	/*background-color: #000;*/
+	background: url(../../images/logo-me.png) no-repeat;
 	float: left;
-}
-.header .my-header .logo .my_img{
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
 }
 .header .my_header .nav{
 	width: 72%;
@@ -56,6 +51,7 @@ body{
     padding: 8px;
     color: black;
     content: "\003E";
+    font-size: 18px;
 }
 .header .my_header .nav .links .breadcrumb li a {
 	color: rgba(255, 165, 0,1);
