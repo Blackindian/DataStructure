@@ -25,43 +25,44 @@ body{
 	width: 80%;
 	height: 100%;
 	margin: 0 10%;
-	float: left;
 }
 .header .my_header .logo{
 	width: 300px;
 	height: 100px;
 	/*background-color: #000;*/
-	display: inline-block;
+	float: left;
 }
 .header .my-header .logo .my_img{
 	width: 50px;
 	height: 50px;
 	background-color: #fff;
-	/*display: inline-block;*/
 }
 .header .my_header .nav{
-	/*width: 300px;*/
+	width: 72%;
 	height: 100px;
-	display: inline-block;
+	float: left;
 }
 /*<!-- 面包屑导航 -->*/
-.header .my_header .nav .breadcrumb {
+.header .my_header .nav .links .breadcrumb {
     padding: 8px 16px;
     list-style: none;
     background-color: #eee;
 }
-.header .my_header .nav .breadcrumb li {
+.header .my_header .nav .links .breadcrumb li {
 	display: inline;
 	/**/
 }
-.header .my_header .nav .breadcrumb li+li:before {
+.header .my_header .nav .links .breadcrumb li+li:before {
     padding: 8px;
     color: black;
     content: "\003E";
 }
-.header .my_header .nav .breadcrumb li a {
-	color: green;
-	/**/
+.header .my_header .nav .links .breadcrumb li a {
+	color: rgba(255, 165, 0,1);
+	text-decoration: none;
+}
+.header .my_header .nav .links .breadcrumb li a:hover {
+	color: rgba(0, 153, 0,1);
 }
 /* container */
 .container{
