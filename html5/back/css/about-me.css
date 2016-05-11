@@ -1,0 +1,410 @@
+/*about me css*/
+*{
+	margin: 0;
+	padiing: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	font: 14px/1.5 "Microsoft Yahei", Helvetica, SimSun, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    color: #737373;
+}
+
+
+
+/* header */
+.header{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,1);
+	/*background: url(../../images/logo-me.png);*/
+	z-index: 9999;
+	/*overflow: hidden;*/
+}
+.header .my_header {
+	/*background-color: rgba(0,0,0,0.5); !important;*/
+	width: 80%;
+	height: 100%;
+	margin: 0 10%;
+}
+.header .my_header .logo{
+	width: 300px;
+	height: 100px;
+	background: url(../../images/logo-me.png) no-repeat;
+	float: left;
+}
+.header .my_header .nav{
+	width: 72%;
+	height: 100px;
+	float: left;
+}
+.header .my_header .nav .login_register{
+	width: 30%;
+	height: 100px;
+	background-color: #f00;
+	display: inline-block;
+	margin: 1px auto;
+}
+.header .my_header .nav .login_register .lr_links li{
+	float: left;
+	list-style-type: none;
+}
+.header .my_header .nav .login_register .lr_links span{
+	float: left;
+	margin: 0 10px;
+}
+.header .my_header .nav .login_register .lr_links li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header .my_header .nav .login_register .lr_links li a:hover{
+	color: #0f0;
+	/**/
+}
+
+/* dropdown-list-menu */
+.header .my_header .nav .nav_links{
+	width: 70%;;
+	height: 100px;
+	/*background-color: #f0f;*/
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+}
+.header .my_header .nav .nav_links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(204,0,204,1);
+    /**/
+    /*height: 50px;
+    line-height: 50px;*/
+    /*margin: 40px 0 0 10px;*/
+    /*border-radius: 5px;*/
+}
+.header .my_header .nav .nav_links li {
+    float: left;
+    /*width: 100px;*/
+}
+.header .my_header .nav .nav_links li a, .dropbtn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   /* height: 43px;
+    line-height: 43px;*/
+    margin-left: 10px;
+}
+.header .my_header .nav .nav_links li a:hover,.header .my_header .nav .nav_links .dropdown:hover .dropbtn {
+    background-color: #f00;
+}
+.header .my_header .nav .nav_links .dropdown {
+    display: inline-block;
+}
+.header .my_header .nav .nav_links .dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #c0c;*/
+    background-color:rgba(0,0,0,0.8);
+    /*min-width: 160px;*/
+    min-width: 100px;
+    box-shadow: 0px 2px 4px 0px rgba(0,255,0,0.5);
+}
+.header .my_header .nav .nav_links .dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.header .my_header .nav .nav_links .dropdown-content a:hover {
+	background-color: #0f0;
+}
+.header .my_header .nav .nav_links .dropdown:hover .dropdown-content {
+    display: block;
+}
+.header .my_header .nav .nav_links .dropdown:hover .dropdown-content li{
+	clear: both;
+	/*width: 100px;*/
+}
+
+
+/* footer */
+.footer {
+	clear: both;
+	float: left;
+	position: relative;
+	bottom: -1100px;
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+.footer .my_footer {
+	/*background: rgba(255,255,255,1);*/
+	width: 80%;
+	height: 100px;
+	margin: 0 10%;
+	float: left;
+}
+.footer .my_footer a:link, a:visited, a:active {
+    color: #fff;
+    /**/
+}
+
+.footer .my_footer .df-1 {
+	width: 80%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	/*background-color: #fff;*/
+}
+.footer .my_footer .df-1 .link_list{
+	margin-left: 15%;
+	/**/
+}
+.footer .my_footer .df-1 .link_list li{
+	color: rgba(255,255,255,1);
+	float: left;
+	width: 100px;
+	/*padding: 0;*/
+	margin:10px 1px;
+	text-align: center;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	list-style-type: none;
+	background-color: red;
+	border-radius: 7px;
+}
+.footer .my_footer .df-1 .link_list li a{
+	text-decoration: none;
+	/*color: rgba(255,255,255,1);*/
+	color: #ccc;
+}
+.footer .my_footer .df-1 .link_list li a:hover{
+	color: rgba(0,255,0,0.7);
+	/**/
+}
+
+.footer .my_footer .df-2 {
+	width: 80%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	/*background-color: #f0f;*/
+}
+.footer .my_footer .df-2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer .my_footer .df-2 a:hover{
+	text-decoration: none;
+	color: #0f0;
+}
+
+.footer .my_footer .df-3 {
+	width: 20%;
+	height:100px;
+	text-align: center;
+	line-height: 100px;
+	margin: -100px 0 0 0;
+	/*background-color: #0ff;*/
+	float: right;
+}
+.footer .my_footer .df-3 .QR_code{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0px;
+	/*background-color: #ff0;*/
+	float: left;
+}
+.footer .my_footer .df-3 .QR_text{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 10px;
+	/*background-color: #000;*/
+	float: left;
+	font-size: 12px;
+	color: rgba(0,255,0,0.7);
+}
+.footer .my_footer .df-3 .QR_code a img{
+	float: left;
+	width: 64px;
+	height: 64px;
+	line-height: 64px;
+	margin: 18px;
+	text-align: center;
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg); 
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	transition: all 1s;
+	/*transition: width 1s ease 0, height 1s ease 0;*/
+	transition: width 1s linear 0, height 1s linear 0;
+
+	/*
+	  transition: width 1s;
+	  transition: height 1s;
+	*/
+}
+.footer .my_footer .df-3 .QR_code a img:hover{
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+/* container */
+.container{
+	position: absolute;
+	clear: both;
+	background: rgba(255,255,255,1);
+	width: 100%;
+	height: 1000px;
+	top: 100px;
+	overflow: hidden;
+	/*margin-top: 100px;*/
+	/*border: 1px solid red;*/
+}
+.container .my_container{
+	background: rgba(0,255,0,1);
+	width: 80%;
+	height: 1000px;
+	margin: 0 10%;
+	float: left;
+}
+
+.container .my_container .dc-1{
+	clear: both;
+	float: left;
+	background: rgba(255,255,0,0.8);
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.container .my_container .dc-1 .img{
+	float: left;
+	background: rgba(0,255,0,0.8);
+	width: 100px;
+	height: 100px;
+}
+.container .my_container .dc-1 .img img{
+	width: 50px;
+	height: 50px;
+	margin: 25px;
+}
+
+/*<!-- 面包屑导航 -->*/
+.container .my_container .dc-1 .dc_links{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	float: left;
+}
+.container .my_container .dc-1 .dc_links .breadcrumb {
+    /*padding: 8px 16px;*/
+    list-style: none;
+    background-color: #eee;
+}
+.container .my_container .dc-1 .dc_links .breadcrumb li {
+	display: inline;
+	/*background-color: #f0f;*/
+}
+.container .my_container .dc-1 .dc_links .breadcrumb li+li:before {
+    padding: 8px;
+    color: rgba(0,255,0,0.7);
+    content: "\003E";
+}
+.container .my_container .dc-1 .dc_links .breadcrumb li a {
+	color: rgba(255,255,255,0.7);
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.container .my_container .dc-1 .box .province_show {
+	display: block;
+	background-color: #0ff;
+}
+.container .my_container .dc-1 .box .province_hidden {
+	display: none;
+}
+
+
+.container .my_container .dc-2 {
+	clear: both;
+	float: left;
+	background: rgba(0,255,255,0.8);
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+
+.container .my_container .dc-3 {
+	clear: both;
+	float: left;
+	background: rgba(255,0,255,0.8);
+	width: 80%;
+	margin: auto 10%;
+	height: 300px;
+	overflow: hidden;
+}
+.container .my_container .dc-3 .xl ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.container .my_container .dc-3 .xl li {
+    float: left;
+    /**/
+}
+.container .my_container .dc-3 .xl li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container .my_container .dc-3 .xl li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+.container .my_container .dc-3 .xl .dropdown {
+    display: inline-block;
+}
+.container .my_container .dc-3 .xl .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.container .my_container .dc-3 .xl .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.container .my_container .dc-3 .xl .dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+.container .my_container .dc-3 .xl .dropdown:hover .dropdown-content {
+    display: block;
+}
