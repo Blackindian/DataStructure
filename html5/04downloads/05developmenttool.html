@@ -116,12 +116,53 @@
 				<div class="downtools">
 					<!-- iframe -->
 					<h1>DataStructure tools</h1>
-					<iframe src="http://xgqfrms.github.io/DataStructure/testing/demo_iframe.html" name="iframe_a" class="iframe1"></iframe>
+					<iframe src="http://xgqfrms.github.io/DataStructure/testing/demo_iframe.html" name="iframe_a" class="iframe1" srcdoc="<h1>DataStructure Tools!</h1>" frameborder="0"></iframe>
 					<p>
 						<a href="../../testing/download_icons.html" target="iframe_a">点击加载iframe</a>
 					</p>
 					<!--  -->
-					<iframe src="../../testing/download_icons.html" class="iframe2"></iframe> 
+					<iframe src="../../testing/download_icons.html" class="iframe2" srcdoc="<h1>DataStructure Tools!</h1>" frameborder="0"></iframe> 
+					<!-- 
+					seamless 属性是一个布尔属性。
+
+					seamless 属性规定 <iframe> 看起来像是包含的文档的一部分（没有边框和滚动条）。
+					 -->
+					 <iframe src="../../testing/download_icons.html" class="iframe2" srcdoc="<h1>DataStructure Tools!</h1>" seamless="seamless"></iframe>
+					 <!-- sandbox -->
+					 <iframe src="../../testing/getTime.html" frameborder="0"></iframe>
+					 <p></p>
+					 <iframe src="../../testing/getTime.html" frameborder="0"></iframe>
+					 <p></p>
+					 <!-- sandbox -->
+					 <div>
+					 	<p>
+					 		如果指定了空字符串（sandbox=""），该属性对呈现在iframe框架中的内容启用一些额外的限制条件。
+
+					 		sandbox 属性的值既可以是一个空字符串（将会启用所有的限制），也可以是用空格分隔的一系列指定的字符串。
+
+					 		HTML 5通过sandbox属性提升iFrame的安全性。sandbox属性可以防止不信任的Web页面执行某些操作。
+
+					 		HTML 5规范的编辑Ian Hickson谈到了sandbox的好处，它可以防止如下操作：
+
+					 		    访问父页面的DOM（从技术角度来说，这是因为相对于父页面iframe已经成为不同的源了）
+					 		    执行脚本
+					 		    通过脚本嵌入自己的表单或是操纵表单
+					 		    对cookie、本地存储或本地SQL数据库的读写
+
+					 	</p>
+					 	<p>
+					 		sandbox 属性是 HTML5 中的新属性。
+					 		语法
+					 		&lt;iframe sandbox="value"&gt;
+					 		属性:值
+					 		值                      描述
+					 		"" (空)                 启用所有限制条件
+					 		allow-same-origin       允许将内容作为普通来源对待。如果未使用该关键字，嵌入的内容将被视为一个独立的源。
+					 		allow-top-navigation    嵌入的页面的上下文可以导航（加载）内容到顶级的浏览上下文环境（browsingcontext）。如果未使用该关键字，这个操作将不可用。
+					 		allow-forms             允许表单提交。
+					 		allow-scripts           允许脚本执行。
+					 	</p>
+					 </div>					 
 				</div>		
 			</div>
 			<div class="dc-3">

@@ -438,7 +438,7 @@ p::selection,span::selection,h1::selection{
 	float: left;
 	width: 100%;
 	margin: 0;
-	height: 800px;
+	height: 1300px;
 	overflow: hidden;
 	background-color: #0f0;
 	padding: 10px 30%;
@@ -460,7 +460,7 @@ p::selection,span::selection,h1::selection{
 	 border: 1px solid #f0f;
 	 background-color: rgba(255,0,255,0.5);
 	 /*padding-left: 25px;*/
-	 padding: 0 25px;
+	 padding-left: 25px;
 }
 .container .my_container .dc-2 .downtools .iframe2{
 	 /*frameborder="0" */
