@@ -10,7 +10,10 @@ body{
 	font: 14px/1.5 "Microsoft Yahei", Helvetica, SimSun, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
     color: #737373;
 }
-
+p::selection,span::selection,h1::selection{
+	color: #f0f;
+	background-color: #fff;
+}
 /* header */
 .header{
 	position: fixed;

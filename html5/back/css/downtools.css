@@ -1,4 +1,4 @@
-/* teacher1.css */
+/* teacher0.css */
 *{
 	margin: 0;
 	padiing: 0;
@@ -14,7 +14,6 @@ p::selection,span::selection,h1::selection{
 	color: #f0f;
 	background-color: #fff;
 }
-
 /* header */
 .header{
 	position: fixed;
@@ -155,7 +154,7 @@ p::selection,span::selection,h1::selection{
 	clear: both;
 	float: left;
 	position: relative;
-	bottom: -2600px;
+	bottom: -1600px;
 	background: rgba(0,0,0,0.9);
 	width: 100%;
 	height: 100px;
@@ -292,7 +291,7 @@ p::selection,span::selection,h1::selection{
 	clear: both;
 	/*background: rgba(255,255,255,1);*/
 	width: 100%;
-	height: 2500px;
+	height: 1500px;
 	top: 100px;
 	overflow: hidden;
 	/*margin-top: 100px;*/
@@ -301,7 +300,7 @@ p::selection,span::selection,h1::selection{
 .container .my_container{
 	/*background: rgba(0,255,0,1);*/
 	width: 80%;
-	height: 2500px;
+	height: 1500px;
 	margin: 0 10%;
 	float: left;
 }
@@ -309,13 +308,21 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-1{
 	clear: both;
 	float: left;
-	/*background: rgba(255,255,0,0.8);*/
+	background: rgba(255,0,0,0.8);
 	width: 100%;
-	height: 50px;
+	height: 150px;
 	/*height: 200px;*/
 	/*overflow: hidden;*/
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin-bottom: 10px;
+}
+.container .my_container .dc-1 .img_other{
+	float: left;
+	/*background: rgba(255,255,0,0.8);*/
+	background: rgba(0,255,0,1);
+	width: 979px;
+	height: 100px;
+	/*margin-left: 100px;*/
 }
 .container .my_container .dc-1 .img{
 	float: left;
@@ -363,22 +370,16 @@ p::selection,span::selection,h1::selection{
 	text-decoration: none;
 }
 
-.container .my_container .dc-1 .box .province_show {
-	display: block;
-	background-color: #0ff;
-}
-.container .my_container .dc-1 .box .province_hidden {
-	display: none;
-}
-
 
 .container .my_container .dc-2 {
 	clear: both;
 	float: left;
 	/*background: rgba(0,255,255,0.8);*/
+	background: rgba(0,0,0,0.5);
 	width: 100%;
-	height: 2400px;
+	height: 1400px;
 	/*overflow: hidden;*/
+	margin-top: -10px;
 }
 .container .my_container .dc-2 .pic {
 	width: 80%;
@@ -395,6 +396,26 @@ p::selection,span::selection,h1::selection{
 	font-size: 16px;
 	color: #000;
 }
+.container .my_container .dc-2 .info .di1 .my_section .table_info{
+	display: block;
+	width: 600px;
+	height: 240px;
+	border: 1px solid #f00;
+	border-radius: 5px;
+}
+.container .my_container .dc-2 .info .di1 .my_section .table_info td{
+	border: 1px solid #f00;
+	width: 150px;
+	height: 32px;
+}
+.container .my_container .dc-2 .info .di2 p, span{
+	font-size: 16px;
+	color: #000;
+}
+.container .my_container .dc-2 .info .di3 p, span{
+	font-size: 16px;
+	color: #000;
+}
 .container .my_container .dc-2 .info li {
 	list-style-type: none;
 }
@@ -405,15 +426,55 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-2 .info a:hover{
 	color: #0f0;
 }
+.container .my_container .dc-2 .class_info{
+	/*background-color: #f00;*/
+	width: 80%;
+	height: 500px;
+	margin: 10%;
+}
+/*.container .my_container .dc-2 .class_info{
+	background-color: #f0f;
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	color: #0f0;
+}*/
+.container .my_container .dc-2 .class_info h1{
+	/*background-color: #f0f;*/
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	color: #0f0;
+}
+.container .my_container .dc-2 .class_info section{
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+	/*text-align: center;*/
+	/*background-color: #f0f;*/
+	display: block;
+}
+.container .my_container .dc-2 .class_info .my_section p{
+	width: 80%;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	/*background-color: #f0f;*/
+	display: block;
+}
 
 .container .my_container .dc-3 {
 	clear: both;
 	float: left;
-	/*background: rgba(255,0,255,0.8);*/
+	background: rgba(255,0,255,0.8);
 	width: 80%;
 	margin: auto 10%;
 	/*height: 300px;*/
-	height: 0px;
+	height: 50px;
 	overflow: hidden;
 }
 
