@@ -381,41 +381,7 @@ p::selection,span::selection,h1::selection{
 	/*overflow: hidden;*/
 	margin-top: -10px;
 }
-.container .my_container .dc-2 .pic {
-	width: 80%;
-	height: 150px;
-	line-height: 150px;
-	margin: 0 10%;
-}
-.container .my_container .dc-2 .pic img{
-	width: 50%;
-	height: 150px;
-	margin: 0 25%;
-}
-.container .my_container .dc-2 .info .di1 .my_section p, span{
-	font-size: 16px;
-	color: #000;
-}
-.container .my_container .dc-2 .info .di1 .my_section .table_info{
-	display: block;
-	width: 600px;
-	height: 240px;
-	border: 1px solid #f00;
-	border-radius: 5px;
-}
-.container .my_container .dc-2 .info .di1 .my_section .table_info td{
-	border: 1px solid #f00;
-	width: 150px;
-	height: 32px;
-}
-.container .my_container .dc-2 .info .di2 p, span{
-	font-size: 16px;
-	color: #000;
-}
-.container .my_container .dc-2 .info .di3 p, span{
-	font-size: 16px;
-	color: #000;
-}
+
 .container .my_container .dc-2 .info li {
 	list-style-type: none;
 }
@@ -426,21 +392,23 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-2 .info a:hover{
 	color: #0f0;
 }
-.container .my_container .dc-2 .class_info{
-	/*background-color: #f00;*/
+/*.container .my_container .dc-2 .class_info{
+	background-color: #f00;
 	width: 80%;
 	height: 500px;
 	margin: 10%;
-}
-/*.container .my_container .dc-2 .class_info{
-	background-color: #f0f;
+}*/
+.container .my_container .dc-2 .class_info{
+	/*background-color: #f0f;*/
+	/*height: 100px;
+	line-height: 100px;*/
 	width: 80%;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
 	margin: 0 auto;
 	color: #0f0;
-}*/
+}
 .container .my_container .dc-2 .class_info h1{
 	/*background-color: #f0f;*/
 	width: 80%;
@@ -453,7 +421,7 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-2 .class_info section{
 	width: 80%;
 	margin: 0 auto;
-	height: 300px;
+	height: 100px;
 	/*text-align: center;*/
 	/*background-color: #f0f;*/
 	display: block;
@@ -465,6 +433,42 @@ p::selection,span::selection,h1::selection{
 	line-height: 50px;
 	/*background-color: #f0f;*/
 	display: block;
+}
+.container .my_container .dc-2 .downtools{
+	float: left;
+	width: 100%;
+	margin: 0;
+	height: 800px;
+	overflow: hidden;
+	background-color: #0f0;
+	padding: 10px 30%;
+}
+.container .my_container .dc-2 .downtools p{
+	font-size: 36px;
+	color: #f00;
+}
+.container .my_container .dc-2 .downtools a{
+	color: #000;
+}
+.container .my_container .dc-2 .downtools a:hover{
+	color: #f00;
+}
+.container .my_container .dc-2 .downtools .iframe1{
+	 /*frameborder="0" */
+	 width: 442px;
+	 height: 200px;
+	 border: 1px solid #f0f;
+	 background-color: rgba(255,0,255,0.5);
+	 /*padding-left: 25px;*/
+	 padding: 0 25px;
+}
+.container .my_container .dc-2 .downtools .iframe2{
+	 /*frameborder="0" */
+	 width: 442px;
+	 height: 150px;
+	 border: 1px solid #f0f;
+	 background-color: rgba(255,0,255,0.5);
+	 padding-left: 25px;
 }
 
 .container .my_container .dc-3 {

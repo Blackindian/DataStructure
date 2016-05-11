@@ -50,11 +50,6 @@ button, h1, h2, h3, h4, h5, h6, input, select, textarea {
     color: #333;
     margin-bottom: 20px;
 }
-.lesson-box h2.tow-title {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 20px;
-}
 .zan-number {
     cursor: pointer;
 }
@@ -75,6 +70,11 @@ address, cite, dfn, em, i, var {
 .zan-number {
     cursor: pointer;
 }
+.wiki_lists{
+	width: 418px;
+	height: 100px;
+}
+
 .lesson-box .xiazai-one {
     border-bottom: 1px solid #f3f3f3;
     padding-bottom: 25px;
