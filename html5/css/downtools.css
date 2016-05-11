@@ -443,8 +443,12 @@ p::selection,span::selection,h1::selection{
 	background-color: #0f0;
 	padding: 10px 30%;
 }
-.container .my_container .dc-2 .downtools p{
+.container .my_container .dc-2 .downtools .pfont{
 	font-size: 36px;
+	color: #f00;
+}
+.container .my_container .dc-2 .downtools p{
+	font-size: 16px;
 	color: #f00;
 }
 .container .my_container .dc-2 .downtools a{
