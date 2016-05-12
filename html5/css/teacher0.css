@@ -16,6 +16,7 @@ p::selection,span::selection,h1::selection{
 }
 
 /* header */
+/* header */
 .header{
 	position: fixed;
 	width: 100%;
@@ -44,46 +45,81 @@ p::selection,span::selection,h1::selection{
 }
 .header .my_header .nav .login_register{
 	width: 30%;
-	height: 50px;
-	line-height: 50px;
+	height: 100px;
+	line-height: 100px;
 	/*height: 100px;*/
-	background-color: #f00;
+	/*background-color: #f00;*/
+	background-color: rgba(0,0,0,0.8);
 	display: inline-block;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	border-radius: 5px;
+	overflow: hidden;
 }
-.header .my_header .nav .login_register .lr_links{
+.header .my_header .nav .login_register .dlr{
 	width: 100%;
 	height: 50px;
 	display: inline-block;
 	/*background-color: #0f0;*/
-	/*float: left;*/
-}
-.header .my_header .nav .login_register .lr_links li{
 	float: left;
+	margin: 25px 0;
+	padding: 0;
+}
+.header .my_header .nav .login_register .dlr .imglr{
+	padding: 0;
+	width: 25%;
+	height: 50px;
+	margin: -3px 0 0 0;
+	/*background-color: #000;*/
+	float: left;
+}
+.header .my_header .nav .login_register .dlr .imglr img{
+	border-radius: 25px;
+	margin: 0;
+	border: 2px solid rgba(0,255,0,0.8);
+	/*background-color: #fff;*/
+}
+
+.header .my_header .nav .login_register .dlr .lr_links{
+	padding: 0;
+	width: 75%;
+	height: 50px;
+	margin: 0;
+	/*background-color: #fff;*/
+	float: left;
+}
+.header .my_header .nav .login_register .dlr .lr_links li{
 	list-style-type: none;
-	height: 25px;
-	line-height: 25px;
-	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
 	width: 60px;
-	margin: 10px 0;
-	/*margin: 40px 0 0 10px;*/
-	/*border-radius: 5px;*/
-	/*background-color: #f00;*/
-}
-.header .my_header .nav .login_register .lr_links span{
+	margin: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,0,255,0.8);
+	padding: 0;
 	float: left;
-	margin: 0 -10px;
 }
-.header .my_header .nav .login_register .lr_links li a{
+.header .my_header .nav .login_register .dlr .lr_links li:hover{
+	/*background-color: rgba(0,255,0,0.8);*/
+	/**/
+}
+.header .my_header .nav .login_register .dlr .lr_links span{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin: 10px 5px;
+	color: #0f0;
+	background-color: #0f0;
+	width: 1px;
+	content: "\007C;"
+}
+.header .my_header .nav .login_register .dlr .lr_links li a{
 	text-decoration: none;
 	color: #fff;
 }
-.header .my_header .nav .login_register .lr_links li:hover{
-	/*background-color: #0ff;*/
-}
-.header .my_header .nav .login_register .lr_links li a:hover{
-	color: #0f0;
+.header .my_header .nav .login_register .dlr .lr_links li a:hover{
+	color: #f00;
 	/**/
 }
 
@@ -94,18 +130,26 @@ p::selection,span::selection,h1::selection{
 	/*background-color: #f0f;*/
 	float: left;
 	display: inline-block;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .header .my_header .nav .nav_links ul {
+	width: 70%;;
+	height: 50px;
     list-style-type: none;
-    margin: 0;
+    margin: 25px 0 0 0;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: rgba(204,0,204,1);
 }
-.header .my_header .nav .nav_links li {
-    float: left;
-    /*width: 100px;*/
+
+.header .my_header .nav .nav_links .nav_ul{
+	width: 500px;
+	/*float: left;*/
+	margin: 25px 20px;
+}
+.header .my_header .nav .nav_links .nav_ul li{
+/*	width: 500px;*/
+	float: left;
 }
 .header .my_header .nav .nav_links li a, .dropbtn {
     display: inline-block;
@@ -122,6 +166,7 @@ p::selection,span::selection,h1::selection{
 }
 .header .my_header .nav .nav_links .dropdown {
     display: inline-block;
+    /*margin-left: -10px;*/
 }
 .header .my_header .nav .nav_links .dropdown-content {
     display: none;
@@ -132,11 +177,17 @@ p::selection,span::selection,h1::selection{
     min-width: 100px;
     box-shadow: 0px 2px 4px 0px rgba(0,255,0,0.5);
 }
+.header .my_header .nav .nav_links .dropdown-content li {
+    /*padding: 0;
+    margin: 0;*/
+    /*width: 88px;*/
+}
 .header .my_header .nav .nav_links .dropdown-content a {
     color: #fff;
     padding: 10px;
     text-decoration: none;
     display: block;
+    /*margin: 0;*/
 }
 .header .my_header .nav .nav_links .dropdown-content a:hover {
 	background-color: #0f0;
