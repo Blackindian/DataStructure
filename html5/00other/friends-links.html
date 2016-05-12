@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
     <!-- <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.fullpage.min.css" media="screen"> -->
 	<!-- new css -->
-	<link rel="stylesheet" type="text/css" href="../css/about.css" >
+	<link rel="stylesheet" type="text/css" href="../css/other.css" >
 	<!-- <link rel="stylesheet" type="text/css" href="../stylesheets/about-me.css"> -->
 
     <!--CDN -->
@@ -34,7 +34,7 @@
 			</div>
 			<div class="nav">
 				<div class="nav_links">
-					<ul>
+					<ul class="nav_ul">
 					  <li><a class="actieA" href="#home">首页</a></li>					 
 					  <div class="dropdown">
 					    <a href="#" class="dropbtn">课程信息</a>
@@ -59,33 +59,36 @@
 					  <div class="dropdown">
 					    <a href="#" class="dropbtn">课程资源</a>
 					    <div class="dropdown-content">
-					      <li><a href="">教学教案</a></li>
-					      <li><a href="">教学课件</a></li>
-					      <li><a href="">参考书籍</a></li>
-					      <li><a href="">互动平台</a></li>
-					      <li><a href="">拓展学习</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/03resources/01lessonplan.html">教学教案</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/03resources/02courseware.html">教学课件</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/03resources/03referencebooks.html">参考书籍</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/03resources/04interactionplatform.html">互动平台</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/03resources/05extendedlearning.html">拓展学习</a></li>
 					    </div>
 					  </div>
 					  <div class="dropdown">
 					    <a href="#" class="dropbtn">下载资料</a>
 					    <div class="dropdown-content">
-					      <li><a href="">课程习题</a></li>
-					      <li><a href="">考研资料</a></li>
-					      <li><a href="">课外作业</a></li>
-					      <li><a href="">电子书籍</a></li>
-					      <li><a href="">开发工具</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/04downloads/01courseexercises.html">课程习题</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/04downloads/02postgraduatematerial.html">考研资料</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/04downloads/03extracurricularhomework.html">课外作业</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/04downloads/04electronicbook.html">电子书籍</a></li>
+					      <li><a href="http://xgqfrms.github.io/DataStructure/html5/04downloads/05developmenttool.html">开发工具</a></li>
 					    </div>
 					  </div>					  	
 					</ul>
 				</div>
 				<div class="login_register">
-					<ul class="lr_links">
-						<li><a href="#">登陆</a></li>
-						<span>&#x007C;</span>
-						<li><a href="#">注册</a></li>
-						<span>&#x007C;</span>						
-						<li><a href="#">icon Pic</a></li>
-					</ul>
+					<div class="dlr">
+						<ul class="lr_links">
+							<li><a href="#">登陆</a></li>
+							<span></span>
+							<li><a href="#">注册</a></li>						
+						</ul>
+						<div class="imglr">
+							<a href="#"><img src="../../images/pic_icon.png" alt="pic_icon.png" title="查看修改个人信息"></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -93,30 +96,28 @@
 	<div class="container">
 		<div class="my_container">
 			<div class="dc-1">			 
-				<div class="img">
-					<img src="../../images/icon-me.jpg" alt="icon-me.jpg" title="icon-me.jpg">
-				</div>
-				<div class="img_other"></div>
+				<!-- <div class="img">
+					<img src="../images/icon-me.jpg" alt="icon-me.jpg" title="icon-me.jpg">
+				</div> -->
 				<div class="dc_links">
 					<ul class="breadcrumb">
-					  <li><a href="#">首页</a></li>
-					  <li><a href="#">前端</a></li>
-					  <li><a href="#">网站信息</a></li>
+					  <li><a href="http://xgqfrms.github.io/DataStructure">首页</a></li>
+					  <li><a href="http://xgqfrms.github.io/DataStructure/html5">前端</a></li>
+					  <li><a href="https://xgqfrms.github.io/DataStructure/html5/00other/info.html">网站信息</a></li>
 					  <li>友情链接:</li>
 					</ul>
 				</div> 				
 			</div>
 			<div class="dc-2">				
+				<!-- <div class="pic">
+					<img src="../../images/teacher/01.jpg" alt="01.jpg" title="01.jpg">
+				</div>	 -->
 				<div class="class_info">
-				    <h1>《数据结构》课程简介</h1>
-					<section class="my_section">						
-						<p>
-						&nbsp;&nbsp;《数据结构》课程是计算机科学与技术专业的核心课程之一, 是一门理论与实践相结合的课程。
-						主要任务是讨论各种数据结构的逻辑结构、存储结构及有关操作的算法，并初步了解对算法的时间分析和空间分析技术。
-						该课程为操作系统、数据库系统、编译方法、计算机网络等后续课程提供了必要的知识基础，且也为计算机及其专业人员提供必要的技能训练，为从事计算机软件的开发和应用提供必要的技术基础。
-						</p>
+				    <h1>《数据结构》友情链接</h1>
+					<section class="my_section">	
+						<!--  -->
 					</section>
-				</div>			
+				</div>				
 			</div>
 			<div class="dc-3">
 				<div></div>
