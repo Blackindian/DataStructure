@@ -360,7 +360,7 @@ p::selection,span::selection,h1::selection{
 	float: left;
 	background: rgba(255,0,0,0.8);
 	width: 100%;
-	height: 150px;
+	height: 50px;
 	/*height: 200px;*/
 	/*overflow: hidden;*/
 	/*border: 1px solid red;*/
@@ -425,11 +425,13 @@ p::selection,span::selection,h1::selection{
 	clear: both;
 	float: left;
 	/*background: rgba(0,255,255,0.8);*/
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,1);
 	width: 100%;
-	height: 1400px;
+	height: 1450px;
 	/*overflow: hidden;*/
 	margin-top: -10px;
+	border-radius: 5px;
+	/**/
 }
 
 .container .my_container .dc-2 .info li {
@@ -458,15 +460,14 @@ p::selection,span::selection,h1::selection{
 	text-align: center;
 	margin: 0 auto;
 	color: #0f0;
+	background-color: rgba(255,255,0,1);
+	border: 1px solid red;
+	border-radius: 25px;
 }
 .container .my_container .dc-2 .class_info h1{
-	/*background-color: #f0f;*/
-	width: 80%;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	margin: 0 auto;
-	color: #0f0;
+	color: rgba(255,0,255,0.8);
+	font-size: 32px;
+	/*background-color: #0f0;*/
 }
 .container .my_container .dc-2 .class_info section{
 	width: 80%;
@@ -488,7 +489,7 @@ p::selection,span::selection,h1::selection{
 	float: left;
 	width: 100%;
 	margin: 0;
-	height: 1300px;
+	height: 1400px;
 	overflow: hidden;
 	background-color: #0f0;
 	padding: 10px 30%;
@@ -536,11 +537,12 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-3 {
 	clear: both;
 	float: left;
+	/*background: rgba(255,0,255,0.8);*/
 	background: rgba(255,0,255,0.8);
-	width: 80%;
-	margin: auto 10%;
-	/*height: 300px;*/
-	height: 50px;
+	width: 100%;
+	margin: auto 0;
+	height: 0;
+	/*height: 50px;*/
 	overflow: hidden;
 }
 
