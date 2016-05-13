@@ -1,0 +1,348 @@
+/* new */
+*{
+	margin: 0;
+	padding: 0;
+}
+body li{
+	list-style: none;
+}
+
+/**/
+
+#center_g{width:100%;zoom:1;margin:0 auto;text-align:left;overflow:hidden;}
+#center_g:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#center_w{width:100%;zoom:1;margin:0 auto;text-align:left;overflow:hidden;background:#fff;}
+#center_w:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.g-container{width:1000px;padding:30px 0;margin:0 auto;}
+
+/*-------peixun---------*/
+#trainingTop{position: relative;zoom:1;}
+#trainingTop:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.trainingBasic .l{float:left;overflow:hidden;_display:inline-block;width:600px;}
+.trainingBasic .l h3{font-size:30px;font-weight: normal;margin-bottom:10px;}
+.trainingBasic .l h3 span{font-size:14px;color:#999;white-space: nowrap;margin-left:10px;}
+.trainingBasic .l p{text-indent: 2em;color:#666;margin-bottom:20px;}
+.trainingBasic .l .priceBtn{}
+.trainingBasic .l .priceBtn li{ width: 100px;height: 100px;background:#ECE5DF;-moz-border-radius: 50px;-webkit-border-radius: 50px;border-radius: 50px;display:block;border:3px solid #B2ADAA;float:left;margin-right:20px;text-align:center;}
+.trainingBasic .l .priceBtn a{text-decoration:none;display:block;margin-top:30px;}
+.trainingBasic .r{float:right;overflow:hidden;_display:inline-block;width:360px;height:240px;padding-top:10px;}
+.trainingBasic .r img{width:360px;height:200px;box-shadow: 0 2px 2px #ccc;}
+.trainingComment{position: absolute;width:360px;right:0;top:255px;}
+.trainingComment .rate_stars {padding-left:55px;}
+.rate_stars table{float:left;margin-right:5px;height:16px;}
+.rate_stars .rate{float:left;line-height:16px;}
+.rate_stars .pingjia{color:#999;font-size:12px;margin-left:10px;}
+.rate_stars .star-off{width:16px;height:16px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/study/star-off.png) 0 0 no-repeat;}
+.rate_stars .star-on{width:16px;height:16px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/study/star-on.png) 0 0 no-repeat;}
+.rate_stars .star-half{width:16px;height:16px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/study/star-half.png) 0 0 no-repeat;}
+
+.trainingComment .favorite{float:left;margin-left:20px;line-height:16px;}
+.favorite i{ background: rgba(0, 0, 0, 0) url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/study/studyIcons.png) no-repeat scroll 0 0px;width:11px;height:11px;display:inline-block;margin-right:2px;}
+
+
+.trainingContent{width:1000px;padding:30px 0;margin:0 auto;}
+.trainingContent ul{margin-bottom:30px;background:#Fff;padding-right:20px;color:#999;position: relative;height:125px;border-bottom:1px solid #DFDFDF;}
+.trainingContent ul:hover{background:#F4F4F4;border-bottom:1px solid #DFDFDF;}
+.trainingContent .cover {width:245px;position: absolute;left:0;top:0;width:225px;height:125px;display:block;}
+.trainingContent .cover img{width:225px;height:125px;box-shadow: 0 2px 2px #ccc;}
+.trainingContent .cover .noPay{display:none;}
+.trainingContent .cover .hasPay{position: absolute;top:0;left:-7px;display:block;width:58px;height:30px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1560px no-repeat;opacity:.90;filter:alpha(opacity=90);}
+.trainingContent li{padding-left:250px;padding-top:10px;}
+.trainingContent .title{font-size:16px;}
+.trainingContent .price{font-size:12px;}
+.trainingContent ul .btn-success{position: absolute;right:20px;bottom:20px;}
+.trainingContent li span{float:none;margin-left:0;margin-right:10px;}
+.trainingContent pre{background-color:#fff;border: 0px solid rgba(0, 0, 0, 0.15);}
+.trainingTab {text-align:center;margin-bottom:30px;}
+.trainingTab .btn-group .btn{padding:6px 20px;font-size:16px;}
+.trainingTab .btn-group .cur{background-color:#4EA45B;background-image: linear-gradient(to bottom, #4EA45B, #3F894C);color:#fff;text-shadow: 0 0px 0px rgba(255, 255, 255, 0.75);}
+.trainingTab .btn-group .cur:hover,.trainingTab .btn-group .cur:focus{  background-position: 0 0px;-webkit-transition: background-position 0 linear;-moz-transition: background-position 0 linear;-o-transition: background-position 0 linear;transition: background-position 0 linear;}
+
+.featureFont{width:1000px;padding:20px 0 0 0;margin:0 auto;text-align:center;font-size:16px;color:#666;}
+.featureFont h3{font-size:36px;color:#333;font-weight: normal;margin-bottom:15px;}
+.trainingList{width:1000px;padding:30px 0;margin:0 auto;overflow:hidden;}
+.img_r5{width:1100px;zoom:1;}
+.img_r5:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.img_r5 ul{width:184px;height:180px;float:left;margin-right:20px;}
+.img_r5 .cover img{width:184px;height:102px;}
+.img_r5 ul:hover img {transform: scale(1.1, 1.1);}
+.img_r5 .cover{position: relative;margin-bottom:8px;box-shadow: 0 2px 2px #ccc;width:184px;height:102px;overflow:hidden;}
+.img_r5 .cover .createdTraining{position: absolute;right:0;bottom:0;color: #fff;display: block;font-size: 12px;height: 21px;z-index: 22;padding:0 5px;background:#EE912B;}
+.img_r5 .cover .doingTraining{position: absolute;right:0;bottom:0;color: #fff;display: block;font-size: 12px;height: 21px;z-index: 22;padding:0 5px;background:#0A944D;}
+.img_r5 .cover .finishedTraining{position: absolute;right:0;bottom:0;color: #fff;display: block;font-size: 12px;height: 21px;z-index: 22;padding:0 5px;background:#999;}
+.img_r5 .date{font-size: 12px;color:#999;}
+
+.img_r5 .cover .b{height:30px;line-height:30px;background-color: #000;width:164px; display: block;color:#fff;opacity:.60;filter:alpha(opacity=60);position: absolute;top:72px;left:0;padding:0 10px;}
+.img_r5 .cover .b .L{float:left;}
+.img_r5 .cover .b .R{float:right;font-size:12px;}
+
+
+.u-showall {height: 30px;position: relative;width: 100%;font-size:12px;margin:10px 0;clear:both;}
+.u-showall .upline {border-bottom: 1px solid #E7E7E7;height: 14px;width: 100%;}
+.u-showall .dnline {border-top: 1px solid #fff;height: 14px;width: 100%;}
+.u-showall .dnbtn {height: 30px;left: 0;position: absolute;top: 0;width: 100%;}
+.u-showall .center {background: #f0f0f0 none repeat scroll 0 0;height: 30px;margin: 0 auto;text-align: center;width: 90px;}
+.u-showall a {background: #fff none repeat scroll 0 0;border: 1px solid #ddd;border-radius: 5px;display: inline-block;height: 25px;line-height: 26px;width: 75px;color: #666;}
+.u-showall a:hover{text-decoration: none;color:#167BA4;}
+.trainingList .u-showall .center {background: #fff;}
+
+
+/*-------pay---------*/
+.paySteps{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/bg_pay.png) center 0 no-repeat;height:36px;margin:50px 0;}
+#courseInfo {margin-bottom:20px;}
+#courseInfo h3{font-size:20px;font-weight: normal;margin-bottom:10px;}
+#courseInfo h3 i{ font-style: normal;}
+#courseInfo p{margin-bottom:20px;color:#999;font-size:12px;}
+#courseInfo .info{background: #fff;padding:25px;zoom:1;border:1px solid #E4E4E4;}
+#courseInfo .info:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#courseInfo .info img{display:block;float:left;width:230px;height:126px;box-shadow: 0 2px 2px #ccc;}
+#courseInfo .info dl{float:right;width:690px;}
+#courseInfo .info dt{font-size:20px;font-weight:bold;margin-bottom:15px;}
+#courseInfo .info dd{color:#666;}
+
+.payOk{background:#FFFCEF;border:1px solid #E4E4E4;padding:35px;}
+.payOk dt{border-bottom:1px dashed #E4E4E4;padding-bottom:30px;margin-bottom:40px;position: relative;font-weight: normal;}
+.payOk dt .r{position: absolute;right:0;top:0;}
+.payOk dt .r span {font-size:18px;}
+.payOk dt .r span i{ font-style: normal;}
+.payOk dd{text-align:right;color:#10AE58;}
+.payOk dd a{background:#FF8000;color:#fff;display:inline-block;padding:20px 40px;font-size:20px;margin-left:10px;text-decoration: none;}
+.payOk dd a:hover{background:#F77B00;}
+.payOk .alipay{width:141px;height:50px;display:inline-block;vertical-align: middle;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/pay.png) 0 -150px no-repeat;margin-left:10px;}
+
+.payOkInfo,.payErrorInfo{margin-top:30px;}
+.payOkInfo .alert,.payErrorInfo .alert{text-align:center;padding-bottom:20px;color:#000;}
+.payOkInfo h3,.payErrorInfo h3{font-size:28px;font-weight: normal;line-height:80px;}
+.icon_ok{width:31px;height:31px;display:inline-block;;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/pay.png) 0 0 no-repeat;vertical-align: middle;margin:0 5px;}
+.icon_error{width:31px;height:31px;display:inline-block;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/pay.png) 0 -62px no-repeat;vertical-align: middle;margin:0 5px;}
+
+/*-------kecheng---------*/
+#cTop{width:100%;zoom:1;margin:0 auto;text-align:left;overflow:hidden;height:510px;}
+#cTop:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#cBlk{width:285px;padding:0;margin:0 auto;position: relative;top:-510px;z-index: 9;left:-358px;}
+#cBlk .categorys{width:285px;color:#fff;opacity:.92;filter:alpha(opacity=92);height:510px;background:#15508C;}
+#cBlk .categorys a{color:#fff;}
+#cBlk .categorys dl{border-bottom:1px solid #105AA5;padding:10px 0 10px 15px;background:#1C68B6;font-size:12px;zoom:1;}
+#cBlk .categorys dl:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#cBlk .categorys dt{font-size:14px;margin-bottom:5px;}
+#cBlk .categorys dd {line-height:17px;}
+#cBlk .categorys dd a{margin-right:10px;float:left;}
+#cBlk .search{position: absolute;top:462px;left:15px;}
+#cBlk .search .xpe_ui{position: relative;}
+#cBlk .search .kw{width:240px;height:23px;font-size:12px;padding:4px;}
+#cBlk .search .searchBtn{height:23px;width:23px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1305px no-repeat;position: absolute;right:10px;top:6px;}
+
+.subjectSpecial{width:1000px;padding:30px 0;margin:0 auto;}
+.subjectSpecial h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.subjectSpecial h3 span {color: #999;font-size: 14px;margin-left: 15px;}
+.subjectSpecial .img-scroll{margin-top:0;}
+.subjectSpecial .img-scroll .prev{left:-40px;background-color:#F4F4F4;width:20px;height:28px;position: absolute;top:188px;}
+.subjectSpecial .img-scroll .prev a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1235px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.subjectSpecial .img-scroll .prev a:hover{opacity:.99;filter:alpha(opacity=99);}
+.subjectSpecial .img-scroll .next{right:-40px;background-color:#F4F4F4;width:20px;height:28px;position: absolute;top:188px;}
+.subjectSpecial .img-scroll .next a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1270px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.subjectSpecial .img-scroll .next a:hover{opacity:.99;filter:alpha(opacity=99);}
+.subjectSpecial #loader{width:1000px;overflow:hidden;height:407px;}
+.subjectSpecial .loading{zoom:1;width:1020px;}
+.subjectSpecial .loading:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.subjectSpecial .img-scroll{width:1000px; height: 407px;}
+.subjectSpecial .loading ul{background-color: #fff;height:194px;position: relative;width:323px;margin-right: 15px;float:left;margin-bottom:15px;box-shadow: 0 2px 2px #ccc;}
+.subjectSpecial .loading li{padding:10px 15px 0 160px;}
+.subjectSpecial .loading .cover{position: absolute;top:0;left:0;width:140px;height:194px;overflow:hidden;display:block;}
+.subjectSpecial .loading .cover img{width:140px;height:194px;}
+.subjectSpecial ul:hover .cover img {transform: scale(1.1, 1.1);}
+.subjectSpecial .loading .title{font-size:16px;padding-top:15px;}
+.subjectSpecial .loading .intr{font-size:12px;color:#999;}
+.subjectSpecial .loading .link i{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1340px no-repeat;width:20px;height:20px;display:inline-block;margin-left:10px;vertical-align: middle;}
+
+.skillSpecial{width:1000px;padding:30px 0;margin:0 auto;}
+.skillSpecial h3{font-size:28px;font-weight: normal;margin-bottom:10px;position: relative;}
+.skillSpecial h3 span {color: #999;font-size: 14px;margin-left: 15px;}
+.skillSpecial h3 .openMore{color: #09924b;font-size: 14px;position: absolute;top:17px;right:0;}
+.skillSpecial .img-scroll_2{margin-top:0; width: 1000px;height:590px;}
+.skillSpecial #loader_2{height:590px;}
+.skillSpecial .img-scroll_2 .prev{left:-40px;background-color:#fff;width:20px;height:28px;position: absolute;top:268px;}
+.skillSpecial .img-scroll_2 .prev a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1235px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.skillSpecial .img-scroll_2 .prev a:hover{opacity:.99;filter:alpha(opacity=99);}
+.skillSpecial .img-scroll_2 .next{right:-40px;background-color:#fff;width:20px;height:28px;position: absolute;top:268px;}
+.skillSpecial .img-scroll_2 .next a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1270px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.skillSpecial .img-scroll_2 .next a:hover{opacity:.99;filter:alpha(opacity=99);}
+
+
+
+.img_r5_l{width:1100px;zoom:1;}
+.img_r5_l:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.img_r5_l ul{width:184px;height:310px;float:left;margin-right:20px;}
+.img_r5_l .title{text-align:center;}
+.img_r5_l .cover img{width:184px;height:250px;}
+.img_r5_l ul:hover img {transform: scale(1.1, 1.1);}
+.img_r5_l .cover{position: relative;margin-bottom:8px;box-shadow: 0 2px 2px #ccc;width:184px;height:250px;overflow:hidden;}
+.img_r5_l .cover .brief{display:none;position: absolute;top:0;left:0;padding:15px 20px 0 20px;background-color: #fff;opacity:.90;filter:alpha(opacity=90);font-size:12px;height: 235px;}
+.img_r5_l .cover:hover .brief{display:block;}
+.img_r5_l .cover .b{height:30px;line-height:30px;background-color: #000;width:164px; display: block;color:#fff;opacity:.60;filter:alpha(opacity=60);position: absolute;top:220px;left:0;padding:0 10px;}
+.img_r5_l .cover .b .L{float:left;}
+.img_r5_l .cover .b .R{float:right;font-size:12px;}
+
+
+/*-------shouye---------*/
+.courseRecommend{width:1000px;padding:40px 0;margin:0 auto;}
+.courseRecommend .img-scroll{margin:0;width:1000px;height:220px;}
+.courseRecommend .img-scroll .prev{left:-40px;background-color:#F4F4F4;width:20px;height:28px;position: absolute;top:80px;}
+.courseRecommend .img-scroll .prev a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1235px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.courseRecommend .img-scroll .prev a:hover{opacity:.99;filter:alpha(opacity=99);}
+.courseRecommend .img-scroll .next{right:-40px;background-color:#F4F4F4;width:20px;height:28px;position: absolute;top:80px;}
+.courseRecommend .img-scroll .next a{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1270px no-repeat;width:20px;height:28px;display:block;text-decoration: none;opacity:.80;filter:alpha(opacity=80);text-indent: -9999px;overflow:hidden;}
+.courseRecommend .img-scroll .next a:hover{opacity:.99;filter:alpha(opacity=99);}
+.courseRecommend .img-list{width:1000px;overflow:hidden;margin-left:0;height: 184px;}
+.courseRecommend #loading{}
+.courseRecommend .loading{width:1100px;height:240px;}
+.courseRecommend .item{width:235px;float:left;margin-right:20px;height:240px;}
+.courseRecommend .item img{width:235px;height:130px;margin-bottom:5px;}
+.courseRecommend .item li{margin-bottom:5px;}
+.courseRecommend .item .intr{font-size:12px;color:#666;}
+
+.courseRecommend h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+#center_w .courseRecommend .img-scroll .prev{background:#fff;}
+#center_w .courseRecommend .img-scroll .next{background:#fff;}
+.courseRecommend .cover{position: relative;box-shadow: 0 2px 2px #ccc;width:235px;height:130px;}
+.courseRecommend .cover span{position: absolute;right:0;bottom:0px;color: #fff;display: block;font-size: 12px;height: 21px;z-index: 22;padding:0 5px;background-color: #000;color:#fff;opacity:.60;filter:alpha(opacity=60);position: absolute;}
+#center_w .courseRecommend  .title{font-size:16px;margin-top:10px;}
+#center_w .courseRecommend .img-scroll{height:240px;}
+#center_w .courseRecommend li{color:#999;line-height:18px;}
+
+.subjectSpecial .loading{zoom:1;width:1020px;}
+.subjectSpecial .loading:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.subjectSpecial .img-scroll{width:1000px;}
+.subjectSpecial .loading ul{background-color: #fff;height:194px;position: relative;width:323px;margin-right: 15px;float:left;margin-bottom:15px;box-shadow: 0 2px 2px #ccc;}
+.subjectSpecial .loading li{padding:10px 15px 0 160px;}
+.subjectSpecial .loading img{position: absolute;top:0;left:0;width:140px;height:194px;}
+.subjectSpecial .loading .title{font-size:16px;padding-top:15px;}
+.subjectSpecial .loading .intr{font-size:12px;color:#999;}
+.subjectSpecial .loading .link i{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1340px no-repeat;width:20px;height:20px;display:inline-block;margin-left:10px;vertical-align: middle;}
+
+.specialBox{width:800px;padding:30px 0;overflow:hidden;}
+.specialBox h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.specialBox h3 span{font-size:14px;color:#999;margin-left:15px;}
+.specialBox .img_r5_l ul{height: 280px;}
+
+.trainingBox{width:1000px;padding:30px 0;margin:0 auto;overflow:hidden;}
+.trainingBox h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.trainingBox h3 span{font-size:14px;color:#999;margin-left:15px;}
+.trainingBox .img_r5 ul{height: 130px;}
+
+.resourceBox{width:1000px;padding:30px 0;margin:0 auto;overflow:hidden;}
+.resourceBox h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.resourceBox h3 span{font-size:14px;color:#999;margin-left:15px;}
+.resourceBox ul{zoom:1;border-top:1px solid #D8D8D8;border-bottom:1px solid #D8D8D8;}
+.resourceBox ul:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.resourceBox li{width:142px;float:left;text-align:center;border-right:1px solid #D8D8D8;padding:25px 0 15px;line-height:25px;}
+.resourceBox li:nth-child(n+8) {border-top:1px solid #D8D8D8;}
+.resourceBox li:nth-of-type(7n) {border-right: medium none;}
+.resourceBox li:hover{box-shadow: 0 2px 2px #ccc;background:#F4F4F4;}
+.resourceBox li i{height:57px;display:block;margin:0 auto;margin-bottom:5px;}
+.resourceBox li:hover i{transform: rotate(-30deg);}
+.resourceBox li .practice{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -352px no-repeat;width:41px;}
+.resourceBox li .testpaper{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -665px no-repeat;width:45px;}
+.resourceBox li .other{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -775px no-repeat;width:45px;}
+.resourceBox li .teachingdesign{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -230px no-repeat;width:51px;}
+.resourceBox li .term{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -543px no-repeat;width:40px;}
+.resourceBox li .raw{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -724px no-repeat;width:21px;}
+.resourceBox li .casestudy{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -293px no-repeat;width:50px;}
+.resourceBox li .personage{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1495px no-repeat;width:58px;}
+.resourceBox li .courseware{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -58px no-repeat;width:51px;}
+.resourceBox li .coursevideo{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -175px no-repeat;width:38px;}
+.resourceBox li .lessonplan{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -120px no-repeat;width:58px;}
+.resourceBox li .faq{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -608px no-repeat;width:53px;}
+.resourceBox li .course{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -0px no-repeat;width:44px;}
+.resourceBox li .example{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -419px no-repeat;width:40px;}
+.resourceBox li .documents{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -481px no-repeat;width:44px;}
+
+/*-------search---------*/
+.hSearch{margin: 0 auto;overflow: hidden;padding: 30px 0 0px;width: 1000px;text-align:center;}
+.hSearch input{padding:5px 10px 5px 45px;font-size:14px;border:1px solid #ddd;margin:0 10px;width:560px;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) -25px -1593px no-repeat;}
+.hSearch select{padding:4px;font-size:14px;border:1px solid #ddd;margin:0 10px;}
+.hSearch a{padding:4px 20px;display:inline-block;background:#24547C;color:#fff;vertical-align: middle;margin:0 10px;}
+.hSearch a:hover{text-decoration: none;}
+
+#hot{width:1000px;margin:0 auto;position: relative;}
+#center_wR{position: absolute;right:0;top:32px;width:185px;}
+.dailyRanking {background:#FAFAFA;margin-bottom:29px;}
+.dailyRanking h3{background:#F4F3F1;font-size:16px;padding:6px 0px 6px 10px;}
+.dailyRanking h3 a{display:inline-block;background:#FAFAFA url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) -39px -1620px no-repeat;font-size:12px;font-weight: normal;padding:2px 8px 2px 25px;margin-left:45px;border:1px solid #DCDCDC;color:#838383;}
+.dailyRanking h3 a:hover{text-decoration: none;}
+.dailyRanking li{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) -39px -1637px no-repeat;border-bottom:1px solid #E1E1E1;padding:3px 0 3px 27px;}
+
+.latestComments  {background:#FAFAFA;font-size:12px;}
+.latestComments  h3{background:#F4F3F1;font-size:16px;padding:6px 0px 6px 10px;}
+.latestComments  h3 a{display:inline-block;background:#FAFAFA url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) -39px -1620px no-repeat;font-size:12px;font-weight: normal;padding:2px 8px 2px 25px;margin-left:45px;border:1px solid #DCDCDC;color:#838383;}
+.latestComments  h3 a:hover{text-decoration: none;}
+.latestComments ul{border-bottom:1px solid #E1E1E1;padding:3px 10px;}
+.latestComments li{margin-bottom:2px;}
+.latestComments .title{font-size:14px;}
+.latestComments .review{line-height:16px;color:#666}
+.latestComments .link{color:#999;}
+.latestComments .link span{color:#E7E7E7;margin:0 15px;}
+
+
+/*-------search---------*/
+.pxBanner{background:#2A4B6E url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/training/top.jpg) center 0 no-repeat;height:350px;}
+#pxBlk{width:1000px;padding:30px 0;margin:0 auto;zoom:1;}
+#pxBlk:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.trainingRecommend{float:left;overflow:hidden;_display:inline-block;width:390px;}
+.trainingRecommend h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.trainingRecommend .title{font-size:16px;margin-bottom:5px;}
+.trainingRecommend .cover{margin-bottom:8px;box-shadow: 0 2px 2px #ccc;width:388px;height:215px;overflow:hidden;}
+.trainingRecommend .cover img{width:388px;height:215px;margin-bottom: 8px;}
+.trainingRecommend ul:hover img {transform: scale(1.1, 1.1);}
+.trainingRecommend .brief{font-size:12px;color: #666;}
+
+
+.recommendCourse{float:right;overflow:hidden;_display:inline-block;width:592px;padding-top:55px;}
+.recommendCourse .img_r5 {width:630px;}
+.recommendCourse .img_r5 ul {height: 175px;}
+
+.tList{width:1000px;padding:30px 0;margin:0 auto;overflow:hidden;}
+.tList h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
+.tList h3 span{font-size:14px;color:#999;margin-left:15px;}
+.tList ul{position: relative;}
+.tList .priceTraining{position: absolute;left:0px;top:-18px;color: #fff;display: block;font-size: 12px;height:57px;width:57px;z-index: 22;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/training/bg_price.png) 0 0 no-repeat;text-align:center;padding-top:18px;}
+.tList .priceTraining.priceFree{position: absolute;left:0px;top:-18px;color: #fff;display: block;font-size: 12px;height:57px;width:57px;z-index: 22;background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/training/bg_price.png) -80px 0 no-repeat;text-align:center;padding-top:18px;text-indent: -9999px;display:none;}
+.tList .priceTraining.priceNone{display:none;}
+
+
+/*-------trainingSearch---------*/
+#center_s{background:#F5F5F5;border-bottom:1px solid #DEDEDE;padding:10px 0;}
+.trainingSearch{width:1000px;margin:0 auto;}
+.trainingSearch select {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 500px;margin-right:10px;
+}
+.trainingSearch select:focus {
+    border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.trainingSearch select::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+.trainingSearch select[disabled], .trainingSearch select[readonly], fieldset[disabled] .trainingSearch select{
+    background-color: #eee;
+    opacity: 1;
+}
+.trainingSearch select[disabled], fieldset[disabled] .trainingSearch select {
+    cursor: not-allowed;
+}
+
+
+
