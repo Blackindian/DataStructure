@@ -400,5 +400,3 @@ class PdoMySQL{
 
 $tables='user';
 
-
-?>

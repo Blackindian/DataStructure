@@ -13,10 +13,6 @@ $username=addslashes($_POST['username']);
 $password=md5($_POST['password']);
 $email=$_POST['email'];
 $table='user';
-// captcha
-$captcha =$_POST('captcha');
-
-
 //3.得到连接对象
 $PdoMySQL=new PdoMySQL();
 if($act==='reg'){
@@ -28,22 +24,9 @@ if($act==='reg'){
 	$res=$PdoMySQL->add($data, $table);
 	$lastInsertId=$PdoMySQL->getLastInsertId();
 	if($res){
-		//发送邮件，以QQ邮箱为例
-		# https://kf.qq.com/faq/120322fu63YV130422nqIrqu.html
 		//配置邮件服务器，得到传输对象
 		// $transport=Swift_SmtpTransport::newInstance('smtp.qq.com',25);
-		$transport=Swift_SmtpTransport::newInstance('smtp.163.com',25);
-		# password: ednjcelcohgpdicj
-		# password: ceifkvsjjbwhebic
-		# password: sfbqmaowsokrdjbd
-
-		# transport = Swift_SmtpTransport::newInstance('smtp-mail.outlook.com',25);
-		# $transport = Swift_SmtpTransport::newInstance('smtp-mail.outlook.com',587);
-		# smtp-mail.outlook.com 587/25
-		// http://email.about.com/od/Outlook.com/f/What-Are-The-Outlook-com-Smtp-Server-Settings.htm
-		# delete from 表名 where 表达式
-		# delete from user where username='xgqfrms'
-		
+		$transport=Swift_SmtpTransport::newInstance('smtp.163.com',25);		
 		//设置登陆帐号和密码
 		$transport->setUsername('xgqfrms@163.com');
 		$transport->setPassword($emailPassword);
@@ -66,11 +49,6 @@ if($act==='reg'){
 		<br/>
 		如果点此链接无反映，可以将其复制到浏览器中来执行，链接的有效时间为24小时。		
 EOF;
-		/* 原样式输出 String
-		<<<EOF
-		balb blab blab ...
-EOF;
-*/
 		$message->setBody("{$str}",'text/html','utf-8');
 		try{
 			if($mailer->send($message)){
@@ -99,7 +77,6 @@ EOF;
 	}else{
 		echo '登陆成功,3秒钟后跳转到首页!';
 		echo '<meta http-equiv="refresh" content="3;url=http://xgqfrms.github.io/DataStructure/html5/index.html"/>';
-		// echo '<meta http-equiv="refresh" content="3;url=http://www.xgqfrms.xyz/DataStructure/html5/index.html/>';
 	}
 	
 }elseif($act==='active'){
@@ -120,15 +97,4 @@ EOF;
 	}
 	
 }
-
-# captcha 验证码
-if(isset($_REQUEST['captcha'])){
-  session_start();
-  if(strtilower($_REQUEST['captcha'])==$_SESSION['captcha']){
-     echo'<font color="#0000CC">输入正确！</font>';
-  }else{
-      echo'<font color="#0000CC">输入error！</font>';
-  }
-  exit();
-}
-#
+?>

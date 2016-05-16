@@ -61,17 +61,7 @@
                                     <span>
                                         <a href="javascript:void(0)" onclick="document.getElementById('captcha_img').src='captcha/php/dot.php?r='+Math.random()">看不清，换一个！</a>
                                     </span><br>
-                                    <?php
-                                    if(isset($_REQUEST['captcha'])){
-                                      session_start();
-                                      if(strtilower($_REQUEST['captcha'])==$_SESSION['captcha']){
-                                         echo'<font color="#0000CC">输入正确！</font>';
-                                      }else{
-                                          echo'<font color="#0000CC">输入error！</font>';
-                                      }
-                                      exit();
-                                    }
-                                    ?>
+                                    <!-- 前端regular expression验证 -->
                                 </div>
                             </p>
                             <p class="keeplogin"> 
