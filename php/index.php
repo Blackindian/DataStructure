@@ -55,12 +55,27 @@
                                 <label for="captcha" class="youcaptcha" data-icon="p"> Your captcha </label>
                                 <input id="captcha" name="captcha" required="required" type="text" placeholder="captcha" /> 
                                 <div class="captcha">
-                                    <img src="captcha.php?var">
-                                    <span><a href="#">看不清，点击刷新!</a></span><br>
+                                    <!-- <img src="captcha.php?var"> -->
+                                    <img id="captcha_img" class="captcha_img" src="captcha/php/dot.php?r=<?php echo rand();?>" />
+                                    <!-- style="border:1px sloid red;width:100px ;height:30px" -->
+                                    <span>
+                                        <a href="javascript:void(0)" onclick="document.getElementById('captcha_img').src='captcha/php/dot.php?r='+Math.random()">看不清，换一个！</a>
+                                    </span><br>
+                                    <?php
+                                    if(isset($_REQUEST['captcha'])){
+                                      session_start();
+                                      if(strtilower($_REQUEST['captcha'])==$_SESSION['captcha']){
+                                         echo'<font color="#0000CC">输入正确！</font>';
+                                      }else{
+                                          echo'<font color="#0000CC">输入error！</font>';
+                                      }
+                                      exit();
+                                    }
+                                    ?>
                                 </div>
                             </p>
                             <p class="keeplogin"> 
-                                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+                                <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" checked="checked" /> 
                                 <label for="loginkeeping">保持登陆状态</label>
                             </p>
                             <p class="login button"> 
@@ -78,18 +93,18 @@
                                 <h1> 注册账号 </h1> 
                                 <p> 
                                     <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
-                                    <input id="usernamesignup" name="username" required="required" type="text" placeholder="Mr.King" />
+                                    <input id="usernamesignup" name="username" required="required" type="text" placeholder="xgqfrms" />
                                 </p>
                                 <p> 
                                     <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
-                                    <input id="emailsignup" name="email" required="required" type="email" placeholder="Mr.King@mail.com"/> 
+                                    <input id="emailsignup" name="email" required="required" type="email" placeholder="xgqfrms@mail.com"/> 
                                 </p>
                                 <p> 
                                     <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
-                                    <input id="passwordsignup" name="password" required="required" type="password" placeholder="******"/>
+                                    <input id="passwordsignup" name="password" required="required" type="password" placeholder="**********"/>
                                 </p>
                                 <p class="signin button"> 
-									<input type="submit" value="Sign up"/> 
+									<input type="submit" value="注册账号"/> 
 								</p>
                                 <p class="change_link">  
 									已有账号?
