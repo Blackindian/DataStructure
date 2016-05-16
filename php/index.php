@@ -92,8 +92,8 @@
 									<input type="submit" value="Sign up"/> 
 								</p>
                                 <p class="change_link">  
-									Already a member ?
-									<a href="#tologin" class="to_register"> Go and log in </a>
+									已有账号?
+									<a href="#tologin" class="to_register">直接登陆</a>
 								</p>
                             </form>
                         </div>
