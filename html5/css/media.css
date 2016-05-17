@@ -1,0 +1,78 @@
+/* media query */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 3px; 
+    display: block;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    ul li a {
+        padding-left: 100px;
+        background: url(../../images/gmail.png) left center no-repeat;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+        /*background: url(../../images/gmail.png) left center no-repeat;*/
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    ul li a:after {
+        content: " (" attr(data-email) ")";
+        font-size: 12px;
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+
+/* */
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 3px; 
+    display: block;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    ul li a {
+        padding-left: 30px;
+        background: url(../../images/email-icon.png) left center no-repeat;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    ul li a:after {
+        content: " (" attr(data-email) ")";
+        font-size: 12px;
+        font-style: italic;
+        color: #666666;
+    }
+}

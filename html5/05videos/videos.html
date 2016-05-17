@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>videos</title>
+</head>
+<body>
+	<div>
+		<h3>video</h3>
+		<p>
+			以下实例中使用了 4 中不同的视频格式。<br>
+			HTML 5 &lt;video&gt; 元素会尝试依次播放 ogg 、mp4、webm 格式的视频。<br>
+			如果均失败，则回退到 &lt;embed&gt; 元素。<br>
+			<!--
+				http://www.runoob.com/tags/att-source-media.html
+				media 属性指定媒体资源的类型（文件为什么样的媒体/设备进行了优化）。
+			 -->
+		</p>
+		<h1>最好的 HTML5 解决方法</h1>
+		<video j7h20yif1="true" id="example_video_1" class=" video-js vjs-default-skin vjs-big-play-centered" controls="" preload="none" poster="../../sources/video/fontastic_video.gif" data-setup="{}" height="380" width="600">
+		  <source src="../../sources/video/fontastic.ogv" type="video/ogg" media="screen and (min-width:320px)">
+		  <source src="../../sources/video/fontastic.mp4" type="video/mp4">
+		  <!-- 
+		  	<source src="../../sources/video/fontastic.mp4" type="video/mp4"  controls="controls" autoplay="autoplay" preload="auto|metadata|none"  poster="../../sources/video/fontastic_video.gif"  muted="muted"  loop="loop"> 
+		  -->
+		  <source src="../../sources/video/fontastic.webm" type="video/webm">
+		  <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default="default"/>
+		  <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian"/>
+		  <label for="">Your browser does not support the video tag.</label>
+		  <span>Your browser does not support the video tag.</span>
+		  <object data="../../sources/video/fontastic.mp4" width="320" height="240">
+		      <embed src="../../sources/video/test.swf" width="320" height="240">
+		  </object>
+		</video>
+		<hr>
+		<div>
+			<h3>视频网站 加速</h3>
+			<!-- 
+				http://www.runoob.com/http/http-content-type.html
+				
+			 -->
+			<embed src="https://player.vimeo.com/video/166972973" width="480" height="400" type="video/mpeg4" />
+			<!--  -->
+			<!-- <embed src="http://player.youku.com/player.php/sid/XMzI2NTc4NTMy/v.swf" width="480" height="400" type="application/x-shockwave-flash"/>  -->
+			<!-- http://static.youku.com/v1.0.0622/v/swf/loader.swf?VideoIDS=XMzI2NTc4NTMy&winType=BDskin&embedid=MTE1LjU2LjM3LjE1MwI4MTY0NDYzMwIC&wd=&partnerid=0edbfd2e4fc91b72&vext=pid%3D0edbfd2e4fc91b72%26emb%3DMTE1LjU2LjM3LjE1MwI4MTY0NDYzMwIC%26bc%3D%26cna%3D%26type%3D0%26embsig%3D1_1463499456_7f0464b910bdc0f39b8544d98d2e5d51 -->
+			
+			<a href="https://player.vimeo.com/video/166972973">Play a video file</a> 
+			<embed src="http://player.youku.com/player.php/Type/Folder/Fid/27264490/Ob/1/sid/XMTU3MzM1NDkwMA==/v.swf" width="480" height="400" type="application/x-shockwave-flash"/> 
+			<!-- http://player.youku.com/player.php/Type/Folder/Fid/27264490/Ob/1/sid/XMTU3MzM1NDkwMA==/v.swf -->
+		</div>
+		<!--  -->
+		<div>
+			<iframe src="https://player.vimeo.com/video/166972973" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<p>
+				<a href="https://vimeo.com/166972973">Elite_Controller_ZH-CN</a> from 
+				<a href="https://vimeo.com/xgqfrms">xgqfrms</a> on 
+				<a href="https://vimeo.com">Vimeo</a>.
+			</p>
+		</div>
+		<div>
+			<h3>如果网页包含指向媒体文件的超链接，大多数浏览器会使用"辅助应用程序"来播放文件。</h3>
+			<a href="../../sources/video/test.swf">Play a video file</a> 
+		</div>
+	</div>
+</body>
+</html>
