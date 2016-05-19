@@ -5,6 +5,16 @@ header('content-type:text/html;charset=utf-8');
 require_once '../PdoMySQL.class.php';
 require_once '../config.php';
 
+// $_FILES
+print_r($_FILES);
+$filename=$_FILES['vurl']['name'];
+$type=$_FILES['vurl']['type'];
+$tmp_name=$_FILES['vurl']['tmp_name'];
+$size=$_FILES['vurl']['size'];
+$error=$_FILES['vurl']['error'];
+
+$vurl=$_POST('vurl');
+
 # 插入video到db
 
 //2.接收信息

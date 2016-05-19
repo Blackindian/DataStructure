@@ -7,36 +7,46 @@
 <body>
 	<div>
 		<!--  -->
-		<form action="video-upload.php">
+		<form action="video-upload.php" method="post" enctype="multipart/form-data">
 			<label for="vname">视频名称</label>
-			<input type="text" name="vname">
+			<input type="text" id="vname">
 			<span></span><br>
 			<label for="vdesc">视频简介</label>
-			<input type="text" name="vdesc">
+			<input type="text" id="vdesc">
 			<span></span><br>
 			<label for="vuser">上传者&nbsp;</label>
-			<input type="text" name="vuser">
+			<input type="text" id="vuser">
 			<span></span><br>
 			<label for="vtime">上传时间</label>
-			<input type="date" name="vtime" value="20160501">
+			<input type="date" id="vtime" value="20160501">
 			<span></span><br>
 			<label for="vstatus">审查状态</label>
-			<input type="text" list="status" name="vstatus">
+			<input type="text" list="status" id="vstatus">
 			<datalist id="status">
 			  <option value="0" selected="selected">0</option>
 			  <option value="1">1</option>
 			</datalist>
 			<span></span><br>
-
-			<span></span><br>
-			<label for="list">下拉列表</label>
+			<label for="vurl">视频的存储路径</label>
+			<input type="file" id="vurl" accept="video/ogg,video/mp4,video/webm"/>
+			<!-- <label for="list">下拉列表</label>
 			<select name="list" id="list">
 				<option value="0" selected="selected">0</option>
 				<option value="1">1</option>
 			</select>
-			<span></span><br>
+			<span></span><br> -->
 			<input type="submit" value="开始上传">
 		</form>
+		<!-- for="male" && id="male"  -->
+		<!-- <div class="label">
+			<form action="demo_form.html">
+			  <label for="male">Male</label>
+			  <input type="radio" name="sex" id="male" value="male"><br>
+			  <label for="female">Female</label>
+			  <input type="radio" name="sex" id="female" value="female"><br>
+			  <input type="submit" value="Submit">
+			</form> 
+		</div> -->
 	</div>
 </body>
 </html>

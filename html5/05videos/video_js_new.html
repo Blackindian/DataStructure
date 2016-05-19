@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>自定义 video 样式</title>
+	<!-- css -->
+	<link rel="stylesheet" href="../css/video-js.css">
 </head>
 <body>
 	<div>
@@ -18,8 +20,18 @@
 			    </p>
 			</video>
 			<hr>
-			<h3>width="600" height="380"</h3>
-			<video id="my-video" class="video-js" controls preload="auto" width="600" height="380" poster="../../sources/video/fontastic_video.gif" data-setup="{}">
+			<h3>width="600" height="380" | no data-setup="{}"</h3>
+			<video id="really-cool-video" class="video-js vjs-default-skin" controls preload="auto" width="600" height="380" poster="../../sources/video/fontastic_video.gif">
+			    <source src="../../sources/video/fontastic.mp4" type='video/mp4'>
+			    <source src="../../sources/video/fontastic.webm" type='video/webm'>
+			    <p class="vjs-no-js">
+			      To view this video please enable JavaScript, and consider upgrading to a web browser that
+			      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+			    </p>
+			</video>
+			<!--  -->
+			<h3>data-setup="{}" && width="600" height="380"</h3>
+			<video id="really-cool-video" class="video-js vjs-default-skin" controls preload="auto" width="600" height="380" poster="../../sources/video/fontastic_video.gif" data-setup="{}">
 			    <source src="../../sources/video/fontastic.mp4" type='video/mp4'>
 			    <source src="../../sources/video/fontastic.webm" type='video/webm'>
 			    <p class="vjs-no-js">
@@ -41,5 +53,9 @@
 		  });
 		});
 	</script>
+	<!-- js -->
+	<script src="../js/video.js"></script>
+	<!-- If you'd like to support IE8 -->
+	<script src="../js/videojs-ie8.min.js"></script>
 </body>
 </html>
