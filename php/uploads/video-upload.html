@@ -8,24 +8,33 @@
 	<div>
 		<!--  -->
 		<form action="video-upload.php">
-			<label for="">vname</label>
-			<input type="text" name=""><br>
-			<label for="">vdesc</label>
-			<input type="text" name=""><br>
-			<label for="">vuser</label>
-			<input type="text" name=""><br>
-			<label for="">vstatus</label>
-			<input type="text" list="status"><br>
+			<label for="vname">视频名称</label>
+			<input type="text" name="vname">
+			<span></span><br>
+			<label for="vdesc">视频简介</label>
+			<input type="text" name="vdesc">
+			<span></span><br>
+			<label for="vuser">上传者&nbsp;</label>
+			<input type="text" name="vuser">
+			<span></span><br>
+			<label for="vtime">上传时间</label>
+			<input type="date" name="vtime" value="20160501">
+			<span></span><br>
+			<label for="vstatus">审查状态</label>
+			<input type="text" list="status" name="vstatus">
 			<datalist id="status">
 			  <option value="0" selected="selected">0</option>
 			  <option value="1">1</option>
 			</datalist>
-			<label for="">vtime</label>
-			<input type="date" name="vtime" value="20160501"><br>
-			<select name="" id="" >
+			<span></span><br>
+
+			<span></span><br>
+			<label for="list">下拉列表</label>
+			<select name="list" id="list">
 				<option value="0" selected="selected">0</option>
 				<option value="1">1</option>
-			</select><br>
+			</select>
+			<span></span><br>
 			<input type="submit" value="开始上传">
 		</form>
 	</div>

@@ -16,6 +16,11 @@
 				media 属性指定媒体资源的类型（文件为什么样的媒体/设备进行了优化）。
 			 -->
 		</p>
+		<section>
+			MP4 = MPEG 4文件使用 H264 视频编解码器和AAC音频编解码器<br>
+			WebM = WebM 文件使用 VP8 视频编解码器和 Vorbis 音频编解码器<br>
+			Ogg = Ogg 文件使用 Theora 视频编解码器和 Vorbis音频编解码器<br>
+		</section>
 		<h1>最好的 HTML5 解决方法</h1>
 		<video j7h20yif1="true" id="example_video_1" class=" video-js vjs-default-skin vjs-big-play-centered" controls="" preload="none" poster="../../sources/video/fontastic_video.gif" data-setup="{}" height="380" width="600">
 		  <source src="../../sources/video/fontastic.ogv" type="video/ogg" media="screen and (min-width:320px)">
@@ -33,6 +38,15 @@
 		  </object>
 		</video>
 		<hr>
+		<!--  -->
+		<h3>html video pure</h3>
+		<video width="320" height="240" controls src="../../sources/video/fontastic.mp4" poster="../../sources/video/fontastic_video.gif">
+			<source src="../../sources/video/fontastic.mp4" type="video/mp4">
+			<source src="../../sources/video/fontastic.ogv" type="video/ogg">
+
+			<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default="default"/>
+			<track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian"/>
+		</video>
 		<div>
 			<h3>视频网站 加速</h3>
 			<!-- 
