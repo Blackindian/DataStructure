@@ -7,11 +7,11 @@ require_once '../config.php';
 
 // $_FILES
 print_r($_FILES);
-$filename=$_FILES['vurl']['name'];
-$type=$_FILES['vurl']['type'];
-$tmp_name=$_FILES['vurl']['tmp_name'];
-$size=$_FILES['vurl']['size'];
-$error=$_FILES['vurl']['error'];
+$filename=$_FILES['xvideo']['name'];
+$type=$_FILES['xvideo']['type'];
+$tmp_name=$_FILES['xvideo']['tmp_name'];
+$size=$_FILES['xvideo']['size'];
+$error=$_FILES['xvideo']['error'];
 
 $vurl=$_POST('vurl');
 
@@ -32,10 +32,10 @@ $checked = true;
 
 //3.得到连接对象
 $PdoMySQL=new PdoMySQL();
-if ($checked) {
+if (ture) {
 	$vtime=time();
 	//完成上传的功能
-	$data=compact('vname','vdesc','vuser','vstatus','vtime');
+	$data=compact('vname','vurl','vdesc','vuser','vstatus','vtime');
 	$res=$PdoMySQL->add($data, $table);
 } else {
 	echo "上传视频失败！";

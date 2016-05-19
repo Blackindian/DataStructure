@@ -9,26 +9,26 @@
 		<!--  -->
 		<form action="video-upload.php" method="post" enctype="multipart/form-data">
 			<label for="vname">视频名称</label>
-			<input type="text" id="vname">
+			<input type="text" id="vname" name="xvideo">
 			<span></span><br>
 			<label for="vdesc">视频简介</label>
-			<input type="text" id="vdesc">
+			<input type="text" id="vdesc" name="xvideo">
 			<span></span><br>
 			<label for="vuser">上传者&nbsp;</label>
-			<input type="text" id="vuser">
+			<input type="text" id="vuser" name="xvideo">
 			<span></span><br>
 			<label for="vtime">上传时间</label>
-			<input type="date" id="vtime" value="20160501">
+			<input type="date" id="vtime" name="xvideo" value="20160501">
 			<span></span><br>
 			<label for="vstatus">审查状态</label>
-			<input type="text" list="status" id="vstatus">
+			<input type="text" id="vstatus" name="xvideo" list="status">
 			<datalist id="status">
 			  <option value="0" selected="selected">0</option>
 			  <option value="1">1</option>
 			</datalist>
 			<span></span><br>
 			<label for="vurl">视频的存储路径</label>
-			<input type="file" id="vurl" accept="video/ogg,video/mp4,video/webm"/>
+			<input type="file" id="vurl" name="xvideo" accept="video/ogg,video/mp4,video/webm"/>
 			<!-- <label for="list">下拉列表</label>
 			<select name="list" id="list">
 				<option value="0" selected="selected">0</option>
