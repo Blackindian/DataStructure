@@ -55,14 +55,20 @@
 				决定浏览器将以什么形式、什么编码读取这个文件，这就是经常看到一些Asp网页点击的结果，
 				却是下载到的一个文件或一张图片的原因。
 			 -->
+			<h3>video/mpeg4: error</h3>
 			<embed src="https://player.vimeo.com/video/166972973" width="480" height="400" type="video/mpeg4" />
+			<h3>video/mp4</h3>
 			<embed src="https://player.vimeo.com/video/166972973" width="480" height="400" type="video/mp4" />
+			<h3>video/webm</h3>
 			<embed src="https://player.vimeo.com/video/166972973" width="480" height="400" type="video/webm" />
+			<h3>video/ogg</h3>
+			<embed src="https://player.vimeo.com/video/166972973" width="480" height="400" type="video/ogg" />				
 			<!--  -->
 			<!-- <embed src="http://player.youku.com/player.php/sid/XMzI2NTc4NTMy/v.swf" width="480" height="400" type="application/x-shockwave-flash"/>  -->
 			<!-- http://static.youku.com/v1.0.0622/v/swf/loader.swf?VideoIDS=XMzI2NTc4NTMy&winType=BDskin&embedid=MTE1LjU2LjM3LjE1MwI4MTY0NDYzMwIC&wd=&partnerid=0edbfd2e4fc91b72&vext=pid%3D0edbfd2e4fc91b72%26emb%3DMTE1LjU2LjM3LjE1MwI4MTY0NDYzMwIC%26bc%3D%26cna%3D%26type%3D0%26embsig%3D1_1463499456_7f0464b910bdc0f39b8544d98d2e5d51 -->
 			
 			<a href="https://player.vimeo.com/video/166972973">Play a video file</a> 
+			<h3>application/x-shockwave-flash</h3>
 			<embed src="http://player.youku.com/player.php/Type/Folder/Fid/27264490/Ob/1/sid/XMTU3MzM1NDkwMA==/v.swf" width="480" height="400" type="application/x-shockwave-flash"/> 
 			<!-- http://player.youku.com/player.php/Type/Folder/Fid/27264490/Ob/1/sid/XMTU3MzM1NDkwMA==/v.swf -->
 		</div>
@@ -77,7 +83,26 @@
 		</div>
 		<div>
 			<h3>如果网页包含指向媒体文件的超链接，大多数浏览器会使用"辅助应用程序"来播放文件。</h3>
-			<a href="../../sources/video/test.swf">Play a video file</a> 
+			<a href="../../sources/video/test.swf">Play a flash file</a> 
+			<a href="../../sources/video/test.mp4">Play a video:mp4 file</a>
+			<a href="../../sources/video/test.ogg">Play a video:ogg file</a> 
+			<a href="../../sources/video/test.webm">Play a video:webm file</a> 
+		</div>
+		<div>
+			<pre>
+				常见的 MIME 类型：
+				视频：
+
+				    video/ogg
+				    video/mp4
+				    video/webm
+
+				音频：
+
+				    audio/ogg
+				    audio/mpeg
+
+			</pre>
 		</div>
 	</div>
 </body>
