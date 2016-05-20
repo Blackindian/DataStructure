@@ -1,15 +1,33 @@
 <?php 
 header('content-type:text/html;charset=utf-8');
-require_once 'config.php';
+// require_once 'config.php';
 
-define("DB_HOST",'localhost');//主机URL
-# define("DB_HOST",'127.0.0.1');//主机URL
-define("DB_USER",'root');//用户名
-define('DB_PWD','123456');//密码
-define('DB_NAME','dsqcx');//数据库名
-define('DB_PORT','3306');//端口
-define('DB_TYPE','mysql');//数据库类型
-define('DB_CHARSET','utf8');//字符编码
+require_once '../../../secret_config.php';
+# 安全目录 (放在网站根目录以外的地方)
+
+// define("DB_HOST",'localhost');//主机URL
+// # define("DB_HOST",'127.0.0.1');//主机URL
+// define("DB_USER",'root');//用户名
+// define('DB_PWD','123456');//密码
+// define('DB_NAME','dsqcx');//数据库名
+// define('DB_PORT','3306');//端口
+// define('DB_TYPE','mysql');//数据库类型
+// define('DB_CHARSET','utf8');//字符编码
+
+$html51 = <<<EOF
+         <!DOCTYPE html>
+         <html lang="en">
+         <head>
+         	<meta charset="UTF-8">
+         	<title>MySQLi && PDO</title>
+         </head>
+         <body>
+EOF;
+echo "{$html51}";
+$html52 = <<<EOF
+		  </body>
+		  </html>
+EOF;
 
 echo "DB连接test<br>";
 
@@ -114,6 +132,11 @@ $row_line = mysqli_num_rows($res);
 $table = <<<EOF
          <table style="color:red; border:3px solid #0f0;" border="1" >
             <caption>video 存储信息表：</caption>
+            <colgroup>
+                <col span="1" style="background-color:yellow">
+                <col span="3" style="background-color:rgba(0,255,0,0.5);">
+                <col span="3" style="background-color:rgba(255,0,255,0.5);">
+             </colgroup>
          	<thead>
  	         	<tr>
  		         	<th>id</th>
@@ -219,3 +242,18 @@ if ($close) {
 	echo "关闭DB失败！<br><hr>";
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "{$html52}";
