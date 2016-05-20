@@ -27,12 +27,12 @@ $vstatus=$_POST('vstatus');
 // $vtime=$_POST('vtime');
 $table='video';
 
-$checked = true;
+// $checked = true;
 
 
 //3.得到连接对象
 $PdoMySQL=new PdoMySQL();
-if (ture) {
+if () {
 	$vtime=time();
 	//完成上传的功能
 	$data=compact('vname','vurl','vdesc','vuser','vstatus','vtime');
