@@ -1,4 +1,4 @@
-<?
+<?php
 # 上传视频
 header('content-type:text/html;charset=utf-8');
 //1.包含所需文件
