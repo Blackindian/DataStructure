@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css quote</title>
+	<!-- http://barretlee.com/blog/2015/09/15/hei-duoshuo-what-is-wrong/#comments -->
+	<meta http-equiv="refresh" content="3; url=https://xgqfrms.github.io/DataStructure/">
+	<style>
+		blockquote::after {
+		    content: "quote";
+		    position: absolute;
+		    left: -22px;
+		    top: -17px;
+		    background-color: #7ca5e2;
+		    padding: 0 6px;
+		    border-radius: 4px;
+		    transform: rotateZ(-20deg);
+		    box-shadow: 1px 1px 3px #ccc;
+		    color: #fff;
+		    font-size: 16px;
+		}
+		.post-content p, .post-content blockquote, .post-content .highlight, .post-content div, .post-content table {
+		    margin-bottom: 25px;
+		}
+		blockquote {
+		    padding: 20px 20px 20px 20px;
+		    background: #fbfbfb;
+		    border: 1px dashed #b9d5ff;
+		    border-width: 1px 0;
+		    font-family: monospace;
+		    position: relative;
+		    margin-top: 42px;
+		}
+		body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+		    margin: 0;
+		    padding: 0;
+		}
+		user agent stylesheet
+		blockquote {
+		    display: block;
+		    -webkit-margin-before: 1em;
+		    -webkit-margin-after: 1em;
+		    -webkit-margin-start: 40px;
+		    -webkit-margin-end: 40px;
+		}
+		Inherited from div.post
+		.post {
+		    font-size: 18px;
+		    line-height: 30px;
+		}
+		Inherited from div.container
+		.container {
+		    max-width: 800px;
+		    _width: 800px;
+		    padding-left: 40px;
+		    margin: auto;
+		    word-break: break-all;
+		    word-wrap: break-word;
+		}
+		Inherited from body
+		body {
+		    -webkit-tap-highlight-color: transparent;
+		    font-size: 16px;
+		    color: #2f2f2f;
+		    background: #fff;
+		    font-family: Georgia, serif;
+		}
+		Pseudo ::after element
+		blockquote::after {
+		    content: "quote";
+		    position: absolute;
+		    left: -22px;
+		    top: -17px;
+		    background-color: #7ca5e2;
+		    padding: 0 6px;
+		    border-radius: 4px;
+		    transform: rotateZ(-20deg);
+		    box-shadow: 1px 1px 3px #ccc;
+		    color: #fff;
+		    font-size: 16px;
+		}
+		::selection {
+		    background: #fde6ba;
+		    color: #000;
+		}
+		.d0{
+			float: left;
+		}
+		.d1{
+			float: left;
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="d0">
+			<p>xxxxxx</p>
+			<p>xxxxxx</p>
+			<p>xxxxxx</p>
+			<p>xxxxxx</p>
+		</div>
+		<div class="d1">
+			<blockquote>
+			<p>[故障通知] 今天因为机房网络故障，正在排查，影响部分用户的使用。由此给大家带来的使用不便非常抱歉。</p>
+			</blockquote>
+		</div>
+	</div>
+</body>
+</html>
