@@ -1,6 +1,6 @@
 <?php 
 header('content-type:text/html;charset=utf-8');
-require_once 'config.php';
+require_once '../config.php';
 
 // $vname=$_POST['vname'];
 // $vdesc=$_POST['vdesc'];

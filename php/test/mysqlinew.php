@@ -2,7 +2,7 @@
 header('content-type:text/html;charset=utf-8');
 // require_once 'config.php';
 
-require_once '../../../secret_config.php';
+require_once '../../../../secret_config.php';
 # 安全目录 (放在网站根目录以外的地方)
 
 // define("DB_HOST",'localhost');//主机URL

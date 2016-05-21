@@ -12,6 +12,6 @@ define('DB_CHARSET','utf8');//字符编码
 # mysql连接类型与socket通信原理说明 http://blog.fity.cn/post/348/
 # mysqli使用localhost问题 http://blog.csdn.net/meegomeego/article/details/36187683
 
-
+# DB_HOST DB_USER DB_PWD DB_NAME DB_PORT DB_TYPE DB_CHARSET DB_SOCKET
 #echo "test";
 ?>
