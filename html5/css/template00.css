@@ -515,6 +515,14 @@ p::selection,span::selection,h1::selection{
 	/*background-color: #f0f;*/
 	display: block;
 }
+.container .my_container .dc-2 .class_info .my_section .da a{
+	color: #f0f;
+	text-decoration: none;
+}
+.container .my_container .dc-2 .class_info .my_section .da a:hover{
+	color: #0f0;
+	cursor: alias;
+}
 
 .container .my_container .dc-3 {
 	clear: both;

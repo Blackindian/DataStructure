@@ -514,6 +514,26 @@ p::selection,span::selection,h1::selection{
 	/*background-color: #f0f;*/
 	display: block;
 }
+.container .my_container .dc-2 .class_info .my_section .rtb{
+	background-color: #000;
+	/*color-rendering: #fff;*/
+	color: #f0f;
+	display: block;
+	width: 500px;
+	height: auto;
+	margin-left: 100px;
+}
+.container .my_container .dc-2 .class_info .my_section .rtb tr{
+	text-align: center;
+	margin: auto 10px;
+}
+.container .my_container .dc-2 .class_info .my_section .rtb td {
+	text-align: center;
+	margin: 10px;
+	width: 60px;
+}
+.container .my_container .dc-2 .class_info .my_section .rtb td:nth-child(2){
+	width: 110px;
 
 .container .my_container .dc-3 {
 	clear: both;
