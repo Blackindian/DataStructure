@@ -24,7 +24,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
         <!-- icon -->
-        <link rel="shortcut icon" href="../../images/DataStructure.io.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../images/icon-me.jpg" type="image/x-icon">
         <title>DSQCW | Data Structure Quality Course</title>        
     </head>
     <body>
@@ -44,15 +44,15 @@
                             <form  action="doAction.php?act=login" autocomplete="on" method="post"> 
                                 <h1>登陆账号</h1> 
                                 <p> 
-                                <label for="username" class="uname" data-icon="u" > Your username </label>
+                                <label for="username" class="uname" data-icon="u" > 用户名： </label>
                                 <input id="username" name="username" required="required" type="text" placeholder="xgqfrms"/>
                             </p>
                             <p> 
-                                <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                                <label for="password" class="youpasswd" data-icon="p"> 密码： </label>
                                 <input id="password" name="password" required="required" type="password" placeholder="************" /> 
                             </p>                        
                             <p>
-                                <label for="captcha" class="youcaptcha" data-icon="p"> Your captcha </label>
+                                <label for="captcha" class="youcaptcha" data-icon="p"> 验证码： </label>
                                 <input id="captcha" name="captcha" required="required" type="text" placeholder="captcha" /> 
                                 <div class="captcha">
                                     <!-- <img src="captcha.php?var"> -->
@@ -82,15 +82,15 @@
                             <form  action="doAction.php?act=reg" autocomplete="on" method="post"> 
                                 <h1> 注册账号 </h1> 
                                 <p> 
-                                    <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+                                    <label for="usernamesignup" class="uname" data-icon="u"> 用户名：</label>
                                     <input id="usernamesignup" name="username" required="required" type="text" placeholder="xgqfrms" />
                                 </p>
                                 <p> 
-                                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+                                    <label for="emailsignup" class="youmail" data-icon="e" > 邮箱：</label>
                                     <input id="emailsignup" name="email" required="required" type="email" placeholder="xgqfrms@mail.com"/> 
                                 </p>
                                 <p> 
-                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p"> 密码： </label>
                                     <input id="passwordsignup" name="password" required="required" type="password" placeholder="**********"/>
                                 </p>
                                 <p class="signin button"> 
