@@ -523,17 +523,14 @@ p::selection,span::selection,h1::selection{
 	color: #0f0;
 	cursor: alias;
 }
-.container .my_container .dc-2 .class_info .my_section .da ol{
-	/*color: #000;*/
-	/*cursor: pointer;*/
+/* ol & ul 前面都不可以添加 class选择器 ,支持 标签选择器*/
+
+section div ul{
 	list-style-type: none;
-	/*background-color: #000;*/
-	/*display: inline-block;*/
 }
-.container .my_container .dc-2 .class_info .my_section .da ol > li:nth-child(2n){
-	color: #000;
+section div ul> li:nth-child(2) a:hover{
+	color: #f00;
 	cursor: pointer;
-	background-color: #000;
 }
 
 .container .my_container .dc-3 {

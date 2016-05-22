@@ -5,85 +5,107 @@
 	<title>nth-child</title>
 	<style>
 		/*奇数 odd*/
-		.1 ol > li:nth-child(2n+1){
+		/*偶数 even*/
+		/* num 7*/
+
+		/**/
+		div article ol > li:nth-child(2n+1){
+		  background: green;
+		}
+		div article ul > li:nth-child(2n+1){
 		  background: green;
 		}
 
-		/*偶数 even*/
-		ol > li:nth-child(2n){
+		/**/
+		div section ol > li:nth-child(2n){
 		  background: red;
 		}
-		div ol > li:nth-child(2) a:hover{
-		  color: #0f0;
+		div section ol > li:nth-child(2) a:hover{
+		  color: #fff;
+		  cursor: alias;
+		}
+		div section ul > li:nth-child(2n){
+		  background: blue;
+		}
+		div section ul > li:nth-child(2) a:hover{
+		  color: #fff;
 		  cursor: alias;
 		}
 
-		/* num 7*/
-		.3 ol > li:nth-child(7){
+		
+		/*ol > li:nth-child(7){
 		  background: yellow;
 		}
 
 		ul > li:nth-child(2){
 		    background: yellow;
-		}
-		/*ul 无序list 也好使！*/
+		}*/
 		/* ol & ul 前面都不可以添加 class选择器 ,支持 标签选择器*/
+		/*  标签选择器  必须为大的块级元素 div  section  article */
+		/* p */
 	</style>
 </head>
 <body>
 	<div class="1">
-		<ol>
-			<li><a href="">item1</a></li>
-			<li><a href="">item2</a></li>
-			<li><a href="">item3</a></li>
-		  <li>item4</li>
-		  <li>item5</li>
-		  <li>item6</li>
-		  <li>item7</li>
-		  <li>item8</li>
-		  <li>item9</li>
-		  <li>item10</li>
-		</ol>
-		<ul>
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-			<li>item4</li>
-			<li>item5</li>
-			<li>item6</li>
-			<li>item7</li>
-			<li>item8</li>
-			<li>item9</li>
-			<li>item10</li>
-		</ul>
+		<section>
+			<ol>
+			  <li><a href="">item1</a></li>
+			  <li><a href="">item2</a></li>
+			  <li><a href="">item3</a></li>
+			  <li>item4</li>
+			  <li>item5</li>
+			  <li>item6</li>
+			  <li>item7</li>
+			  <li>item8</li>
+			  <li>item9</li>
+			  <li>item10</li>
+			</ol>
+		</section>
+		<section>
+			<ul>
+				<li><a href="">item1</a></li>
+				<li><a href="">item2</a></li>
+				<li><a href="">item3</a></li>
+				<li>item4</li>
+				<li>item5</li>
+				<li>item6</li>
+				<li>item7</li>
+				<li>item8</li>
+				<li>item9</li>
+				<li>item10</li>
+			</ul>
+		</section>
 	</div>
+	<hr>
 	<div class="2">
-		<ol>
-		  <li>item1</li>
-		  <li>item2</li>
-		  <li>item3</li>
-		  <li>item4</li>
-		  <li>item5</li>
-		  <li>item6</li>
-		  <li>item7</li>
-		  <li>item8</li>
-		  <li>item9</li>
-		  <li>item10</li>
-		</ol>
-	</div>
-	<div class="3">
-		<ol>
-		  <li>item1</li>
-		  <li>item2</li>
-		  <li>item3</li>
-		  <li>item4</li>
-		  <li>item5</li>
-		  <li>item6</li>
-		  <li>item7</li>
-		  <li>item8</li>
-		  <li>item9</li>
-		  <li>item10</li>
-		</ol>
+		<article>
+			<ol>
+			  <li><a href="">item1</a></li>
+			  <li><a href="">item2</a></li>
+			  <li><a href="">item3</a></li>
+			  <li>item4</li>
+			  <li>item5</li>
+			  <li>item6</li>
+			  <li>item7</li>
+			  <li>item8</li>
+			  <li>item9</li>
+			  <li>item10</li>
+			</ol>
+		</article>
+		<article>
+			<ul>
+			  <li><a href="">item1</a></li>
+			  <li><a href="">item2</a></li>
+			  <li><a href="">item3</a></li>
+			  <li>item4</li>
+			  <li>item5</li>
+			  <li>item6</li>
+			  <li>item7</li>
+			  <li>item8</li>
+			  <li>item9</li>
+			  <li>item10</li>
+			</ul>
+		</article>
 	</div>
 </body>
 </html>
