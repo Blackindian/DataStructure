@@ -15,7 +15,14 @@
 		div article ul > li:nth-child(2n+1){
 		  background: green;
 		}
-
+		div article ol > li:nth-child(2n+1) a:hover{
+		  color: #f00;
+		  cursor: not-allowed;
+		}
+		div article ul > li:nth-child(2n+1) a:hover{
+		  color: #f00;
+		  cursor: not-allowed;
+		}
 		/**/
 		div section ol > li:nth-child(2n){
 		  background: red;
@@ -41,8 +48,8 @@
 		    background: yellow;
 		}*/
 		/* ol & ul 前面都不可以添加 class选择器 ,支持 标签选择器*/
-		/*  标签选择器  必须为大的块级元素 div  section  article */
-		/* p */
+		/*  承载ol & ul 的标签选择器  必须为大的块级元素 div  section  article */
+		/* p 不好使*/
 	</style>
 </head>
 <body>
@@ -54,13 +61,9 @@
 			  <li><a href="">item3</a></li>
 			  <li>item4</li>
 			  <li>item5</li>
-			  <li>item6</li>
-			  <li>item7</li>
-			  <li>item8</li>
-			  <li>item9</li>
-			  <li>item10</li>
 			</ol>
 		</section>
+		<br>
 		<section>
 			<ul>
 				<li><a href="">item1</a></li>
@@ -68,11 +71,6 @@
 				<li><a href="">item3</a></li>
 				<li>item4</li>
 				<li>item5</li>
-				<li>item6</li>
-				<li>item7</li>
-				<li>item8</li>
-				<li>item9</li>
-				<li>item10</li>
 			</ul>
 		</section>
 	</div>
@@ -84,14 +82,10 @@
 			  <li><a href="">item2</a></li>
 			  <li><a href="">item3</a></li>
 			  <li>item4</li>
-			  <li>item5</li>
-			  <li>item6</li>
-			  <li>item7</li>
-			  <li>item8</li>
-			  <li>item9</li>
-			  <li>item10</li>
+			  <li>item5</li>			
 			</ol>
 		</article>
+		<br>
 		<article>
 			<ul>
 			  <li><a href="">item1</a></li>
@@ -99,11 +93,6 @@
 			  <li><a href="">item3</a></li>
 			  <li>item4</li>
 			  <li>item5</li>
-			  <li>item6</li>
-			  <li>item7</li>
-			  <li>item8</li>
-			  <li>item9</li>
-			  <li>item10</li>
 			</ul>
 		</article>
 	</div>
