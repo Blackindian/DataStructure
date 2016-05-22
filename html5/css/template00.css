@@ -523,18 +523,19 @@ p::selection,span::selection,h1::selection{
 	color: #0f0;
 	cursor: alias;
 }
-.container .my_container .dc-2 .class_info .my_section .da ul{
+.container .my_container .dc-2 .class_info .my_section .da ol{
 	/*color: #000;*/
 	/*cursor: pointer;*/
 	list-style-type: none;
 	/*background-color: #000;*/
 	/*display: inline-block;*/
 }
-/*.container .my_container .dc-2 .class_info .my_section .da ul>li:nth-child(2) a:hover{
+.container .my_container .dc-2 .class_info .my_section .da ol > li:nth-child(2n){
 	color: #000;
 	cursor: pointer;
+	background-color: #000;
 }
-*/
+
 .container .my_container .dc-3 {
 	clear: both;
 	float: left;

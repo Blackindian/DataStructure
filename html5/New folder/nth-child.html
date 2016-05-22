@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nth-child</title>
+	<style>
+		/*奇数 odd*/
+		.1 ol > li:nth-child(2n+1){
+		  background: green;
+		}
+
+		/*偶数 even*/
+		.2 ol > li:nth-child(2n){
+		  background: red;
+		}
+
+		/* num 7*/
+		.3 ol > li:nth-child(7){
+		  background: yellow;
+		}
+
+		ul > li:nth-child(2){
+		    background: yellow;
+		}
+		/*ul 无序list 也好使！*/
+		/* ol & ul 前面都不可以添加 任何 选择器 */
+	</style>
+</head>
+<body>
+	<div class="1">
+		<ol>
+		  <li>item1</li>
+		  <li>item2</li>
+		  <li>item3</li>
+		  <li>item4</li>
+		  <li>item5</li>
+		  <li>item6</li>
+		  <li>item7</li>
+		  <li>item8</li>
+		  <li>item9</li>
+		  <li>item10</li>
+		</ol>
+		<ul>
+			<li>item1</li>
+			<li>item2</li>
+			<li>item3</li>
+			<li>item4</li>
+			<li>item5</li>
+			<li>item6</li>
+			<li>item7</li>
+			<li>item8</li>
+			<li>item9</li>
+			<li>item10</li>
+		</ul>
+	</div>
+	<div class="2">
+		<ol>
+		  <li>item1</li>
+		  <li>item2</li>
+		  <li>item3</li>
+		  <li>item4</li>
+		  <li>item5</li>
+		  <li>item6</li>
+		  <li>item7</li>
+		  <li>item8</li>
+		  <li>item9</li>
+		  <li>item10</li>
+		</ol>
+	</div>
+	<div class="3">
+		<ol>
+		  <li>item1</li>
+		  <li>item2</li>
+		  <li>item3</li>
+		  <li>item4</li>
+		  <li>item5</li>
+		  <li>item6</li>
+		  <li>item7</li>
+		  <li>item8</li>
+		  <li>item9</li>
+		  <li>item10</li>
+		</ol>
+	</div>
+</body>
+</html>
