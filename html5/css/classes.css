@@ -501,7 +501,8 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-2 .class_info section{
 	width: 80%;
 	margin: 0 auto;
-	height: 300px;
+	height: 1000px;
+	/*height: 300px;*/
 	/*text-align: center;*/
 	/*background-color: #f0f;*/
 	display: block;
