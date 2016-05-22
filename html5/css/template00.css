@@ -525,12 +525,12 @@ p::selection,span::selection,h1::selection{
 }
 /* ol & ul 前面都不可以添加 class选择器 ,支持 标签选择器*/
 
-section div ul{
+div div div div section div ol{
 	list-style-type: none;
 }
-section div ul> li:nth-child(2) a:hover{
+div div div div section div ol > li:nth-child(2) a:hover{
 	color: #f00;
-	cursor: pointer;
+	cursor: not-allowed;
 }
 
 .container .my_container .dc-3 {
