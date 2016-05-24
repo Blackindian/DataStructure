@@ -69,7 +69,7 @@
                                 <label for="loginkeeping">保持登录状态</label>
                             </p>
                             <p class="login button"> 
-                                <input type="submit" value="登陆" /> 
+                                <input type="submit" value="登录" /> 
                             </p>
                             <p class="change_link">
                                 没有账号?
