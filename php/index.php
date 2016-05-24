@@ -42,7 +42,7 @@
                     <div id="wrapper">
                         <div id="login" class="animate form">
                             <form  action="doAction.php?act=login" autocomplete="on" method="post"> 
-                                <h1>登陆账号</h1> 
+                                <h1>登录账号</h1> 
                                 <p> 
                                 <label for="username" class="uname" data-icon="u" > 用户名： </label>
                                 <input id="username" name="username" required="required" type="text" placeholder="xgqfrms"/>
@@ -66,7 +66,7 @@
                             </p>
                             <p class="keeplogin"> 
                                 <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" checked="checked" /> 
-                                <label for="loginkeeping">保持登陆状态</label>
+                                <label for="loginkeeping">保持登录状态</label>
                             </p>
                             <p class="login button"> 
                                 <input type="submit" value="登陆" /> 
@@ -98,7 +98,7 @@
 								</p>
                                 <p class="change_link">  
 									已有账号?
-									<a href="#tologin" class="to_register">直接登陆</a>
+									<a href="#tologin" class="to_register">直接登录</a>
 								</p>
                             </form>
                         </div>

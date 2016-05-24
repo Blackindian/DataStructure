@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>innerHTML && DOM</title>
+</head>
+<body>
+	<div>
+		<p id="demo">Click the button get the text content of the button element</p>
+		<p id="demo1">&nbsp;</p>
+			
+		<button onclick="myFunction()">Try it</button>
+		<button onclick="myFunction1()">Try it 1</button>
+
+		<p>
+		<strong>Note:</strong> The textContent property is not supported in Internet Explorer 8 and earlier.</p>
+		<span id="span">span test</span>		
+
+		<script>
+			function myFunction()
+			{
+				var s = "Click the button get the text content of the button element";
+				var y=document.getElementById("demo").textContent; 
+				if (s == y) {
+					var c=document.getElementsByTagName("button")[0];
+					var x=document.getElementById("demo");  
+					x.innerHTML=c.textContent;
+				} else {
+					var xn=document.getElementById("demo");  
+					xn.innerHTML="Click the button get the text content of the button element";
+				}	
+			}
+				
+			function myFunction1()
+			{
+				// var content = document.getElementById("demo1").innerHTML="";
+				//x.innerHTML=content.textContent;
+				var isempty = "";
+				// var istest = "test";
+				var d=document.getElementById("demo1").textContent;
+
+				if (isempty == d) {	
+				    var c1 = document.getElementsByTagName("p")[0];
+				    var x=document.getElementById("demo1");				 
+					x.innerHTML=c1.textContent;
+				} else {
+					var x=document.getElementById("demo1");				 
+					x.innerHTML="<br>";
+				}		
+			}
+		</script>
+	</div>
+</body>
+</html>
