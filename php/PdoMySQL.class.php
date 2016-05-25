@@ -385,9 +385,10 @@ class PdoMySQL{
 	 * @param unknown $errMsg
 	 */
 	public static function throw_exception($errMsg){
-		echo '<div style="width:80%;background-color:#ABCDEF;color:black;font-size:20px;padding:20px 0px;">
-				'.$errMsg.'
-		</div>';
+		// echo '<div style="width:80%;background-color:#ABCDEF;color:black;font-size:20px;padding:20px 0px;">
+		// 		'.$errMsg.'
+		// </div>';
+		echo '<span style="color:red">注册失败！</span><mark>用户名或email重复！</mark>';
 	}
 	/**
 	 * 销毁连接对象，关闭数据库

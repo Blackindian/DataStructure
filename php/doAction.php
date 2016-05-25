@@ -14,7 +14,7 @@ $password=md5($_POST['password']);
 $email=$_POST['email'];
 $table='user';
 // captcha
-$captcha =$_POST('captcha');
+// $captcha =$_POST('captcha');
 
 
 //3.得到连接对象
@@ -79,7 +79,7 @@ EOF;
 				echo '<meta http-equiv="refresh" content="3;url=index.php#tologin"/>';
 			}else{
 				$PdoMySQL->delete($table,'id='.$lastInsertId);
-				echo '注册失败，请重新注册';
+				echo '<h1 style="color:red">注册失败，请重新注册</h1><br>';
 				echo '3秒钟后跳转到注册页面';
 				echo '<meta http-equiv="refresh" content="3;url=index.php#toregister"/>';
 			}
@@ -87,7 +87,8 @@ EOF;
 			echo '邮件发送错误'.$e->getMessage();
 		}
 	}else{
-		echo '用户注册失败,3秒钟后跳转到注册页面';
+		echo '<h1 style="color:red">注册失败，请重新注册</h1><br>';
+		echo '3秒钟后跳转到注册页面';
 		echo '<meta http-equiv="refresh" content="3;url=index.php#toregister"/>';
 	}
 }elseif($act==='login'){
@@ -122,13 +123,13 @@ EOF;
 }
 
 # captcha 验证码
-if(isset($_REQUEST['captcha'])){
-  session_start();
-  if(strtilower($_REQUEST['captcha'])==$_SESSION['captcha']){
-     echo'<font color="#0000CC">输入正确！</font>';
-  }else{
-      echo'<font color="#0000CC">输入error！</font>';
-  }
-  exit();
-}
+// if(isset($_REQUEST['captcha'])){
+//   session_start();
+//   if(strtilower($_REQUEST['captcha'])==$_SESSION['captcha']){
+//      echo'<font color="#0000CC">输入正确！</font>';
+//   }else{
+//       echo'<font color="#0000CC">输入error！</font>';
+//   }
+//   exit();
+// }
 #
