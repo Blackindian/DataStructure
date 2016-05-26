@@ -1,3 +1,31 @@
+<?php 
+#
+header('content-type:text/html;charset=utf-8');
+require_once '../PdoMySQL.class.php';
+require_once '../config.php';
+#require_once '../pwd.php';
+
+$username=addslashes($_POST['username']);
+$password=md5($_POST['password']);
+$table='user';
+
+$PdoMySQL=new PdoMySQL();
+
+$row=$PdoMySQL->find($table,"username='{$username}' AND password='{$password}'");
+	foreach ($row as $key => $value) {
+		echo "{$value}";
+	}
+
+
+
+
+
+
+
+
+
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

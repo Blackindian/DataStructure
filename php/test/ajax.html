@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax</title>
+	<script>
+		function showUser(str){
+		    if (str==""){
+			document.getElementById("txtHint").innerHTML="";
+			return;
+			}
+			if (window.XMLHttpRequest){
+				// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}else{
+				// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.onreadystatechange=function(){
+				if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+				}
+			}
+			xmlhttp.open("GET","ajax.php?q="+str,true);
+			xmlhttp.send();
+		}
+
+		function showAdmin(str){
+		    if (str==""){
+			document.getElementById("txtHint2").innerHTML="";
+			return;
+			}
+			if (window.XMLHttpRequest){
+				// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}else{
+				// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.onreadystatechange=function(){
+				if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("txtHint2").innerHTML=xmlhttp.responseText;
+				}
+			}
+			// xmlhttp.open("POST","newajax.php"+str,true);
+			xmlhttp.open("GET","newajax.php?sname="+str,true);
+			xmlhttp.send();
+		}
+		var str3 = document.getElementById("sname").innerHTML="";
+		function doDelete(str3){
+		    if (str3==""){
+			document.getElementById("txtHint3").innerHTML="";
+			return;
+			}
+			if (window.XMLHttpRequest){
+				// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}else{
+				// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.onreadystatechange=function(){
+				if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("txtHint3").innerHTML=xmlhttp.responseText;
+				}
+			}
+			// xmlhttp.open("POST","newajax.php"+str,true);
+			xmlhttp.open("GET","delete.php?sname="+str3,true);
+			xmlhttp.send();
+		}
+	</script>
+</head>
+<body>
+<form>
+	<select name="users" onchange="showUser(this.value)">
+	<option value="">Select a person:</option>
+	<option value="1">xgqfrms</option>
+	<option value="2">xgqfrms2016</option>
+	<option value="3">test</option>
+	</select>
+</form>
+<br>
+<div id="txtHint"><b>user info will be listed here.</b></div>
+<hr>
+<!-- <form action="newajax.php" method="POST">
+	<input type="text" name="admin">
+	<input type="submit" value="submit" onclick="showAdmin(this.value)">
+</form> -->
+<form >
+	<label for="">输入查询的用户名：</label>
+	<input type="text" name="sname" id="sname" onblur="showAdmin(this.value)">
+	<!-- <input type="submit" value="submit" onclick="showAdmin(this.value)"> -->
+</form>
+<br>
+<div id="txtHint2"><b>user info will be listed here.</b></div>
+<br>
+<div id="txtHint3"><b>delete info will be listed here.</b></div>
+</body>
+</html> 
