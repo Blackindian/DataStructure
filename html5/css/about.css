@@ -155,7 +155,7 @@ p::selection,span::selection,h1::selection{
 	clear: both;
 	float: left;
 	position: relative;
-	bottom: -1600px;
+	bottom: -4100px;
 	background: rgba(0,0,0,0.9);
 	width: 100%;
 	height: 100px;
@@ -292,7 +292,7 @@ p::selection,span::selection,h1::selection{
 	clear: both;
 	/*background: rgba(255,255,255,1);*/
 	width: 100%;
-	height: 1500px;
+	height: 4000px;
 	top: 100px;
 	overflow: hidden;
 	/*margin-top: 100px;*/
@@ -301,7 +301,7 @@ p::selection,span::selection,h1::selection{
 .container .my_container{
 	/*background: rgba(0,255,0,1);*/
 	width: 80%;
-	height: 1500px;
+	height: 4000px;
 	margin: 0 10%;
 	float: left;
 }
@@ -311,7 +311,7 @@ p::selection,span::selection,h1::selection{
 	float: left;
 	/*background: rgba(255,255,0,0.8);*/
 	width: 100%;
-	height: 150px;
+	height: 50px;
 	/*height: 200px;*/
 	/*overflow: hidden;*/
 	border: 1px solid red;
@@ -376,7 +376,7 @@ p::selection,span::selection,h1::selection{
 	float: left;
 	background: rgba(0,255,255,0.8);
 	width: 100%;
-	height: 1400px;
+	height: 3900px;
 	/*overflow: hidden;*/
 	margin-top: -10px;
 }
@@ -469,9 +469,10 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-3 {
 	clear: both;
 	float: left;
-	background: rgba(255,0,255,0.8);
-	width: 80%;
-	margin: auto 10%;
+	/*background: rgba(255,0,255,0.8);*/
+	width: 100%;
+	background: rgba(0,255,255,0.8);
+	/*margin: auto 10%;*/
 	/*height: 300px;*/
 	height: 50px;
 	overflow: hidden;
