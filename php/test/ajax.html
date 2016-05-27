@@ -10,6 +10,27 @@
 		 	background-color: #0ff;
 		 	
 		 }
+		 .container{
+		 	width: 100%;
+		 	height: 570px;
+		 	background-color: #f00;
+		 }
+		 .dc-1{
+		 	width: 80%;
+		 	height:400px;
+		 	background-color: #0f0;
+		 	margin: 0 10%;
+		 	padding-top: 50px; 
+		 }
+		 .dc-1 p{
+		 	line-height: 32px;
+		 	height: 32px;
+		 	text-align: center;
+		 }
+		 .hd{
+		 	/*display: none;*/
+		 	visibility: hidden;
+		 }
 	</style>
 	<script>
 		function showUser(str){
@@ -79,30 +100,46 @@
 	</script>
 </head>
 <body>
-<p><span class="bigfont">请选择要查询的用户名：</span></p>
-<form>
-	<select name="users" onchange="showUser(this.value)">
-	<option value="">Select a person:</option>
-	<option value="1">xgqfrms</option>
-	<option value="2">xgqfrms2016</option>
-	<option value="3">test</option>
-	</select>
-</form>
-<br>
-<div id="txtHint"><b>查询结果会显示在这里。</b></div>
-<hr>
-<!-- <form action="newajax.php" method="POST">
-	<input type="text" name="admin">
-	<input type="submit" value="submit" onclick="showAdmin(this.value)">
-</form> -->
-<form >
-	<label for=""><span class="bigfont">请输入要查询的用户名：：</span></label>
-	<input type="text" name="sname" id="sname" onblur="showAdmin(this.value)">
-	<!-- <input type="submit" value="submit" onclick="showAdmin(this.value)"> -->
-</form>
-<br>
-<div id="txtHint2"><b>查询结果会显示在这里。</b></div>
-<br>
-<!-- <div id="txtHint3"><b>delete info will be listed here.</b></div> -->
+	<div class="container">
+		<div class="dc-1">
+			<p><span class="bigfont">请输入要查询的用户名：</span></p>
+			<!-- <p><span class="bigfont">请选择要查询的用户名：</span></p> -->
+			<!-- <p>
+				<form>
+					<select name="users" onchange="showUser(this.value)">
+					<option value="">Select a person:</option>
+					<option value="1">xgqfrms</option>
+					<option value="2">xgqfrms2016</option>
+					<option value="3">test</option>
+					</select>
+				</form>
+			</p>
+			<br> -->
+			<!-- <div id="txtHint"><b>查询结果会显示在这里。</b></div> -->
+			<hr>
+			<!-- <form action="newajax.php" method="POST">
+				<input type="text" name="admin">
+				<input type="submit" value="submit" onclick="showAdmin(this.value)">
+			</form> -->
+			<form >
+				<label for="" class="hd"><span class="bigfont">请输入要查询的用户名:</span></label>
+				<input type="text" name="sname" id="sname" onblur="showAdmin(this.value)">
+				<!-- <input type="submit" value="submit" onclick="showAdmin(this.value)"> -->
+			</form>
+			<br>
+			<div id="txtHint2">
+				<p><b>查询结果会显示在这里。</b></p>
+				<table border="1">
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+				</table>
+			</div>
+			<br>
+			<!-- <div id="txtHint3"><b>delete info will be listed here.</b></div> -->
+		</div>
+	</div>
 </body>
 </html> 

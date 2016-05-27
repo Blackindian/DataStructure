@@ -32,11 +32,13 @@ $table='video';
 
 //3.得到连接对象
 $PdoMySQL=new PdoMySQL();
-if () {
+$notexist = ture;
+if ($notexist) {
 	$vtime=time();
 	//完成上传的功能
 	$data=compact('vname','vurl','vdesc','vuser','vstatus','vtime');
 	$res=$PdoMySQL->add($data, $table);
+	echo "视频{$vname}上传成功！";
 } else {
 	echo "上传视频失败！";
 }
