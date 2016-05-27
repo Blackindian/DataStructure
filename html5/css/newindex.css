@@ -435,18 +435,11 @@ p::selection,span::selection,h1::selection{
 .container .my_container .dc-2 .class_info{
 	background-color: #fff;
 	width: 90%;
-	height: 1200px;
+	height: 1390px;
 	margin: 10px 5%;
+	padding-left: 10px;
 }
-/*.container .my_container .dc-2 .class_info{
-	background-color: #f0f;
-	width: 80%;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	margin: 0 auto;
-	color: #0f0;
-}*/
+
 .container .my_container .dc-2 .class_info h1{
 	/*background-color: #f0f;*/
 	width: 80%;
@@ -456,33 +449,40 @@ p::selection,span::selection,h1::selection{
 	margin: 0 auto;
 	color: #0f0;
 }
-.container .my_container .dc-2 .class_info section{
+/*.container .my_container .dc-2 .class_info section{
 	width: 80%;
-	margin: 0;
+	margin-left: 100px;
 	height: 300px;
-	/*text-align: center;*/
-	/*background-color: #f0f;*/
+	text-align: center;
+	background-color: #f00;
 	display: block;
-}
-.container .my_container .dc-2 .class_info .my_section p{
+}*/
+/*.container .my_container .dc-2 .class_info .my_section p{
 	width: 80%;
 	margin: 0 auto;
 	height: 50px;
 	line-height: 50px;
-	/*background-color: #f0f;*/
+	background-color: #f0f;
 	display: block;
-}
+}*/
 
 .container .my_container .dc-3 {
 	clear: both;
 	float: left;
 	/*background: rgba(255,0,255,0.8);*/
-	background-color: rgba(0,255,255,0.8); 
+	background-color: rgba(0,255,255,0.8); 	
 	width: 100%;
 	margin: auto 0;
 	/*height: 300px;*/
 	height: 50px;
 	overflow: hidden;
+}
+.container .my_container .dc-3 .w{
+	width: 90%;
+	margin: 0 5%;
+	height: 50px;
+	background-color: #fff; 
+	padding-left: 10px;
 }
 
 /**/
