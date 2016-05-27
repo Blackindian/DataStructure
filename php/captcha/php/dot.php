@@ -13,7 +13,8 @@ $captch_code="";
  
 //iterator output font
 for($i=0;$i<4;$i++){
-	$fontsize = 6;//size  如果 font 是 1，2，3，4 或 5，则使用内置字体。	
+	$fontsize = 5;//size  如果 font 是 1，2，3，4 或 5，则使用内置字体。
+	// $font='simhei.ttf';	
 	$fontcolor = imagecolorallocate($img,rand(120,250),rand(120,250),rand(120,250));
 	
 	//db 
@@ -22,8 +23,8 @@ for($i=0;$i<4;$i++){
 	//拼接 字符串
 	$captch_code.=$fonttext;
 	//location 
-	$x=($i*100)/4+rand(7,15);//width/Max($i)
-	$y=rand(7,15);
+	$x=($i*100)/4+rand(1,15);//width/Max($i)
+	$y=rand(1,15);
 	//draw font
 	imagestring($img,$fontsize,$x,$y,$fonttext,$fontcolor);	
 }
