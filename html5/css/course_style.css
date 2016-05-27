@@ -40,7 +40,7 @@ body li{
 .favorite i{ background: rgba(0, 0, 0, 0) url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/study/studyIcons.png) no-repeat scroll 0 0px;width:11px;height:11px;display:inline-block;margin-right:2px;}
 
 
-.trainingContent{width:1000px;padding:30px 0;margin:0 auto;}
+.trainingContent{width:800px;padding:30px 0;margin:0 auto;}
 .trainingContent ul{margin-bottom:30px;background:#Fff;padding-right:20px;color:#999;position: relative;height:125px;border-bottom:1px solid #DFDFDF;}
 .trainingContent ul:hover{background:#F4F4F4;border-bottom:1px solid #DFDFDF;}
 .trainingContent .cover {width:245px;position: absolute;left:0;top:0;width:225px;height:125px;display:block;}
@@ -155,7 +155,7 @@ body li{
 .subjectSpecial .loading .intr{font-size:12px;color:#999;}
 .subjectSpecial .loading .link i{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1340px no-repeat;width:20px;height:20px;display:inline-block;margin-left:10px;vertical-align: middle;}
 
-.skillSpecial{width:1000px;padding:30px 0;margin:0 auto;}
+.skillSpecial{width:800px;padding:30px 0;margin:0 auto;}
 .skillSpecial h3{font-size:28px;font-weight: normal;margin-bottom:10px;position: relative;}
 .skillSpecial h3 span {color: #999;font-size: 14px;margin-left: 15px;}
 .skillSpecial h3 .openMore{color: #09924b;font-size: 14px;position: absolute;top:17px;right:0;}
@@ -220,7 +220,7 @@ body li{
 .subjectSpecial .loading .intr{font-size:12px;color:#999;}
 .subjectSpecial .loading .link i{background:url(http://s1.jingpinke.com/jscss/highCourse/2015new/images/sprite.png) 0 -1340px no-repeat;width:20px;height:20px;display:inline-block;margin-left:10px;vertical-align: middle;}
 
-.specialBox{width:800px;padding:30px 0;overflow:hidden;}
+.specialBox{width:800px;padding:30px 0;overflow:hidden;margin-left: 100px;}
 .specialBox h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
 .specialBox h3 span{font-size:14px;color:#999;margin-left:15px;}
 .specialBox .img_r5_l ul{height: 280px;}
@@ -230,14 +230,21 @@ body li{
 .trainingBox h3 span{font-size:14px;color:#999;margin-left:15px;}
 .trainingBox .img_r5 ul{height: 130px;}
 
-.resourceBox{width:1000px;padding:30px 0;margin:0 auto;overflow:hidden;}
+.resourceBox{width:720px;padding:30px 0;margin:0 auto;overflow:hidden;}
 .resourceBox h3{font-size:28px;font-weight: normal;margin-bottom:10px;}
 .resourceBox h3 span{font-size:14px;color:#999;margin-left:15px;}
 .resourceBox ul{zoom:1;border-top:1px solid #D8D8D8;border-bottom:1px solid #D8D8D8;}
 .resourceBox ul:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .resourceBox li{width:142px;float:left;text-align:center;border-right:1px solid #D8D8D8;padding:25px 0 15px;line-height:25px;}
-.resourceBox li:nth-child(n+8) {border-top:1px solid #D8D8D8;}
-.resourceBox li:nth-of-type(7n) {border-right: medium none;}
+.resourceBox li:nth-child(n+6) {border-top:1px solid #D8D8D8;}
+/*left*/
+.resourceBox li:nth-child(1) {border-left:1px solid #D8D8D8;}
+.resourceBox li:nth-child(6) {border-left:1px solid #D8D8D8;}
+/*right*/
+.resourceBox li:nth-child(5) {border-right:1px solid #D8D8D8;}
+.resourceBox li:last-child {border-right:1px solid #D8D8D8;}
+/**/
+/*.resourceBox li:nth-of-type(5n) {border-right: medium none;}*/
 .resourceBox li:hover{box-shadow: 0 2px 2px #ccc;background:#F4F4F4;}
 .resourceBox li i{height:57px;display:block;margin:0 auto;margin-bottom:5px;}
 .resourceBox li:hover i{transform: rotate(-30deg);}

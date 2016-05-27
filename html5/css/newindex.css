@@ -433,7 +433,7 @@ p::selection,span::selection,h1::selection{
 
 
 .container .my_container .dc-2 .class_info{
-	background-color: #f00;
+	background-color: #fff;
 	width: 90%;
 	height: 1200px;
 	margin: 10px 5%;
@@ -458,7 +458,7 @@ p::selection,span::selection,h1::selection{
 }
 .container .my_container .dc-2 .class_info section{
 	width: 80%;
-	margin: 0 auto;
+	margin: 0;
 	height: 300px;
 	/*text-align: center;*/
 	/*background-color: #f0f;*/
