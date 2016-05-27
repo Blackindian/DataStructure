@@ -99,7 +99,7 @@ EOF;
 		echo '<meta http-equiv="refresh" content="3;url=index.php#tologin"/>';
 	}else{
 		echo '登陆成功,3秒钟后跳转到首页!';
-		echo '<meta http-equiv="refresh" content="3;url=http://xgqfrms.github.io/DataStructure/html5/index.html"/>';
+		echo '<meta http-equiv="refresh" content="3;url=http://www.xgqfrms.xyz/DataStructure/html5/index.html"/>';
 		// echo '<meta http-equiv="refresh" content="3;url=http://www.xgqfrms.xyz/DataStructure/html5/index.html/>';
 	}
 	

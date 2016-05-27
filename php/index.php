@@ -12,7 +12,7 @@
         <meta name="author" content="xgqfrms 2016">
         <meta name="generator" content="Sublime Text3 && WAMP || LAMP">
         <!-- 自动刷新 $ 重定向 --> 
-        <meta http-equiv="refresh" content="6000; url=https://xgqfrms.github.io/DataStructure/">
+        <!-- <meta http-equiv="refresh" content="6000; url=https://xgqfrms.github.io/DataStructure/"> -->
         <!-- Browser Compatiable -->
         <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
         <!--media query-->
